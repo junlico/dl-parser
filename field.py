@@ -11,11 +11,11 @@ def parse_label(pattern, f, line):
         return
 
     value = r[1]
-
     line = f.readline()
     r = re.search(r"\"(.+)\"", line)
 
-    return value, r[1]
+    if r is not None:
+        return value, r[1]
 
 
 class Common(ABC):
@@ -31,6 +31,9 @@ class Common(ABC):
     def reset_item(self):
         self.data[self.item["Id"]] = self.item
         self.reset_item()
+
+    def attach_data(self):
+        setattr(Common, self.file_name, self.data)
 
     def modify_item(self):
         pass
@@ -63,7 +66,27 @@ class Name(Common):
             "zh": "尤蒂尔",
         }
 
-        setattr(Common, self.file_name, self.data)
+        self.attach_data()
+
+
+class Label(Common):
+    def __init__(self):
+        super().__init__("labels", ["en"])
+
+    def parse_item(self, f, line, key):
+        pattern = r"Id = \"((?:ABILITY_NAME|SKILL_NAME|ABILITY_DETAIL)_\d+)\""
+        r = parse_label(pattern, f, line)
+
+        if r is None:
+            return
+
+        uid, value = r
+        value = value.replace(" \\n", " ")
+        value = value.replace("\\n", " ")
+        self.data[uid] = value
+
+    def finalize(self):
+        self.attach_data()
 
 
 if __name__ == "__main__":
