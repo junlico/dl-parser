@@ -3,6 +3,8 @@ from abc import ABC
 
 from utils import read_json, save_json
 
+ELEMENT_TYPE = [None, "Flame", "Water", "Wind", "Light", "Shadow"]
+
 
 def parse_label(pattern, f, line):
     r = re.search(pattern, line)
@@ -39,10 +41,14 @@ class Common(ABC):
     def get_value(self, attr, key):
         return getattr(self, attr, {}).get(key, None)
 
+    def set_value(self, attr, key, value):
+        data = getattr(self, attr, {})
+        data[key] = value
+
     def save_file(self):
         save_json(self.file_name, self.data)
 
-    def reset_item(self):
+    def register_item(self):
         self.data[self.item["Id"]] = self.item
         self.item = {}
 
@@ -127,7 +133,112 @@ class Skill(Common):
         if self.item:
             self.item["Name"] = self.get_value("labels", self.item["Name"])
             self.item["Icon"] = self.item.pop("SkillLv1IconName")
-            self.reset_item()
+            self.register_item()
+
+
+class Ability(Common):
+    def __init__(self):
+        super().__init__("abilities")
+        self.str_props = (
+            "Id",
+            "Name",
+            "Details",
+            "AbilityIconName",
+            "AbilityType1",
+            "AbilityType2",
+            "AbilityType3",
+            "VariousId1a",
+            "VariousId2a",
+            "VariousId3a",
+        )
+        self.int_props = (
+            "PartyPowerWeight",
+            "ElementalType",
+            "ConditionType",
+            "ConditionValue",
+            "AbilityType1UpValue",
+            "AbilityType2UpValue",
+            "AbilityType3UpValue",
+        )
+        self.__enemy = {
+            "3": "hms",
+            "5": "hmc",
+            "7": "hbh",
+            "9": "hjp",
+            "11": "hzd",
+        }
+
+        self.attach_data("labels")
+        self.attach_data("ability_val")
+        self.save_ability_val = False
+
+    def modify_item(self):
+        item = self.item
+
+        if not item:
+            return
+
+        if not self.get_value("labels", item["Name"]):
+            self.item = {}
+            return
+
+        for k in ["Name", "Details"]:
+            text = self.get_value("labels", item[k])
+
+            if text is None:
+                continue
+
+            val = self.__get_val(text)
+            element = self.__get_element(text)
+
+            text = text.format(
+                ability_shift0="",
+                ability_val0=val,
+                element_owner=element,
+                ability_cond0=item["ConditionValue"],
+            )
+
+            item[k] = text
+
+        del item["ConditionValue"]
+        self.register_item()
+
+    def finalize(self):
+        if self.save_ability_val:
+            save_json("ability_val", getattr(self, "ability_val"))
+
+    def __get_val(self, text):
+        item = self.item
+        if item["AbilityType1UpValue"] == 0 and "{ability_val0}" in text:
+            uid = item["Id"]
+            if not (val := self.get_value("ability_val", uid)):
+                print("{}: ability_val0 loss".format(uid))
+                self.set_value("ability_val", uid, "")
+                self.save_ability_val = True
+            else:
+                item["AbilityType1UpValue"] = val
+
+        return item["AbilityType1UpValue"]
+
+    def __get_element(self, text):
+        item = self.item
+        element = None
+        if "{element_owner}" in text:
+            if item["ElementalType"] == 0:
+                uid = item["Id"]
+                r = re.search(r"(Flame|Water|Wind|Light|Shadow)", item["Name"])
+                if r is not None:
+                    element = r[1]
+                elif not (element := self.get_value("ability_val", uid)):
+                    print("{}: element_owner loss".format(uid))
+                    self.set_value("ability_val", uid, "")
+                    self.save_ability_val = True
+
+                item["ElementalType"] = ELEMENT_TYPE.index(element)
+            else:
+                element = ELEMENT_TYPE[item["ElementalType"]]
+
+        return element
 
 
 if __name__ == "__main__":
