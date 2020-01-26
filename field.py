@@ -86,6 +86,9 @@ class Base2(Base1):
         data[key] = value
 
     def attach_data(self, key):
+        if getattr(Base2, key, None):
+            return
+
         data = read_json(key)
         setattr(Base2, key, data)
 
@@ -101,6 +104,9 @@ class Base2(Base1):
         elif key in self.int_props:
             self.item[key] = int(value)
 
+    def eligible(self):
+        return self.item
+
     def register_item(self):
         if not self.eligible():
             self.item = {}
@@ -110,18 +116,43 @@ class Base2(Base1):
         self.data[self.item["Id"]] = self.item
         self.item = {}
 
+    def modify_item(self):
+        self.set_image()
+        self.__set_ability()
+
     def finalize(self):
         save_json(self.file_name, self.data)
 
     def get_pattern(self):
         return r"_(\w+) = \"?(-?\w*)\"?"
 
-    def eligible(self):
-        return self.item
-
-    @abstractclassmethod
-    def modify_item(self):
+    def set_image(self):
         pass
+
+    def __set_ability(self):
+        item = self.item
+        item["icon"] = []
+        might = [[0] * 4 for _ in range(4)]
+
+        for i in [1, 2, 3]:
+            icon = None
+            for j in [3, 2, 1]:
+                if (key := "Abilities{}{}".format(i, j)) not in item:
+                    continue
+
+                uid = item.pop(key)
+
+                if ability := self.get_value("abilities", uid):
+                    might[i][j] = ability["PartyPowerWeight"]
+
+                    if not icon:
+                        icon = {
+                            "title": ability["Name"],
+                            "image": ability["Image"],
+                        }
+
+            if icon:
+                item["icon"].append(icon)
 
 
 class Ability(Base2):
@@ -148,7 +179,17 @@ class Ability(Base2):
             "AbilityType3UpValue",
         )
         super().__init__("abilities", str_props, int_props)
+
+        self.__enemy_dict = {
+            "3": "hms",
+            "5": "hmc",
+            "7": "hbh",
+            "9": "hjp",
+            "11": "hzd",
+        }
+
         self.save_ability_val = False
+        self.attach_data("labels")
         self.attach_data("ability_val")
 
     def eligible(self):
@@ -174,6 +215,15 @@ class Ability(Base2):
             item[k] = text
 
         del item["ConditionValue"]
+        self.__set_icon()
+        self.__set_type()
+
+    def finalize(self):
+        if self.save_ability_val:
+            save_json("ability_val", getattr(self, "ability_val"))
+
+        setattr(Base2, "abilities", self.data)
+        super().finalize()
 
     def __get_val(self, text):
         item = self.item
@@ -209,10 +259,105 @@ class Ability(Base2):
 
         return element
 
+    def __set_icon(self):
+        image = self.item.pop("AbilityIconName")
+        self.item["Image"] = image.replace("Icon_Ability_", "")
+
+    def __set_type(self):
+        item = self.item
+        type_list = []
+
+        for i in range(1, 4):
+            if (key1 := item["AbilityType{}".format(i)]) == "0":
+                continue
+
+            key2 = item["VariousId{}a".format(i)]
+            value = item["AbilityType{}UpValue".format(i)]
+
+            ability_type = "{}_{}".format(key1, key2)
+            type_item = None
+            if ability_type == "1_1":
+                type_item = {"key": "incHP"}
+            elif ability_type == "1_2":
+                type_item = {"key": "incSTR"}
+            elif ability_type == "1_3":
+                type_item = {"key": "incDEF"}
+            elif key1 == "28":
+                type_item = {"key": "incRES", "resEle": ELEMENT_TYPE[int(key2)]}
+            elif key1 == "29" and (enemy := self.__enemy_dict.get(key2, None)):
+                type_item = {"key": "incDIS", "enemy": enemy}
+
+            if type_item:
+                type_item["value"] = value
+                type_list.append(type_item)
+
+        if type_list:
+            item["Type"] = type_list
+
 
 class Adventurer(Base2):
     def __init__(self):
-        super().__init__("adventurer")
+        str_props = (
+            "Id",
+            "Name",
+            "BaseId",
+            "Rarity",
+            "Abilities11",
+            "Abilities12",
+            "Abilities13",
+            "Abilities21",
+            "Abilities22",
+            "Abilities23",
+            "Abilities31",
+            "Abilities32",
+            "Abilities33",
+            "IsPlayable",
+        )
+        int_props = (
+            "WeaponType",
+            "ElementalType",
+            "MaxLimitBreakCount",
+            "VariationId",
+            "MinHp3",
+            "MinHp4",
+            "MinHp5",
+            "MaxHp",
+            "AddMaxHp1",
+            "PlusHp0",
+            "PlusHp1",
+            "PlusHp2",
+            "PlusHp3",
+            "PlusHp4",
+            "PlusHp5",
+            "McFullBonusHp5",
+            "MinAtk3",
+            "MinAtk4",
+            "MinAtk5",
+            "MaxAtk",
+            "AddMaxAtk1",
+            "PlusAtk0",
+            "PlusAtk1",
+            "PlusAtk2",
+            "PlusAtk3",
+            "PlusAtk4",
+            "PlusAtk5",
+            "McFullBonusAtk5",
+            "DefCoef",
+        )
+        super().__init__("adventurer", str_props, int_props)
+        self.attach_data("abilities")
+
+    def eligible(self):
+        return self.item and self.item.pop("IsPlayable") == "1"
+
+    def modify_item(self):
+        super().modify_item()
+
+    def set_image(self):
+        item = self.item
+        base_id = item.pop("BaseId")
+        variation = item.pop("VariationId")
+        item["image"] = "{}_{:02d}".format(base_id, variation)
 
 
 class Weapon(Base2):
