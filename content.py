@@ -14,6 +14,7 @@ class Common(Base):
         self.columns = columns
         self.item = {}
         self.attach_data("names")
+        self.attach_data("abilities")
 
     def parse(self, line, f):
         pattern = self.get_pattern()
@@ -105,6 +106,7 @@ class Ability(Common):
         columns = (
             "Id",
             "Name",
+            "Details",
             "AbilityIconName",
             "PartyPowerWeight",
             "ElementalType",
@@ -135,45 +137,49 @@ class Ability(Common):
         self.attach_data("ability_val")
 
     def eligible(self):
-        return super().eligible() and self.get_value("labels", self.item["Name"])
+        item = self.item
+
+        if item:
+            item["Name"] = self.get_value("labels", item["Name"])
+            item["Details"] = self.get_value("labels", item["Details"])
+
+        return item and item["Name"] and item["Details"]
 
     def set_prop(self):
         item = self.item
         item["Might"] = int(item.pop("PartyPowerWeight"))
-        item["Element"] = int(item.pop("ElementalType"))
+        item["Element"] = ELEMENT_TYPE[int(item.pop("ElementalType"))]
 
     def set_name(self):
         item = self.item
         uid = item["Id"]
+        cond = item.pop("ConditionValue")
         temp = self.get_value("ability_val", uid)
 
-        text = self.get_value("labels", item["Name"])
-        if item["AbilityType1UpValue"] == "0" and "{ability_val0}" in text:
-            if temp:
-                item["AbilityType1UpValue"] = temp
-            else:
-                print("{}: ability_val0 loss".format(uid))
+        for k in ("Name", "Details"):
+            text = item[k]
 
-        element = None
-        if "{element_owner}" in text:
-            if item["Element"] == "0":
-                element_pattern = r"(Flame|Water|Wind|Light|Shadow)"
+            if item["AbilityType1UpValue"] == "0" and "{ability_val0}" in text:
+                if temp:
+                    item["AbilityType1UpValue"] = temp
+                else:
+                    print("{}: ability_val0 loss".format(uid))
 
-                if r := re.search(element_pattern, item["Name"]):
+            element = None
+            if not item["Element"]:
+                if r := re.search(r"\((Flame|Water|Wind|Light|Shadow)\)", text):
                     element = r[1]
-                elif not (element := temp):
+                elif "{element_owner}" in text and not (element := temp):
                     print("{}: element_owner loss".format(uid))
 
-                item["ElementalType"] = ELEMENT_TYPE.index(element)
-            else:
-                element = ELEMENT_TYPE[int(item["Element"])]
+                item["Element"] = element
 
-        item["Name"] = text.format(
-            ability_shift0="",
-            ability_val0=item["AbilityType1UpValue"],
-            element_owner=element,
-            ability_cond0=item.pop("ConditionValue"),
-        )
+            item[k] = text.format(
+                ability_shift0="",
+                ability_val0=item["AbilityType1UpValue"],
+                element_owner=item["Element"],
+                ability_cond0=cond,
+            )
 
     def set_image(self):
         image = self.item.pop("AbilityIconName")
@@ -313,6 +319,12 @@ class Adventurer(Common):
         self.set_mc()
         self.item["DefCoef"] = int(self.item["DefCoef"])
 
+    def set_prop(self):
+        item = self.item
+        item["Element"] = ELEMENT_TYPE[int(item.pop("ElementalType"))]
+        item["Weapon"] = WEAPON_TYPE[int(item.pop("WeaponType"))]
+        item["LimitBreak"] = item.pop("MaxLimitBreakCount")
+
     def set_image(self):
         item = self.item
         base_id = item.pop("BaseId")
@@ -360,15 +372,6 @@ class Adventurer(Common):
             might.append(v)
 
         item["Might"] = might
-
-    def set_name(self):
-        self.item["Name"] = self.get_value("names", self.item["Name"])
-
-    def set_prop(self):
-        item = self.item
-        item["Element"] = ELEMENT_TYPE[int(item.pop("ElementalType"))]
-        item["Weapon"] = WEAPON_TYPE[int(item.pop("WeaponType"))]
-        item["LimitBreak"] = item.pop("MaxLimitBreakCount")
 
     def set_stat(self):
         item = self.item
@@ -462,6 +465,46 @@ class Weapon(Common):
             item["Skill"] = skill
         else:
             del item["Skill"]
+
+    def set_type(self, key, ability):
+        for t in ability.get("Type", []):
+            self.item[t["Key"]] = t["Value"]
+
+
+class Dragon(Common):
+    def __init__(self):
+        columns = (
+            "Id",
+            "Name",
+            "Rarity",
+            "ElementalType",
+            "BaseId",
+            "VariationId",
+            "MinHp",
+            "MaxHp",
+            "MinAtk",
+            "MaxAtk",
+            "Abilities11",
+            "Abilities12",
+            "Abilities21",
+            "Abilities22",
+            "IsPlayable",
+        )
+
+        super().__init__("dragon", columns)
+
+    def eligible(self):
+        item = self.item
+        return item and item.pop("IsPlayable") == "1" and item["Id"] != "20050507"
+
+    def set_image(self):
+        item = self.item
+        base_id = item.pop("BaseId")
+        variation = int(item.pop("VariationId"))
+        item["Image"] = "{}_{:02d}".format(base_id, variation)
+
+    def set_type(self, key, ability):
+        pass
 
 
 if __name__ == "__main__":
