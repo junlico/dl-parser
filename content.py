@@ -497,14 +497,46 @@ class Dragon(Common):
         item = self.item
         return item and item.pop("IsPlayable") == "1" and item["Id"] != "20050507"
 
+    def set_prop(self):
+        item = self.item
+        item["Element"] = ELEMENT_TYPE[int(item.pop("ElementalType"))]
+
     def set_image(self):
         item = self.item
         base_id = item.pop("BaseId")
         variation = int(item.pop("VariationId"))
         item["Image"] = "{}_{:02d}".format(base_id, variation)
 
+    def set_might(self):
+        might = self.item["Might"]
+        v1 = 0
+        v2 = 0
+
+        for i in range(1, 3):
+            v1 += might[i][1]
+            v2 += might[i][2]
+
+        self.item["Might"] = [v1, v2]
+
+    def set_stat(self):
+        item = self.item
+        item["Max"] = [int(item.pop("MaxHp")), int(item.pop("MaxAtk"))]
+        item["Min"] = [int(item.pop("MinHp")), int(item.pop("MinAtk"))]
+
     def set_type(self, key, ability):
-        pass
+        item = self.item
+
+        for t in ability.get("Type", []):
+            if (ability_key := t["Key"]) not in item:
+                item[ability_key] = []
+
+            temp = t.copy()
+            del temp["Key"]
+
+            if ability_key != "IncRES":
+                temp["Element"] = ability["Element"]
+
+            item[ability_key].append(temp)
 
 
 if __name__ == "__main__":
