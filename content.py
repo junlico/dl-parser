@@ -539,5 +539,70 @@ class Dragon(Common):
             item[ability_key].append(temp)
 
 
+class Wyrmprint(Common):
+    def __init__(self):
+        columns = (
+            "Id",
+            "Name",
+            "Rarity",
+            "BaseId",
+            "MinHp",
+            "MaxHp",
+            "MinAtk",
+            "MaxAtk",
+            "Abilities11",
+            "Abilities12",
+            "Abilities13",
+            "Abilities21",
+            "Abilities22",
+            "Abilities23",
+            "Abilities31",
+            "Abilities32",
+            "Abilities33",
+            "IsPlayable",
+        )
+
+        super().__init__("wyrmprint", columns)
+
+    def eligible(self):
+        item = self.item
+        return item and item.pop("IsPlayable") == "1" and int(item["Rarity"]) >= 3
+
+    def set_image(self):
+        self.item["Image"] = self.item.pop("BaseId")
+
+    def set_stat(self):
+        item = self.item
+        item["Max"] = [int(item.pop("MaxHp")), int(item.pop("MaxAtk"))]
+        item["Min"] = [int(item.pop("MinHp")), int(item.pop("MinAtk"))]
+
+    def set_might(self):
+        might = self.item["Might"]
+        v1 = 0
+        v2 = 0
+        v3 = 0
+
+        for i in range(1, 4):
+            v1 += might[i][1]
+            v2 += might[i][2]
+            v3 += might[i][3]
+
+        self.item["Might"] = [v1, v2, v3]
+
+    def set_type(self, key, ability):
+        item = self.item
+
+        for t in ability.get("Type", []):
+            if (ability_key := t["Key"]) not in item:
+                item[ability_key] = []
+
+            if ability_key == "incRES":
+                item["ResEle"] = t["ResEle"]
+            elif ability_key == "IncDIS":
+                item["Enemy"] = t["Enemy"]
+
+            item[ability_key].append(t["Value"])
+
+
 if __name__ == "__main__":
     pass
