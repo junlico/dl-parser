@@ -1,0 +1,7022 @@
+{
+  "AMULET_NAME_40020001": {
+    "en": "Ring of Exaltation",
+    "ja": "勇躍の指輪",
+    "zh": "勇跃指环"
+  },
+  "AMULET_NAME_40020002": {
+    "en": "Seafood Soup",
+    "ja": "シーフードスープ",
+    "zh": "海鲜汤"
+  },
+  "AMULET_NAME_40020003": {
+    "en": "Dragon Arcanum",
+    "ja": "ドラゴンの秘薬",
+    "zh": "龙之秘药"
+  },
+  "AMULET_NAME_40020004": {
+    "en": "Mana Fount",
+    "ja": "マナスポット",
+    "zh": "魔力源点"
+  },
+  "AMULET_NAME_40020005": {
+    "en": "Old Harp",
+    "ja": "古びたハープ",
+    "zh": "陈旧的竖琴"
+  },
+  "AMULET_NAME_40030001": {
+    "en": "Scorn the Destrier",
+    "ja": "名馬スカービット",
+    "zh": "名马斯卡比特"
+  },
+  "AMULET_NAME_40030002": {
+    "en": "Halo",
+    "ja": "聖光輪",
+    "zh": "圣光轮"
+  },
+  "AMULET_NAME_40030003": {
+    "en": "Teatime",
+    "ja": "ティータイム",
+    "zh": "下午茶时光"
+  },
+  "AMULET_NAME_40030004": {
+    "en": "Bellathorna",
+    "ja": "バラドンナの花",
+    "zh": "颠茄花"
+  },
+  "AMULET_NAME_40030005": {
+    "en": "Alberian Banner",
+    "ja": "アルベリア国旗",
+    "zh": "阿尔贝里亚国旗"
+  },
+  "AMULET_NAME_40030006": {
+    "en": "Cry of the Horn",
+    "ja": "破天の角笛",
+    "zh": "破天角笛"
+  },
+  "AMULET_NAME_40030007": {
+    "en": "Howling Predator",
+    "ja": "頂に吼える牙",
+    "zh": "山巅咆哮的獠牙"
+  },
+  "AMULET_NAME_40030008": {
+    "en": "Syndicate Mask",
+    "ja": "《結社》の仮面",
+    "zh": "“结社”的假面"
+  },
+  "AMULET_NAME_40030009": {
+    "en": "Hallowed Mountains",
+    "ja": "遥かなる霊峰",
+    "zh": "遥远的灵峰"
+  },
+  "AMULET_NAME_40030010": {
+    "en": "Lakeside Euphony",
+    "ja": "森と湖の歌声",
+    "zh": "森林与湖水的歌声"
+  },
+  "AMULET_NAME_40030011": {
+    "en": "Dragon's Nest",
+    "ja": "ドラゴンの寝床",
+    "zh": "龙的卧榻"
+  },
+  "AMULET_NAME_40030012": {
+    "en": "Enchiridion",
+    "ja": "秘伝の書",
+    "zh": "武术秘笈"
+  },
+  "AMULET_NAME_40030013": {
+    "en": "Ironside Shield",
+    "ja": "鉄騎兵の盾",
+    "zh": "铁骑之盾"
+  },
+  "AMULET_NAME_40030014": {
+    "en": "Winds of Saint Lotier",
+    "ja": "セントロータスの風",
+    "zh": "圣罗塔斯之风"
+  },
+  "AMULET_NAME_40030015": {
+    "en": "Aromatherapy",
+    "ja": "アロマポット",
+    "zh": "香薰灯"
+  },
+  "AMULET_NAME_40030016": {
+    "en": "Eight-Leaf Clover",
+    "ja": "八つ葉のクローバー",
+    "zh": "八叶草"
+  },
+  "AMULET_NAME_40030017": {
+    "en": "Forbidden Relic",
+    "ja": "禁じられた遺物",
+    "zh": "禁忌的遗物"
+  },
+  "AMULET_NAME_40030018": {
+    "en": "Unfulfilled Visions",
+    "ja": "つわものたちの夢の跡",
+    "zh": "勇士们的追梦痕迹"
+  },
+  "AMULET_NAME_40030019": {
+    "en": "Liber Grimortis",
+    "ja": "『グリモルス・デクス』写本",
+    "zh": "《古里摩鲁丝·德古斯》抄本"
+  },
+  "AMULET_NAME_40030020": {
+    "en": "Night Harbinger",
+    "ja": "闇夜の通告",
+    "zh": "暗夜的宣告"
+  },
+  "AMULET_NAME_40030021": {
+    "en": "Tracks of Hope",
+    "ja": "明日への轍",
+    "zh": "通往明天的车辙"
+  },
+  "AMULET_NAME_40030022": {
+    "en": "Vio Rhyse Alberia!",
+    "ja": "ヴィオ・ライジエ・アルベリア！",
+    "zh": "阿尔贝里亚万岁！"
+  },
+  "AMULET_NAME_40030023": {
+    "en": "Potiongrass",
+    "ja": "聖草ポーションハーブ",
+    "zh": "治愈圣草"
+  },
+  "AMULET_NAME_40030024": {
+    "en": "Crown of Yore",
+    "ja": "過ぎ去りし日の王冠",
+    "zh": "昔日之冠"
+  },
+  "AMULET_NAME_40030026": {
+    "en": "Nevermelt Ice",
+    "ja": "溶けない氷",
+    "zh": "不融冰"
+  },
+  "AMULET_NAME_40030027": {
+    "en": "Pumpkin Pail",
+    "ja": "パンプキンボックス",
+    "zh": "南瓜盒"
+  },
+  "AMULET_NAME_40030029": {
+    "en": "The Halidom's Picnic",
+    "ja": "お出かけの日のとっておき",
+    "zh": "郊游日的美餐"
+  },
+  "AMULET_NAME_40030030": {
+    "en": "Garuda's Feathers",
+    "ja": "ガルーダの羽根",
+    "zh": "迦楼罗的羽毛"
+  },
+  "AMULET_NAME_40030031": {
+    "en": "Secret Friend",
+    "ja": "ないしょの友達",
+    "zh": "不为人知的朋友"
+  },
+  "AMULET_NAME_40030032": {
+    "en": "Roast Feast",
+    "ja": "星降る夜の晩餐",
+    "zh": "流星之夜的晚餐"
+  },
+  "AMULET_NAME_40030033": {
+    "en": "Welcome, One and All",
+    "ja": "輝ける場所",
+    "zh": "闪耀之处"
+  },
+  "AMULET_NAME_40030034": {
+    "en": "Blossoms Ablaze",
+    "ja": "仙花焔",
+    "zh": "仙花焰"
+  },
+  "AMULET_NAME_40030035": {
+    "en": "To My Beloved",
+    "ja": "最愛の人へ",
+    "zh": "献给最爱的人"
+  },
+  "AMULET_NAME_40030036": {
+    "en": "The Davian Wetlands",
+    "ja": "ダビアの湿地帯",
+    "zh": "达比亚湿地"
+  },
+  "AMULET_NAME_40030037": {
+    "en": "The Heretic's Laboratory",
+    "ja": "異端の研究室",
+    "zh": "异端研究室"
+  },
+  "AMULET_NAME_40040001": {
+    "en": "Flower in the Fray",
+    "ja": "百刃繚乱",
+    "zh": "百刃缭乱"
+  },
+  "AMULET_NAME_40040002": {
+    "en": "Destiny's Hand",
+    "ja": "運命の救済",
+    "zh": "命运的救赎"
+  },
+  "AMULET_NAME_40040003": {
+    "en": "Sniper's Allure",
+    "ja": "セクシー・スナイパー",
+    "zh": "性感狙击手"
+  },
+  "AMULET_NAME_40040004": {
+    "en": "Promises in the Rain",
+    "ja": "雨空の思い出",
+    "zh": "雨天的回忆"
+  },
+  "AMULET_NAME_40040005": {
+    "en": "Fireside Gathering",
+    "ja": "アツアツ女子会",
+    "zh": "火热女子会"
+  },
+  "AMULET_NAME_40040006": {
+    "en": "Trove of Knowledge",
+    "ja": "我らが知恵袋",
+    "zh": "我们是智多星"
+  },
+  "AMULET_NAME_40040007": {
+    "en": "Castaway's Journal",
+    "ja": "サバイバルデイズ",
+    "zh": "荒岛求生"
+  },
+  "AMULET_NAME_40040008": {
+    "en": "Lord of the Skies",
+    "ja": "天空の覇者",
+    "zh": "天空的霸主"
+  },
+  "AMULET_NAME_40040009": {
+    "en": "King's Countenance",
+    "ja": "王の威厳",
+    "zh": "王之威严"
+  },
+  "AMULET_NAME_40040010": {
+    "en": "Braving the Unknown",
+    "ja": "未知への一歩",
+    "zh": "探求未知"
+  },
+  "AMULET_NAME_40040011": {
+    "en": "What a Handful!",
+    "ja": "手がかかるんだから！",
+    "zh": "真不让人省心！"
+  },
+  "AMULET_NAME_40040012": {
+    "en": "How to Flee Properly",
+    "ja": "ここは退却しましょう！",
+    "zh": "撤退吧！"
+  },
+  "AMULET_NAME_40040013": {
+    "en": "One with the Shadows",
+    "ja": "この身は影となりて",
+    "zh": "此身成影"
+  },
+  "AMULET_NAME_40040014": {
+    "en": "Warlust",
+    "ja": "楽しき命懸けの戦",
+    "zh": "愉悦的生死战"
+  },
+  "AMULET_NAME_40040015": {
+    "en": "Armorer's Aspirations",
+    "ja": "甲冑師の大望",
+    "zh": "甲胄师的目标"
+  },
+  "AMULET_NAME_40040016": {
+    "en": "Revolutionary Magic",
+    "ja": "研究成果の新魔術",
+    "zh": "研究成果的新魔法"
+  },
+  "AMULET_NAME_40040017": {
+    "en": "Sisters of the Anvil",
+    "ja": "鍛冶屋三姉妹の絆",
+    "zh": "铁匠铺三姐妹"
+  },
+  "AMULET_NAME_40040018": {
+    "en": "Dueling Dancers",
+    "ja": "ダンス・ダンス・バトル！",
+    "zh": "舞林大会！"
+  },
+  "AMULET_NAME_40040019": {
+    "en": "Together We Stand",
+    "ja": "戦場のふたり",
+    "zh": "战场上的两人"
+  },
+  "AMULET_NAME_40040020": {
+    "en": "Happier Times",
+    "ja": "在りし日の幸せ",
+    "zh": "昔日幸福"
+  },
+  "AMULET_NAME_40040021": {
+    "en": "Paladyn Defender",
+    "ja": "聖騎士の守り",
+    "zh": "圣骑士的守护"
+  },
+  "AMULET_NAME_40040022": {
+    "en": "Pipe Down",
+    "ja": "強い男になるために",
+    "zh": "为了成为强大的男人"
+  },
+  "AMULET_NAME_40040023": {
+    "en": "Greatwyrm Midgardsormr",
+    "ja": "五竜の咆哮：ミドガルズオルム",
+    "zh": "五龙之咆哮：耶梦加得"
+  },
+  "AMULET_NAME_40040024": {
+    "en": "Greatwyrm Mercury",
+    "ja": "五竜の咆哮：マーキュリー",
+    "zh": "五龙之咆哮：墨丘利"
+  },
+  "AMULET_NAME_40040025": {
+    "en": "Greatwyrm Brunhilda",
+    "ja": "五竜の咆哮：ブリュンヒルデ",
+    "zh": "五龙之咆哮：布伦希尔德"
+  },
+  "AMULET_NAME_40040026": {
+    "en": "Greatwyrm Jupiter",
+    "ja": "五竜の咆哮：ユピテル",
+    "zh": "五龙之咆哮：朱庇特"
+  },
+  "AMULET_NAME_40040027": {
+    "en": "Greatwyrm Zodiark",
+    "ja": "五竜の咆哮：ゾディアーク",
+    "zh": "五龙之咆哮：佐迪亚克"
+  },
+  "AMULET_NAME_40040028": {
+    "en": "The Warrioresses",
+    "ja": "デンジャラスビューティ",
+    "zh": "致命佳丽"
+  },
+  "AMULET_NAME_40040029": {
+    "en": "Silke Lends a Hand",
+    "ja": "シルキーのお手伝い",
+    "zh": "希露姬的万圣节"
+  },
+  "AMULET_NAME_40040030": {
+    "en": "Beauty's Secret",
+    "ja": "美の秘訣",
+    "zh": "美的秘诀"
+  },
+  "AMULET_NAME_40040031": {
+    "en": "Samurai Siesta",
+    "ja": "サムライたちの休息",
+    "zh": "休憩中的武士们"
+  },
+  "AMULET_NAME_40040032": {
+    "en": "Better Together",
+    "ja": "鮮烈なコンビネーション",
+    "zh": "强强联手"
+  },
+  "AMULET_NAME_40040033": {
+    "en": "Fresh Perspective",
+    "ja": "見慣れぬ目線",
+    "zh": "不一样的视角"
+  },
+  "AMULET_NAME_40040034": {
+    "en": "Kicking Back",
+    "ja": "ある日の陽だまり",
+    "zh": "某一天的阳光下"
+  },
+  "AMULET_NAME_40040035": {
+    "en": "As the Snow Falls",
+    "ja": "雪降る街で",
+    "zh": "飘雪的街道"
+  },
+  "AMULET_NAME_40040036": {
+    "en": "Saintly Delivery",
+    "ja": "子供たちの星竜祭",
+    "zh": "孩子们的星龙祭"
+  },
+  "AMULET_NAME_40040037": {
+    "en": "Hanetsuki Rally",
+    "ja": "羽子板勝負！",
+    "zh": "板羽球对决！"
+  },
+  "AMULET_NAME_40040038": {
+    "en": "Luck of the Draw",
+    "ja": "新年最初の運試し",
+    "zh": "新年运势签"
+  },
+  "AMULET_NAME_40040039": {
+    "en": "Slow and Steady",
+    "ja": "地道な活動",
+    "zh": "不起眼的工作"
+  },
+  "AMULET_NAME_40040040": {
+    "en": "Lunar Festivities",
+    "ja": "春節のお祭り",
+    "zh": "春节祭典"
+  },
+  "AMULET_NAME_40040041": {
+    "en": "Dragon Dance",
+    "ja": "ドラゴンダンス",
+    "zh": "龙之舞"
+  },
+  "AMULET_NAME_40040042": {
+    "en": "Entwined Flames ",
+    "ja": "炎の饗宴",
+    "zh": "炎之盛宴"
+  },
+  "AMULET_NAME_40040043": {
+    "en": "New World Escort",
+    "ja": "旅のエスコート",
+    "zh": "旅途的护卫"
+  },
+  "AMULET_NAME_40040044": {
+    "en": "Delightful Dancer",
+    "ja": "可憐な舞姫",
+    "zh": "楚楚动人的舞姬"
+  },
+  "AMULET_NAME_40050001": {
+    "en": "Valiant Crown",
+    "ja": "ブレイジング・クラウン",
+    "zh": "勇敢之冠"
+  },
+  "AMULET_NAME_40050002": {
+    "en": "Flash of Genius",
+    "ja": "天才の閃き",
+    "zh": "天才的灵感"
+  },
+  "AMULET_NAME_40050003": {
+    "en": "Evening of Luxury",
+    "ja": "ゴージャス・パーティー",
+    "zh": "奢华派对"
+  },
+  "AMULET_NAME_40050004": {
+    "en": "Worthy Rivals",
+    "ja": "好敵手",
+    "zh": "旗鼓相当的对手"
+  },
+  "AMULET_NAME_40050005": {
+    "en": "Auspex's Prayer",
+    "ja": "聖なる祈り",
+    "zh": "神圣的祈祷"
+  },
+  "AMULET_NAME_40050006": {
+    "en": "Dragon Brethren",
+    "ja": "ドラゴンの血族",
+    "zh": "龙之血一族"
+  },
+  "AMULET_NAME_40050007": {
+    "en": "Luca's Prank",
+    "ja": "リュカのイタズラ",
+    "zh": "卢卡的恶作剧"
+  },
+  "AMULET_NAME_40050008": {
+    "en": "Give Me Your Wounded",
+    "ja": "ケガは私が治します",
+    "zh": "伤痛由我来治疗"
+  },
+  "AMULET_NAME_40050009": {
+    "en": "Levin's Champion",
+    "ja": "レヴィオンの英雄",
+    "zh": "雷维昂的英雄"
+  },
+  "AMULET_NAME_40050010": {
+    "en": "Nightstalker",
+    "ja": "ハンティングナイト",
+    "zh": "狩猎之夜"
+  },
+  "AMULET_NAME_40050011": {
+    "en": "Glorious Tempest",
+    "ja": "テンペストグローリー",
+    "zh": "暴风的荣耀"
+  },
+  "AMULET_NAME_40050012": {
+    "en": "United by One Vision",
+    "ja": "理想のもとに集いし者たち",
+    "zh": "志同道合的伙伴们"
+  },
+  "AMULET_NAME_40050013": {
+    "en": "Cleo's Ruse",
+    "ja": "クラウの策略",
+    "zh": "库菈乌的计谋"
+  },
+  "AMULET_NAME_40050014": {
+    "en": "Tough Love",
+    "ja": "鬼教官のエール",
+    "zh": "魔鬼教官的声援"
+  },
+  "AMULET_NAME_40050015": {
+    "en": "Crystalian Envoy",
+    "ja": "クリスタリアの少女",
+    "zh": "冰晶之国的少女"
+  },
+  "AMULET_NAME_40050016": {
+    "en": "Witch's Kitchen",
+    "ja": "ハロウィン・ウィッチ・クラフト",
+    "zh": "万圣节·巫女·手制"
+  },
+  "AMULET_NAME_40050017": {
+    "en": "Of Tricks and Treats",
+    "ja": "トリック・トリート・トリック",
+    "zh": "不给糖就捣蛋"
+  },
+  "AMULET_NAME_40050018": {
+    "en": "Plunder Pals",
+    "ja": "スイーツパイレーツ",
+    "zh": "甜点海盗"
+  },
+  "AMULET_NAME_40050019": {
+    "en": "Candy Couriers",
+    "ja": "トゥインクルナイトウィッチーズ",
+    "zh": "万圣夜魔女"
+  },
+  "AMULET_NAME_40050020": {
+    "en": "Jewels of the Sun",
+    "ja": "宝石と剣",
+    "zh": "宝石与剑"
+  },
+  "AMULET_NAME_40050021": {
+    "en": "Gentle Winds",
+    "ja": "風のぬくもり",
+    "zh": "暖风吹拂"
+  },
+  "AMULET_NAME_40050022": {
+    "en": "Gale of Beauty",
+    "ja": "美しき烈風",
+    "zh": "优美烈风"
+  },
+  "AMULET_NAME_40050023": {
+    "en": "Louise's Hobbies",
+    "ja": "ルイーゼの趣味",
+    "zh": "洛依泽的兴趣"
+  },
+  "AMULET_NAME_40050024": {
+    "en": "Volcanic Queen",
+    "ja": "ヴォルカニッククイーン",
+    "zh": "烈焰女王"
+  },
+  "AMULET_NAME_40050026": {
+    "en": "Resounding Rendition",
+    "ja": "響き渡る歌声",
+    "zh": "余音缭绕的歌声"
+  },
+  "AMULET_NAME_40050027": {
+    "en": "Heavenly Holiday",
+    "ja": "聖職者の休日",
+    "zh": "圣职者的假日"
+  },
+  "AMULET_NAME_40050028": {
+    "en": "A Wish Upon the Yuletree",
+    "ja": "星竜樹に願いを",
+    "zh": "向星龙树许愿"
+  },
+  "AMULET_NAME_40050029": {
+    "en": "The Prince of Dragonyule",
+    "ja": "星竜祭の王子様",
+    "zh": "星龙祭的王子殿下"
+  },
+  "AMULET_NAME_40050030": {
+    "en": "A Slice of Dragonyule",
+    "ja": "星竜祭のスペシャルケーキ",
+    "zh": "星龙祭特制蛋糕"
+  },
+  "AMULET_NAME_40050031": {
+    "en": "The Greatest Gift",
+    "ja": "あなたへのプレゼント",
+    "zh": "送给你的礼物"
+  },
+  "AMULET_NAME_40050032": {
+    "en": "Happy New Year!",
+    "ja": "謹賀新年",
+    "zh": "恭贺新年"
+  },
+  "AMULET_NAME_40050033": {
+    "en": "Heralds of Hinomoto",
+    "ja": "ヒノモトよりの使者",
+    "zh": "日出之国的使者"
+  },
+  "AMULET_NAME_40050034": {
+    "en": "Dragon and Tamer",
+    "ja": "ドラゴンサーカス",
+    "zh": "驯龙马戏团"
+  },
+  "AMULET_NAME_40050035": {
+    "en": "Stellar Show",
+    "ja": "ベストパフォーマンス",
+    "zh": "完美表演"
+  },
+  "AMULET_NAME_40050036": {
+    "en": "Astounding Trick",
+    "ja": "ワンダフルトリック",
+    "zh": "绝妙戏法"
+  },
+  "AMULET_NAME_40050037": {
+    "en": "Warrior Maiden",
+    "ja": "戦旗の乙女",
+    "zh": "战旗少女"
+  },
+  "AMULET_NAME_40050038": {
+    "en": "Kung Fu Masters",
+    "ja": "功夫の道",
+    "zh": "功夫之道"
+  },
+  "AMULET_NAME_40050039": {
+    "en": "The Chocolatiers",
+    "ja": "チョコレート・レッスン",
+    "zh": "手工巧克力·教学"
+  },
+  "AMULET_NAME_40050040": {
+    "en": "The Rose Prince",
+    "ja": "薔薇の貴公子",
+    "zh": "玫瑰贵公子"
+  },
+  "AMULET_NAME_40050041": {
+    "en": "The Petal Queen",
+    "ja": "ローズフェアリー",
+    "zh": "玫瑰精灵"
+  },
+  "AMULET_NAME_40050042": {
+    "en": "The Shining Overlord",
+    "ja": "シャイニング・オーバーロード",
+    "zh": "光辉·至高霸主"
+  },
+  "AMULET_NAME_40050043": {
+    "en": "A Solitary Light",
+    "ja": "闇の光条",
+    "zh": "暗之光芒"
+  },
+  "AMULET_NAME_40050044": {
+    "en": "Partners in Truth",
+    "ja": "真実の探究者",
+    "zh": "真相探究者"
+  },
+  "AMULET_NAME_40050045": {
+    "en": "The Fleeting Girl",
+    "ja": "儚げな少女",
+    "zh": "缥缈的少女"
+  },
+  "AMULET_NAME_40050046": {
+    "en": "Hitting the Books",
+    "ja": "読書は苦手？",
+    "zh": "读书真难？"
+  },
+  "AMULET_NAME_40050047": {
+    "en": "A Heartfelt Gift",
+    "ja": "ラッピングフィール",
+    "zh": "包装体验"
+  },
+  "AMULET_NAME_40050048": {
+    "en": "Valentine's Venture",
+    "ja": "漢のバレンタイン",
+    "zh": "男人的情人节"
+  },
+  "AMULET_NAME_40050049": {
+    "en": "An Indelible Date",
+    "ja": "トキメキ★デートスタイル",
+    "zh": "心动★约会时光"
+  },
+  "AMULET_NAME_40050050": {
+    "en": "Elegant Escort",
+    "ja": "エレガントエスコート",
+    "zh": "优雅护卫"
+  },
+  "AMULET_NAME_40050051": {
+    "en": "Take My Hand",
+    "ja": "ギヴ・ミー・ユアハンド",
+    "zh": "牵起你的手"
+  },
+  "AMULET_NAME_40050052": {
+    "en": "Honest Repose",
+    "ja": "オネストモーメント",
+    "zh": "坦率一刻"
+  },
+  "AMULET_NAME_40040046": {
+    "en": "First-Rate Hospitality",
+    "ja": "極上のおもてなし",
+    "zh": "顶级服务"
+  },
+  "AMULET_NAME_40050053": {
+    "en": "Forest Bonds",
+    "ja": "森が紡ぐ絆",
+    "zh": "森林中养成的默契"
+  },
+  "AMULET_NAME_40050054": {
+    "en": "A Mother's Love",
+    "ja": "母の愛",
+    "zh": "母爱"
+  },
+  "AMULET_NAME_40040047": {
+    "en": "Egg-Shaped Dreams",
+    "ja": "エッグに描く夢",
+    "zh": "描绘在彩蛋上的梦想"
+  },
+  "AMULET_NAME_40030038": {
+    "en": "Tiny Dragoñatas",
+    "ja": "タイニー・ドラゴンパピエ",
+    "zh": "小小彩偶龙"
+  },
+  "AMULET_NAME_40050056": {
+    "en": "Queen of the Blue Seas",
+    "ja": "蒼海の女王",
+    "zh": "沧海女王"
+  },
+  "AMULET_NAME_40050057": {
+    "en": "The Heroes Arrive",
+    "ja": "英雄、来たれり",
+    "zh": "英雄降临"
+  },
+  "AMULET_NAME_40050058": {
+    "en": "Bonds Between Worlds",
+    "ja": "時空を超える友情",
+    "zh": "跨越时空的友情"
+  },
+  "AMULET_NAME_40040049": {
+    "en": "A Brief Repose",
+    "ja": "つかの間のやすらぎ",
+    "zh": "片刻的宁静"
+  },
+  "AMULET_NAME_40030039": {
+    "en": "The Order's Messenger Owl",
+    "ja": "特務機関の伝書ふくろう",
+    "zh": "特务机关的信鸮"
+  },
+  "AMULET_NAME_40050059": {
+    "en": "After an Eternity",
+    "ja": "悠久の時を経て",
+    "zh": "历经悠久岁月"
+  },
+  "AMULET_NAME_40050060": {
+    "en": "Study Rabbits",
+    "ja": "夢に見た学校生活♪",
+    "zh": "梦中的校园生活♪"
+  },
+  "AMULET_NAME_40040050": {
+    "en": "A Maddened Master",
+    "ja": "師匠の一喝",
+    "zh": "师父的棒喝"
+  },
+  "AMULET_NAME_40050061": {
+    "en": "The Bridal Dragon",
+    "ja": "花嫁はドラゴン",
+    "zh": "新娘是头龙"
+  },
+  "AMULET_NAME_40040051": {
+    "en": "Halidom Grooms",
+    "ja": "聖城の花婿たち",
+    "zh": "圣城的新郎们"
+  },
+  "AMULET_NAME_40050062": {
+    "en": "Indelible Summer",
+    "ja": "忘れられない夏",
+    "zh": "难忘的夏天"
+  },
+  "AMULET_NAME_40040052": {
+    "en": "Taiko Tandem",
+    "ja": "太鼓を打ち鳴らせ！",
+    "zh": "敲起太鼓来！"
+  },
+  "AMULET_NAME_40050063": {
+    "en": "Sisters' Day Out",
+    "ja": "三姉妹の日常",
+    "zh": "三姐妹的日常"
+  },
+  "AMULET_NAME_40040053": {
+    "en": "To the Extreme!",
+    "ja": "アルクトスの猛特訓！",
+    "zh": "阿尔库特斯的魔鬼特训！"
+  },
+  "AMULET_NAME_40050064": {
+    "en": "The Dragon Smiths",
+    "ja": "ドラゴンの鍛冶屋さん",
+    "zh": "龙之铁匠铺"
+  },
+  "AMULET_NAME_40050065": {
+    "en": "King of the Skies",
+    "ja": "万雷の王",
+    "zh": "万雷之王"
+  },
+  "AMULET_NAME_40050066": {
+    "en": "Summer Paladyns",
+    "ja": "真夏の聖騎士",
+    "zh": "盛夏的圣骑士"
+  },
+  "AMULET_NAME_40040054": {
+    "en": "Beach Battle",
+    "ja": "渚のビーチフラッグ",
+    "zh": "沙滩夺旗战"
+  },
+  "AMULET_NAME_40040055": {
+    "en": "Preacher's Vacation",
+    "ja": "説教師のバカンス",
+    "zh": "传教士的假日"
+  },
+  "AMULET_NAME_40050067": {
+    "en": "Seaside Princess",
+    "ja": "シーサイド・プリンセス",
+    "zh": "海边的公主"
+  },
+  "AMULET_NAME_40040056": {
+    "en": "The Bustling Hut",
+    "ja": "海の家のにぎわい",
+    "zh": "热闹的海之家"
+  },
+  "AMULET_NAME_40050068": {
+    "en": "Surfing Siblings",
+    "ja": "波乗り兄妹",
+    "zh": "冲浪兄妹"
+  },
+  "AMULET_NAME_40050069": {
+    "en": "Twinfold Bonds",
+    "ja": "ふたりの絆",
+    "zh": "二人的情谊"
+  },
+  "AMULET_NAME_40040057": {
+    "en": "Hastened Squall",
+    "ja": "吹き荒れる暴風",
+    "zh": "狂风呼啸"
+  },
+  "AMULET_NAME_40050070": {
+    "en": "Castle Cheer Corps",
+    "ja": "我ら、キャッスル応援団！",
+    "zh": "我们是圣城啦啦队！"
+  },
+  "AMULET_NAME_40040058": {
+    "en": "Beautiful Nothingness",
+    "ja": "幽美なる虚無",
+    "zh": "幽美的虚无"
+  },
+  "AMULET_NAME_40050071": {
+    "en": "Ruler of Darkness",
+    "ja": "ダークネスルーラー",
+    "zh": "黑暗统御者"
+  },
+  "AMULET_NAME_40050072": {
+    "en": "Endless Waltz",
+    "ja": "エンドレスワルツ",
+    "zh": "无尽的华尔兹"
+  },
+  "AMULET_NAME_40040059": {
+    "en": "Odd Sparrows",
+    "ja": "白燕騎士団のデコボココンビ",
+    "zh": "白燕骑士团的互补搭档"
+  },
+  "AMULET_NAME_40040060": {
+    "en": "Masquerade Mission",
+    "ja": "マスカレード・オペラ",
+    "zh": "假面舞会·歌剧"
+  },
+  "AMULET_NAME_40050073": {
+    "en": "An Ancient Oath",
+    "ja": "古の盟約",
+    "zh": "古老的盟约"
+  },
+  "AMULET_NAME_40040061": {
+    "en": "The Bewitching Magician",
+    "ja": "妖艶なる宮廷魔術師",
+    "zh": "妖艳的宫廷魔法师"
+  },
+  "AMULET_NAME_40050074": {
+    "en": "In an Unending World",
+    "ja": "終わらない世界で",
+    "zh": "Owaranai Sekaide"
+  },
+  "AMULET_NAME_40050075": {
+    "en": "Prayers Unto Him",
+    "ja": "『遥かなる主』へ",
+    "zh": "致“遥远之主”"
+  },
+  "AMULET_NAME_40040062": {
+    "en": "From Whence He Comes",
+    "ja": "彼方より来たりて",
+    "zh": "来自彼岸之物"
+  },
+  "AMULET_NAME_40050076": {
+    "en": "Dear Diary",
+    "ja": "あたしだけのリュカきゅん☆☆☆",
+    "zh": "只属于我的卢卡亲☆☆☆"
+  },
+  "AMULET_NAME_40040063": {
+    "en": "Chariot Drift",
+    "ja": "おらぁ！チャリオッツで来たぜぇ！",
+    "zh": "噢啦！乘查理奥托而来！"
+  },
+  "AMULET_NAME_40050077": {
+    "en": "Wily Warriors: Bubble & Wood",
+    "ja": "Dr.ワイリーの刺客たち・Ｂ＆Ｗ",
+    "zh": "威利博士的刺客们·B&W"
+  },
+  "AMULET_NAME_40050078": {
+    "en": "Wily Warriors: Air & Crash",
+    "ja": "Dr.ワイリーの刺客たち・Ａ＆Ｃ",
+    "zh": "威利博士的刺客们·A&C"
+  },
+  "AMULET_NAME_40050079": {
+    "en": "Wily Warriors: Metal & Quick",
+    "ja": "Dr.ワイリーの刺客たち・Ｍ＆Ｑ",
+    "zh": "威利博士的刺客们·M&Q"
+  },
+  "AMULET_NAME_40050080": {
+    "en": "Wily Warriors: Flash & Heat",
+    "ja": "Dr.ワイリーの刺客たち・Ｆ＆Ｈ",
+    "zh": "威利博士的刺客们·F&H"
+  },
+  "AMULET_NAME_40050081": {
+    "en": "Roll On",
+    "ja": "ロックンロールトリップ",
+    "zh": "洛克萝露大冒险"
+  },
+  "AMULET_NAME_40050082": {
+    "en": "Mega Friends",
+    "ja": "共鳴する勇気",
+    "zh": "共鸣的勇气"
+  },
+  "AMULET_NAME_40050083": {
+    "en": "Howling to the Heavens",
+    "ja": "天に吠ゆる夜狼",
+    "zh": "哮天夜狼"
+  },
+  "AMULET_NAME_40040064": {
+    "en": "Fluff Aplenty",
+    "ja": "もふもふわんだーらんど",
+    "zh": "毛绒绒乐园"
+  },
+  "AMULET_NAME_40050084": {
+    "en": "Spirit of the Season",
+    "ja": "プレゼント・フォーユー",
+    "zh": "为你准备的礼物"
+  },
+  "AMULET_NAME_40040065": {
+    "en": "Glittering Dragonyule",
+    "ja": "キラメキ☆スパークルナイト",
+    "zh": "亮晶晶☆闪亮之夜"
+  },
+  "AMULET_NAME_40050085": {
+    "en": "The Wyrmclan Duo",
+    "ja": "十二竜氏がふたり、参る！",
+    "zh": "两位十二龙氏，前来！"
+  },
+  "AMULET_NAME_40040066": {
+    "en": "A New Year's Battle",
+    "ja": "新しい年のはじまり",
+    "zh": "新年伊始"
+  },
+  "AMULET_NAME_40040067": {
+    "en": "A Game of Cat and Boar",
+    "ja": "猫猪戯画",
+    "zh": "猫猪趣画"
+  },
+  "AMULET_NAME_40050086": {
+    "en": "A Dog's Day",
+    "ja": "過日のメモリア",
+    "zh": "往昔回忆"
+  },
+  "AMULET_NAME_40040068": {
+    "en": "The Plaguebringer",
+    "ja": "病ヲもたらスもの",
+    "zh": "疫病之源"
+  },
+  "AMULET_NAME_40050087": {
+    "en": "Blossoms in a New Year's Sky",
+    "ja": "開春はなやぐ空の華",
+    "zh": "开春点亮夜空之花"
+  },
+  "AMULET_NAME_40050088": {
+    "en": "Felyne Hospitality",
+    "ja": "アイルーのおもてなし",
+    "zh": "艾露猫的款待"
+  },
+  "AMULET_NAME_40050090": {
+    "en": "Primal Crisis",
+    "ja": "STRANGELAND",
+    "zh": "STRANGELAND"
+  },
+  "AMULET_NAME_40040069": {
+    "en": "Soaring Terror",
+    "ja": "天空の王者",
+    "zh": "天空的王者"
+  },
+  "AMULET_NAME_40050092": {
+    "en": "A Suit of Midnight",
+    "ja": "漆黒、纏いて挑む",
+    "zh": "身披漆黑上阵"
+  },
+  "CHARA_NAME_10130102": {
+    "en": "Marty",
+    "ja": "マーティ",
+    "zh": "马蒂"
+  },
+  "CHARA_NAME_10130103": {
+    "en": "Orion",
+    "ja": "オリオン",
+    "zh": "俄里翁"
+  },
+  "CHARA_NAME_10130201": {
+    "en": "Zardin",
+    "ja": "シャーディ",
+    "zh": "夏迪"
+  },
+  "CHARA_NAME_10130401": {
+    "en": "Raemond",
+    "ja": "ライムンド",
+    "zh": "莱蒙德"
+  },
+  "CHARA_NAME_10130501": {
+    "en": "Rodrigo",
+    "ja": "ロドリゴ",
+    "zh": "罗德里戈"
+  },
+  "CHARA_NAME_10140101": {
+    "en": "Euden",
+    "ja": "ユーディル",
+    "zh": "尤蒂尔"
+  },
+  "CHARA_NAME_10140102": {
+    "en": "Karl",
+    "ja": "カール",
+    "zh": "卡尔"
+  },
+  "CHARA_NAME_10140103": {
+    "en": "Serena",
+    "ja": "セレナ",
+    "zh": "塞蕾娜"
+  },
+  "CHARA_NAME_10140201": {
+    "en": "Odetta",
+    "ja": "オデッタ",
+    "zh": "欧蒂塔"
+  },
+  "CHARA_NAME_10140301": {
+    "en": "Ku Hai",
+    "ja": "クガイ",
+    "zh": "苦海"
+  },
+  "CHARA_NAME_10140401": {
+    "en": "Odetta",
+    "ja": "オデッタ",
+    "zh": "欧蒂塔"
+  },
+  "CHARA_NAME_10140501": {
+    "en": "Berserker",
+    "ja": "ベルザーク",
+    "zh": "贝尔扎克"
+  },
+  "CHARA_NAME_10140503": {
+    "en": "Audric",
+    "ja": "アスラム",
+    "zh": "亚斯拉姆"
+  },
+  "CHARA_NAME_10150101": {
+    "en": "Naveed",
+    "ja": "ナジャーフ",
+    "zh": "纳杰夫"
+  },
+  "CHARA_NAME_10150102": {
+    "en": "Marth",
+    "ja": "マルス",
+    "zh": "马尔斯"
+  },
+  "CHARA_NAME_10150103": {
+    "en": "Lea",
+    "ja": "リア",
+    "zh": "丽雅"
+  },
+  "CHARA_NAME_10150104": {
+    "en": "Berserker",
+    "ja": "ベルザーク",
+    "zh": "贝尔扎克"
+  },
+  "CHARA_NAME_10150201": {
+    "en": "Xander",
+    "ja": "アレクシス",
+    "zh": "阿莱克西斯"
+  },
+  "CHARA_NAME_10150202": {
+    "en": "Celliera",
+    "ja": "セリエラ",
+    "zh": "赛丽艾拉"
+  },
+  "CHARA_NAME_10150301": {
+    "en": "Ranzal",
+    "ja": "ランザーヴ",
+    "zh": "兰扎卜"
+  },
+  "CHARA_NAME_10150302": {
+    "en": "Elisanne",
+    "ja": "エルフィリス",
+    "zh": "埃尔菲莉丝"
+  },
+  "CHARA_NAME_10150401": {
+    "en": "Albert",
+    "ja": "アルベール",
+    "zh": "阿尔贝尔"
+  },
+  "CHARA_NAME_10150402": {
+    "en": "Alfonse",
+    "ja": "アルフォンス",
+    "zh": "阿尔冯斯"
+  },
+  "CHARA_NAME_10150403": {
+    "en": "Euden",
+    "ja": "ユーディル",
+    "zh": "尤蒂尔"
+  },
+  "CHARA_NAME_10150501": {
+    "en": "Yaten",
+    "ja": "ヤテン",
+    "zh": "夜天"
+  },
+  "CHARA_NAME_10230101": {
+    "en": "Aoi",
+    "ja": "アオイ",
+    "zh": "葵"
+  },
+  "CHARA_NAME_10230201": {
+    "en": "Jurota",
+    "ja": "ジュウロウタ",
+    "zh": "十郎太"
+  },
+  "CHARA_NAME_10230301": {
+    "en": "Melody",
+    "ja": "メロディ",
+    "zh": "米罗蒂"
+  },
+  "CHARA_NAME_10230401": {
+    "en": "Edward",
+    "ja": "エドワード",
+    "zh": "爱德华"
+  },
+  "CHARA_NAME_10230501": {
+    "en": "Taro",
+    "ja": "タロウ",
+    "zh": "太郎"
+  },
+  "CHARA_NAME_10240101": {
+    "en": "Laxi",
+    "ja": "ラキシ",
+    "zh": "莱姬希"
+  },
+  "CHARA_NAME_10240201": {
+    "en": "Celliera",
+    "ja": "セリエラ",
+    "zh": "赛丽艾拉"
+  },
+  "CHARA_NAME_10240202": {
+    "en": "Ranzal",
+    "ja": "ランザーヴ",
+    "zh": "兰扎卜"
+  },
+  "CHARA_NAME_10240301": {
+    "en": "Musashi",
+    "ja": "ムサシ",
+    "zh": "武藏"
+  },
+  "CHARA_NAME_10240302": {
+    "en": "Addis",
+    "ja": "アディス",
+    "zh": "阿迪斯"
+  },
+  "CHARA_NAME_10240401": {
+    "en": "Yachiyo",
+    "ja": "ヤチヨ",
+    "zh": "八千代"
+  },
+  "CHARA_NAME_10240402": {
+    "en": "Hanabusa",
+    "ja": "ハナブサ",
+    "zh": "花房"
+  },
+  "CHARA_NAME_10240502": {
+    "en": "Durant",
+    "ja": "デュラルド",
+    "zh": "杜拉尔德"
+  },
+  "CHARA_NAME_10250101": {
+    "en": "Mikoto",
+    "ja": "ミコト",
+    "zh": "米科特"
+  },
+  "CHARA_NAME_10250102": {
+    "en": "Rena",
+    "ja": "レジィナ",
+    "zh": "雷吉娜"
+  },
+  "CHARA_NAME_10250103": {
+    "en": "Nobunaga",
+    "ja": "ノブナガ",
+    "zh": "信长"
+  },
+  "CHARA_NAME_10250301": {
+    "en": "Victor",
+    "ja": "ヴィクター",
+    "zh": "维克托"
+  },
+  "CHARA_NAME_10250401": {
+    "en": "Zardin",
+    "ja": "シャーディ",
+    "zh": "夏迪"
+  },
+  "CHARA_NAME_10250402": {
+    "en": "Luca",
+    "ja": "リュカ",
+    "zh": "卢卡"
+  },
+  "CHARA_NAME_10250501": {
+    "en": "Ieyasu",
+    "ja": "イエヤス",
+    "zh": "家康"
+  },
+  "CHARA_NAME_10250502": {
+    "en": "Natalie",
+    "ja": "ナッツ",
+    "zh": "娜茨"
+  },
+  "CHARA_NAME_10330101": {
+    "en": "Renelle",
+    "ja": "ラシーヌ",
+    "zh": "拉辛"
+  },
+  "CHARA_NAME_10330301": {
+    "en": "Francesca",
+    "ja": "フランチェスカ",
+    "zh": "弗兰切斯卡"
+  },
+  "CHARA_NAME_10330401": {
+    "en": "Irfan",
+    "ja": "イルファン",
+    "zh": "伊尔凡"
+  },
+  "CHARA_NAME_10330501": {
+    "en": "Vice",
+    "ja": "ワイス",
+    "zh": "华兹"
+  },
+  "CHARA_NAME_10330502": {
+    "en": "Vida",
+    "ja": "ヴィッテ",
+    "zh": "维特"
+  },
+  "CHARA_NAME_10340101": {
+    "en": "Melsa",
+    "ja": "メルサ",
+    "zh": "梅露莎"
+  },
+  "CHARA_NAME_10340102": {
+    "en": "Yuya",
+    "ja": "ユーヤ",
+    "zh": "勇也"
+  },
+  "CHARA_NAME_10340201": {
+    "en": "Luther",
+    "ja": "ルタ",
+    "zh": "卢塔"
+  },
+  "CHARA_NAME_10340202": {
+    "en": "Orsem",
+    "ja": "オルセム",
+    "zh": "奥尔森"
+  },
+  "CHARA_NAME_10340203": {
+    "en": "Renee",
+    "ja": "ルジィナ",
+    "zh": "卢吉娜"
+  },
+  "CHARA_NAME_10340301": {
+    "en": "Su Fang",
+    "ja": "スオウ",
+    "zh": "苏方"
+  },
+  "CHARA_NAME_10340401": {
+    "en": "Fritz",
+    "ja": "フリッツ",
+    "zh": "弗里茨"
+  },
+  "CHARA_NAME_10340402": {
+    "en": "Fleur",
+    "ja": "フルル",
+    "zh": "芙露露"
+  },
+  "CHARA_NAME_10340501": {
+    "en": "Orion",
+    "ja": "オリオン",
+    "zh": "俄里翁"
+  },
+  "CHARA_NAME_10340502": {
+    "en": "Alex",
+    "ja": "シャノン",
+    "zh": "沙音"
+  },
+  "CHARA_NAME_10350101": {
+    "en": "Ezelith",
+    "ja": "エゼリット",
+    "zh": "艾赛莉特"
+  },
+  "CHARA_NAME_10350201": {
+    "en": "Cleo",
+    "ja": "クラウ",
+    "zh": "库菈乌"
+  },
+  "CHARA_NAME_10350301": {
+    "en": "Aoi",
+    "ja": "アオイ",
+    "zh": "葵"
+  },
+  "CHARA_NAME_10350402": {
+    "en": "Mitsuhide",
+    "ja": "ミツヒデ",
+    "zh": "光秀"
+  },
+  "CHARA_NAME_10350502": {
+    "en": "Delphi",
+    "ja": "デルフィ",
+    "zh": "德尔菲"
+  },
+  "CHARA_NAME_10430201": {
+    "en": "Rex",
+    "ja": "レックス",
+    "zh": "雷克斯"
+  },
+  "CHARA_NAME_10430202": {
+    "en": "Pietro",
+    "ja": "ピドット",
+    "zh": "皮多特"
+  },
+  "CHARA_NAME_10430301": {
+    "en": "Johanna",
+    "ja": "イハンナ",
+    "zh": "伊汉娜"
+  },
+  "CHARA_NAME_10430401": {
+    "en": "Linus",
+    "ja": "ライナス",
+    "zh": "莱纳斯"
+  },
+  "CHARA_NAME_10430501": {
+    "en": "Erik",
+    "ja": "エリック",
+    "zh": "埃里克"
+  },
+  "CHARA_NAME_10440101": {
+    "en": "Vanessa",
+    "ja": "ヴァネッサ",
+    "zh": "凡妮莎"
+  },
+  "CHARA_NAME_10440102": {
+    "en": "Yue",
+    "ja": "ユエ",
+    "zh": "悦"
+  },
+  "CHARA_NAME_10440201": {
+    "en": "Karina",
+    "ja": "カーリナ",
+    "zh": "卡丽娜"
+  },
+  "CHARA_NAME_10440301": {
+    "en": "Ranzal",
+    "ja": "ランザーヴ",
+    "zh": "兰扎卜"
+  },
+  "CHARA_NAME_10440401": {
+    "en": "Luca",
+    "ja": "リュカ",
+    "zh": "卢卡"
+  },
+  "CHARA_NAME_10440501": {
+    "en": "Sazanka",
+    "ja": "サザンカ",
+    "zh": "山茶花"
+  },
+  "CHARA_NAME_10450101": {
+    "en": "Ramona",
+    "ja": "ロジィナ",
+    "zh": "罗吉娜"
+  },
+  "CHARA_NAME_10450102": {
+    "en": "Mym",
+    "ja": "ムム",
+    "zh": "穆穆"
+  },
+  "CHARA_NAME_10450201": {
+    "en": "Julietta",
+    "ja": "ジュリエッタ",
+    "zh": "朱丽叶"
+  },
+  "CHARA_NAME_10450202": {
+    "en": "Elisanne",
+    "ja": "エルフィリス",
+    "zh": "埃尔菲莉丝"
+  },
+  "CHARA_NAME_10450301": {
+    "en": "Lin You",
+    "ja": "リンユー",
+    "zh": "林佑"
+  },
+  "CHARA_NAME_10450401": {
+    "en": "Julietta",
+    "ja": "ジュリエッタ",
+    "zh": "朱丽叶"
+  },
+  "CHARA_NAME_10450402": {
+    "en": "Malora",
+    "ja": "マローラ",
+    "zh": "马萝拉"
+  },
+  "CHARA_NAME_10450501": {
+    "en": "Curran",
+    "ja": "クーガー",
+    "zh": "库格尔"
+  },
+  "CHARA_NAME_10530101": {
+    "en": "Alain",
+    "ja": "アラン",
+    "zh": "阿兰"
+  },
+  "CHARA_NAME_10530201": {
+    "en": "Cibella",
+    "ja": "シュベール",
+    "zh": "休贝尔"
+  },
+  "CHARA_NAME_10530202": {
+    "en": "Jakob",
+    "ja": "ジャン",
+    "zh": "让"
+  },
+  "CHARA_NAME_10530401": {
+    "en": "Malka",
+    "ja": "マルカ",
+    "zh": "马尔卡"
+  },
+  "CHARA_NAME_10530501": {
+    "en": "Zace",
+    "ja": "ジーズ",
+    "zh": "吉斯"
+  },
+  "CHARA_NAME_10540102": {
+    "en": "Xuan Zang",
+    "ja": "サンゾウ",
+    "zh": "三藏"
+  },
+  "CHARA_NAME_10540103": {
+    "en": "Emma",
+    "ja": "エマ",
+    "zh": "艾玛"
+  },
+  "CHARA_NAME_10540201": {
+    "en": "Elisanne",
+    "ja": "エルフィリス",
+    "zh": "埃尔菲莉丝"
+  },
+  "CHARA_NAME_10540301": {
+    "en": "Aeleen",
+    "ja": "エイル",
+    "zh": "艾露"
+  },
+  "CHARA_NAME_10540302": {
+    "en": "Pia",
+    "ja": "ピアチェ",
+    "zh": "皮雅茜"
+  },
+  "CHARA_NAME_10540401": {
+    "en": "Ryozen",
+    "ja": "リョウゼン",
+    "zh": "梁泉"
+  },
+  "CHARA_NAME_10540501": {
+    "en": "Botan",
+    "ja": "ボタン",
+    "zh": "牡丹"
+  },
+  "CHARA_NAME_10540502": {
+    "en": "Patia",
+    "ja": "パティア",
+    "zh": "帕蒂亚"
+  },
+  "CHARA_NAME_10550101": {
+    "en": "Mym",
+    "ja": "ムム",
+    "zh": "穆穆"
+  },
+  "CHARA_NAME_10550201": {
+    "en": "Xainfried",
+    "ja": "ザインフラッド",
+    "zh": "扎因弗拉德"
+  },
+  "CHARA_NAME_10550203": {
+    "en": "Fjorm",
+    "ja": "フィヨルム",
+    "zh": "菲约尔姆"
+  },
+  "CHARA_NAME_10550301": {
+    "en": "Sylas",
+    "ja": "シャスト",
+    "zh": "加斯特"
+  },
+  "CHARA_NAME_10550302": {
+    "en": "Kirsty",
+    "ja": "キルスティ",
+    "zh": "科丝蒂"
+  },
+  "CHARA_NAME_10550401": {
+    "en": "Annelie",
+    "ja": "アンネリーエ",
+    "zh": "安妮利艾"
+  },
+  "CHARA_NAME_10550402": {
+    "en": "Elisanne",
+    "ja": "エルフィリス",
+    "zh": "埃尔菲莉丝"
+  },
+  "CHARA_NAME_10550403": {
+    "en": "Vanessa",
+    "ja": "ヴァネッサ",
+    "zh": "凡妮莎"
+  },
+  "CHARA_NAME_10550502": {
+    "en": "Lathna",
+    "ja": "ラトニー",
+    "zh": "拉托妮"
+  },
+  "CHARA_NAME_10630101": {
+    "en": "Joe",
+    "ja": "ジョー",
+    "zh": "乔"
+  },
+  "CHARA_NAME_10630201": {
+    "en": "Waike",
+    "ja": "ウェイク",
+    "zh": "威克"
+  },
+  "CHARA_NAME_10630301": {
+    "en": "Philia",
+    "ja": "フィリア",
+    "zh": "菲丽雅"
+  },
+  "CHARA_NAME_10630401": {
+    "en": "Malora",
+    "ja": "マローラ",
+    "zh": "马萝拉"
+  },
+  "CHARA_NAME_10640101": {
+    "en": "Ezelith",
+    "ja": "エゼリット",
+    "zh": "艾赛莉特"
+  },
+  "CHARA_NAME_10640202": {
+    "en": "Nefaria",
+    "ja": "ネファリエ",
+    "zh": "奈法利耶"
+  },
+  "CHARA_NAME_10640301": {
+    "en": "Eleonora",
+    "ja": "エレオノーラ",
+    "zh": "艾蕾欧诺拉"
+  },
+  "CHARA_NAME_10640302": {
+    "en": "Joachim",
+    "ja": "ヨアキム",
+    "zh": "约亚希姆"
+  },
+  "CHARA_NAME_10640401": {
+    "en": "Luca",
+    "ja": "リュカ",
+    "zh": "卢卡"
+  },
+  "CHARA_NAME_10640402": {
+    "en": "Rawn",
+    "ja": "ウルガ",
+    "zh": "乌尔嘉"
+  },
+  "CHARA_NAME_10640403": {
+    "en": "Elias",
+    "ja": "エリアス",
+    "zh": "埃利亚斯"
+  },
+  "CHARA_NAME_10640501": {
+    "en": "Norwin",
+    "ja": "ノーストン",
+    "zh": "诺斯通"
+  },
+  "CHARA_NAME_10650101": {
+    "en": "Sarisse",
+    "ja": "シーリス",
+    "zh": "希里丝"
+  },
+  "CHARA_NAME_10650102": {
+    "en": "Chelsea",
+    "ja": "チェルシー",
+    "zh": "切尔茜"
+  },
+  "CHARA_NAME_10650201": {
+    "en": "Laranoa",
+    "ja": "ララノア",
+    "zh": "拉拉诺亚"
+  },
+  "CHARA_NAME_10650301": {
+    "en": "Louise",
+    "ja": "ルイーゼ",
+    "zh": "洛依泽"
+  },
+  "CHARA_NAME_10650302": {
+    "en": "Hawk",
+    "ja": "ホーク",
+    "zh": "霍克"
+  },
+  "CHARA_NAME_10650401": {
+    "en": "Cleo",
+    "ja": "クラウ",
+    "zh": "库菈乌"
+  },
+  "CHARA_NAME_10650501": {
+    "en": "Nefaria",
+    "ja": "ネファリエ",
+    "zh": "奈法利耶"
+  },
+  "CHARA_NAME_10730101": {
+    "en": "Xania",
+    "ja": "サニア",
+    "zh": "桑妮雅"
+  },
+  "CHARA_NAME_10730301": {
+    "en": "Nicolas",
+    "ja": "ニコラ",
+    "zh": "尼古拉"
+  },
+  "CHARA_NAME_10730401": {
+    "en": "Xiao Lei",
+    "ja": "シャオレイ",
+    "zh": "小蕾"
+  },
+  "CHARA_NAME_10730501": {
+    "en": "Althemia",
+    "ja": "イルテミア",
+    "zh": "伊露缇米娅"
+  },
+  "CHARA_NAME_10740101": {
+    "en": "Sinoa",
+    "ja": "シノア",
+    "zh": "希诺亚"
+  },
+  "CHARA_NAME_10740201": {
+    "en": "Xander",
+    "ja": "アレクシス",
+    "zh": "阿莱克西斯"
+  },
+  "CHARA_NAME_10740202": {
+    "en": "Estelle",
+    "ja": "エステル",
+    "zh": "艾丝蒂尔"
+  },
+  "CHARA_NAME_10740301": {
+    "en": "Noelle",
+    "ja": "ノエル",
+    "zh": "诺艾尔"
+  },
+  "CHARA_NAME_10740302": {
+    "en": "Xainfried",
+    "ja": "ザインフラッド",
+    "zh": "扎因弗拉德"
+  },
+  "CHARA_NAME_10740401": {
+    "en": "Amane",
+    "ja": "アマネ",
+    "zh": "天音"
+  },
+  "CHARA_NAME_10740402": {
+    "en": "Chitose",
+    "ja": "チトセ",
+    "zh": "千岁"
+  },
+  "CHARA_NAME_10740501": {
+    "en": "Kleimann",
+    "ja": "クレイマン",
+    "zh": "克雷伊曼"
+  },
+  "CHARA_NAME_10750101": {
+    "en": "Maribelle",
+    "ja": "メリィベル",
+    "zh": "梅莉贝尔"
+  },
+  "CHARA_NAME_10750102": {
+    "en": "Mega Man",
+    "ja": "ロックマン",
+    "zh": "洛克人"
+  },
+  "CHARA_NAME_10750201": {
+    "en": "Lily",
+    "ja": "リリィ",
+    "zh": "莉莉"
+  },
+  "CHARA_NAME_10750301": {
+    "en": "Maribelle",
+    "ja": "メリィベル",
+    "zh": "梅莉贝尔"
+  },
+  "CHARA_NAME_10750401": {
+    "en": "Lucretia",
+    "ja": "ルクレツィア",
+    "zh": "卢克雷齐娅"
+  },
+  "CHARA_NAME_10750501": {
+    "en": "Veronica",
+    "ja": "ヴェロニカ",
+    "zh": "维洛妮卡"
+  },
+  "CHARA_NAME_10750502": {
+    "en": "Cleo",
+    "ja": "クラウ",
+    "zh": "库菈乌"
+  },
+  "CHARA_NAME_10750503": {
+    "en": "Cassandra",
+    "ja": "カサンドラ",
+    "zh": "卡珊德拉"
+  },
+  "CHARA_NAME_10830101": {
+    "en": "Aurien",
+    "ja": "オーレイン",
+    "zh": "欧雷因"
+  },
+  "CHARA_NAME_10830201": {
+    "en": "Ricardt",
+    "ja": "リカート",
+    "zh": "里卡多"
+  },
+  "CHARA_NAME_10830301": {
+    "en": "Sophie",
+    "ja": "ソフィ",
+    "zh": "索菲"
+  },
+  "CHARA_NAME_10830401": {
+    "en": "Hope",
+    "ja": "ホープ",
+    "zh": "霍普"
+  },
+  "CHARA_NAME_10830402": {
+    "en": "Estelle",
+    "ja": "エステル",
+    "zh": "艾丝蒂尔"
+  },
+  "CHARA_NAME_10830501": {
+    "en": "Edward",
+    "ja": "エドワード",
+    "zh": "爱德华"
+  },
+  "CHARA_NAME_10840101": {
+    "en": "Verica",
+    "ja": "ウェルシェラ",
+    "zh": "维尔莎拉"
+  },
+  "CHARA_NAME_10840102": {
+    "en": "Lowen",
+    "ja": "ルーエン",
+    "zh": "卢恩"
+  },
+  "CHARA_NAME_10840201": {
+    "en": "Thaniel",
+    "ja": "セイナー",
+    "zh": "塞纳"
+  },
+  "CHARA_NAME_10840202": {
+    "en": "Aeleen",
+    "ja": "エイル",
+    "zh": "艾露"
+  },
+  "CHARA_NAME_10840301": {
+    "en": "Lowen",
+    "ja": "ルーエン",
+    "zh": "卢恩"
+  },
+  "CHARA_NAME_10840302": {
+    "en": "Xania",
+    "ja": "サニア",
+    "zh": "桑妮雅"
+  },
+  "CHARA_NAME_10840401": {
+    "en": "Althemia",
+    "ja": "イルテミア",
+    "zh": "伊露缇米娅"
+  },
+  "CHARA_NAME_10840402": {
+    "en": "Vixel",
+    "ja": "ヴィクセル",
+    "zh": "维克塞尔"
+  },
+  "CHARA_NAME_10840403": {
+    "en": "Felicia",
+    "ja": "フェリーチャ",
+    "zh": "菲丽嘉"
+  },
+  "CHARA_NAME_10840501": {
+    "en": "Cleo",
+    "ja": "クラウ",
+    "zh": "库菈乌"
+  },
+  "CHARA_NAME_10850101": {
+    "en": "Hildegarde",
+    "ja": "ヒルデガルド",
+    "zh": "希尔德加德"
+  },
+  "CHARA_NAME_10850201": {
+    "en": "Jiang Ziya",
+    "ja": "タイコウボウ",
+    "zh": "太公望"
+  },
+  "CHARA_NAME_10850301": {
+    "en": "Akasha",
+    "ja": "アカーシャ",
+    "zh": "阿加莎"
+  },
+  "CHARA_NAME_10850401": {
+    "en": "Hildegarde",
+    "ja": "ヒルデガルド",
+    "zh": "希尔德加德"
+  },
+  "CHARA_NAME_10850501": {
+    "en": "Heinwald",
+    "ja": "ハインヴァルト",
+    "zh": "海因瓦尔德"
+  },
+  "CHARA_NAME_10850502": {
+    "en": "Verica",
+    "ja": "ウェルシェラ",
+    "zh": "维尔莎拉"
+  },
+  "CHARA_NAME_19900001": {
+    "en": "Zethia",
+    "ja": "ゼシア",
+    "zh": "塞西娅"
+  },
+  "CHARA_NAME_19900002": {
+    "en": "Leif",
+    "ja": "リーフ",
+    "zh": "利弗"
+  },
+  "DRAGON_NAME_20030101": {
+    "en": "Homura",
+    "ja": "ホムラリュウ",
+    "zh": "火龙"
+  },
+  "DRAGON_NAME_20030102": {
+    "en": "Cinder Drake",
+    "ja": "バーンドラコ",
+    "zh": "焰龙"
+  },
+  "DRAGON_NAME_20030103": {
+    "en": "Kindling Imp",
+    "ja": "キャンドルインプ",
+    "zh": "烛魔"
+  },
+  "DRAGON_NAME_20030201": {
+    "en": "Fubuki",
+    "ja": "フブキリュウ",
+    "zh": "雪龙"
+  },
+  "DRAGON_NAME_20030202": {
+    "en": "Snow Drake",
+    "ja": "アイスドラコ",
+    "zh": "冰龙"
+  },
+  "DRAGON_NAME_20030203": {
+    "en": "Wellspring Imp",
+    "ja": "ウェルインプ",
+    "zh": "井魔"
+  },
+  "DRAGON_NAME_20030301": {
+    "en": "Tsumuji",
+    "ja": "ツムジリュウ",
+    "zh": "旋龙"
+  },
+  "DRAGON_NAME_20030302": {
+    "en": "Gust Drake",
+    "ja": "ウインドラコ",
+    "zh": "风龙"
+  },
+  "DRAGON_NAME_20030303": {
+    "en": "Zephyr Imp",
+    "ja": "エアリアルインプ",
+    "zh": "气魔"
+  },
+  "DRAGON_NAME_20030401": {
+    "en": "Hinata",
+    "ja": "ヒナタリュウ",
+    "zh": "阳龙"
+  },
+  "DRAGON_NAME_20030402": {
+    "en": "Moon Drake",
+    "ja": "ムーンドラコ",
+    "zh": "月龙"
+  },
+  "DRAGON_NAME_20030403": {
+    "en": "Astral Imp",
+    "ja": "スターインプ",
+    "zh": "星魔"
+  },
+  "DRAGON_NAME_20030501": {
+    "en": "Hikage",
+    "ja": "ヒカゲリュウ",
+    "zh": "影龙"
+  },
+  "DRAGON_NAME_20030502": {
+    "en": "Gloom Drake",
+    "ja": "ダークドラコ",
+    "zh": "暗龙"
+  },
+  "DRAGON_NAME_20030503": {
+    "en": "Pallid Imp",
+    "ja": "グレイヴインプ",
+    "zh": "墓魔"
+  },
+  "DRAGON_NAME_20040101": {
+    "en": "Brunhilda",
+    "ja": "ブリュンヒルデ",
+    "zh": "布伦希尔德"
+  },
+  "DRAGON_NAME_20040102": {
+    "en": "Phoenix",
+    "ja": "フェニックス",
+    "zh": "菲尼克斯"
+  },
+  "DRAGON_NAME_20040103": {
+    "en": "Ifrit",
+    "ja": "イフリート",
+    "zh": "伊夫利特"
+  },
+  "DRAGON_NAME_20040201": {
+    "en": "Mercury",
+    "ja": "マーキュリー",
+    "zh": "墨丘利"
+  },
+  "DRAGON_NAME_20040202": {
+    "en": "Poliʻahu",
+    "ja": "ポリアフ",
+    "zh": "波丽亚芙"
+  },
+  "DRAGON_NAME_20040203": {
+    "en": "Vodyanoy",
+    "ja": "ヴォジャノーイ",
+    "zh": "沃加诺伊"
+  },
+  "DRAGON_NAME_20040301": {
+    "en": "Midgardsormr",
+    "ja": "ミドガルズオルム",
+    "zh": "耶梦加得"
+  },
+  "DRAGON_NAME_20040302": {
+    "en": "Roc",
+    "ja": "フォーゲル",
+    "zh": "沃格尔"
+  },
+  "DRAGON_NAME_20040303": {
+    "en": "Stribog",
+    "ja": "ストリボーグ",
+    "zh": "斯特利伯格"
+  },
+  "DRAGON_NAME_20040401": {
+    "en": "Jupiter",
+    "ja": "ユピテル",
+    "zh": "朱庇特"
+  },
+  "DRAGON_NAME_20040402": {
+    "en": "Unicorn",
+    "ja": "ユニコーン",
+    "zh": "独角兽"
+  },
+  "DRAGON_NAME_20040403": {
+    "en": "Lindworm",
+    "ja": "リンドヴルム",
+    "zh": "林德巴鲁姆"
+  },
+  "DRAGON_NAME_20040405": {
+    "en": "Silke",
+    "ja": "シルキー",
+    "zh": "希露姬"
+  },
+  "DRAGON_NAME_20040501": {
+    "en": "Zodiark",
+    "ja": "ゾディアーク",
+    "zh": "佐迪亚克"
+  },
+  "DRAGON_NAME_20040502": {
+    "en": "Juggernaut",
+    "ja": "ジャガーノート",
+    "zh": "札格纳特"
+  },
+  "DRAGON_NAME_20040503": {
+    "en": "Silke",
+    "ja": "シルキー",
+    "zh": "希露姬"
+  },
+  "DRAGON_NAME_20040504": {
+    "en": "Bronze Fafnir",
+    "ja": "ブロンズファフニール",
+    "zh": "铜法夫纳"
+  },
+  "DRAGON_NAME_20040505": {
+    "en": "Silver Fafnir",
+    "ja": "シルバーファフニール",
+    "zh": "银法夫纳"
+  },
+  "DRAGON_NAME_20050101": {
+    "en": "Agni",
+    "ja": "アグニ",
+    "zh": "阿格尼"
+  },
+  "DRAGON_NAME_20050102": {
+    "en": "High Brunhilda",
+    "ja": "真ブリュンヒルデ",
+    "zh": "真布伦希尔德"
+  },
+  "DRAGON_NAME_20050103": {
+    "en": "Pele",
+    "ja": "ペレ",
+    "zh": "佩雷"
+  },
+  "DRAGON_NAME_20050104": {
+    "en": "Cerberus",
+    "ja": "ケルベロス",
+    "zh": "坎贝萝丝"
+  },
+  "DRAGON_NAME_20050105": {
+    "en": "Erasmus",
+    "ja": "エルモ",
+    "zh": "埃尔默"
+  },
+  "DRAGON_NAME_20050106": {
+    "en": "Prometheus",
+    "ja": "プロメテウス",
+    "zh": "普罗米修斯"
+  },
+  "DRAGON_NAME_20050107": {
+    "en": "Konohana Sakuya",
+    "ja": "コノハナサクヤ",
+    "zh": "木花开耶"
+  },
+  "DRAGON_NAME_20050108": {
+    "en": "Arctos",
+    "ja": "アルクトス",
+    "zh": "阿尔库特斯"
+  },
+  "DRAGON_NAME_20050109": {
+    "en": "Apollo",
+    "ja": "アポロン",
+    "zh": "阿波罗"
+  },
+  "DRAGON_NAME_20050110": {
+    "en": "Kagutsuchi",
+    "ja": "カグツチ",
+    "zh": "迦具土"
+  },
+  "DRAGON_NAME_20050111": {
+    "en": "Rathalos",
+    "ja": "リオレウス",
+    "zh": "火龙"
+  },
+  "DRAGON_NAME_20050201": {
+    "en": "Poseidon",
+    "ja": "ポセイドン",
+    "zh": "波塞冬"
+  },
+  "DRAGON_NAME_20050202": {
+    "en": "High Mercury",
+    "ja": "真マーキュリー",
+    "zh": "真墨丘利"
+  },
+  "DRAGON_NAME_20050203": {
+    "en": "Leviathan",
+    "ja": "リヴァイアサン",
+    "zh": "利维坦"
+  },
+  "DRAGON_NAME_20050204": {
+    "en": "Siren",
+    "ja": "セイレーン",
+    "zh": "塞壬"
+  },
+  "DRAGON_NAME_20050205": {
+    "en": "Jeanne d'Arc",
+    "ja": "ジャンヌダルク",
+    "zh": "贞德"
+  },
+  "DRAGON_NAME_20050206": {
+    "en": "Peng Lai",
+    "ja": "ホウライ",
+    "zh": "蓬莱"
+  },
+  "DRAGON_NAME_20050207": {
+    "en": "Simurgh",
+    "ja": "シームルグ",
+    "zh": "思摩夫"
+  },
+  "DRAGON_NAME_20050208": {
+    "en": "Maritimus",
+    "ja": "マリティムス",
+    "zh": "玛利蒂姆斯"
+  },
+  "DRAGON_NAME_20050209": {
+    "en": "Kamuy",
+    "ja": "カムイ",
+    "zh": "神威"
+  },
+  "DRAGON_NAME_20050301": {
+    "en": "Zephyr",
+    "ja": "ワキヤン",
+    "zh": "瓦基扬"
+  },
+  "DRAGON_NAME_20050302": {
+    "en": "High Midgardsormr",
+    "ja": "真ミドガルズオルム",
+    "zh": "真耶梦加得"
+  },
+  "DRAGON_NAME_20050303": {
+    "en": "Sylvia",
+    "ja": "シルヴィア",
+    "zh": "希尔维亚"
+  },
+  "DRAGON_NAME_20050304": {
+    "en": "Garuda",
+    "ja": "ガルーダ",
+    "zh": "迦楼罗"
+  },
+  "DRAGON_NAME_20050305": {
+    "en": "Long Long",
+    "ja": "ロンロン",
+    "zh": "龙龙"
+  },
+  "DRAGON_NAME_20050306": {
+    "en": "Pazuzu",
+    "ja": "パズズ",
+    "zh": "帕祖祖"
+  },
+  "DRAGON_NAME_20050307": {
+    "en": "Yulong",
+    "ja": "ギョクリュウ",
+    "zh": "玉龙"
+  },
+  "DRAGON_NAME_20050308": {
+    "en": "Freyja",
+    "ja": "フレイヤ",
+    "zh": "芙蕾雅"
+  },
+  "DRAGON_NAME_20050309": {
+    "en": "Vayu",
+    "ja": "ヴァーユ",
+    "zh": "伐由"
+  },
+  "DRAGON_NAME_20050310": {
+    "en": "Mini Mids",
+    "ja": "ミドガルズオルム",
+    "zh": "耶梦加得"
+  },
+  "DRAGON_NAME_20050311": {
+    "en": "Hastur",
+    "ja": "ハスター",
+    "zh": "哈斯塔"
+  },
+  "DRAGON_NAME_20050312": {
+    "en": "AC-011 Garland",
+    "ja": "AC-011 ガーランド",
+    "zh": "AC-011 加兰德"
+  },
+  "DRAGON_NAME_20050401": {
+    "en": "Jeanne d'Arc",
+    "ja": "ジャンヌダルク",
+    "zh": "贞德"
+  },
+  "DRAGON_NAME_20050402": {
+    "en": "High Jupiter",
+    "ja": "真ユピテル",
+    "zh": "真朱庇特"
+  },
+  "DRAGON_NAME_20050403": {
+    "en": "Corsaint Phoenix",
+    "ja": "ホーリーフェニックス",
+    "zh": "神圣菲尼克斯"
+  },
+  "DRAGON_NAME_20050404": {
+    "en": "Gilgamesh",
+    "ja": "ギルガメッシュ",
+    "zh": "吉尔伽美什"
+  },
+  "DRAGON_NAME_20050405": {
+    "en": "Cupid",
+    "ja": "キューピッド",
+    "zh": "丘比特"
+  },
+  "DRAGON_NAME_20050406": {
+    "en": "Shishimai",
+    "ja": "シシマイ",
+    "zh": "狮子舞"
+  },
+  "DRAGON_NAME_20050407": {
+    "en": "Liger",
+    "ja": "ライガ",
+    "zh": "雷牙"
+  },
+  "DRAGON_NAME_20050408": {
+    "en": "Takemikazuchi",
+    "ja": "タケミカヅチ",
+    "zh": "建御雷"
+  },
+  "DRAGON_NAME_20050409": {
+    "en": "Siren",
+    "ja": "セイレーン",
+    "zh": "塞壬"
+  },
+  "DRAGON_NAME_20050410": {
+    "en": "Daikokuten",
+    "ja": "ダイコクテン",
+    "zh": "大黑天"
+  },
+  "DRAGON_NAME_20050501": {
+    "en": "Nidhogg",
+    "ja": "ニーズヘッグ",
+    "zh": "尼德霍格"
+  },
+  "DRAGON_NAME_20050502": {
+    "en": "High Zodiark",
+    "ja": "真ゾディアーク",
+    "zh": "真佐迪亚克"
+  },
+  "DRAGON_NAME_20050504": {
+    "en": "Phantom",
+    "ja": "ファントム",
+    "zh": "幽影"
+  },
+  "DRAGON_NAME_20050505": {
+    "en": "Maritimus",
+    "ja": "マリティムス",
+    "zh": "玛利蒂姆斯"
+  },
+  "DRAGON_NAME_20050506": {
+    "en": "Marishiten",
+    "ja": "マリシテン",
+    "zh": "摩利支天"
+  },
+  "DRAGON_NAME_20050507": {
+    "en": "Gold Fafnir",
+    "ja": "ゴールドファフニール",
+    "zh": "金法夫纳"
+  },
+  "DRAGON_NAME_20050508": {
+    "en": "Nyarlathotep",
+    "ja": "ニャルラトホテプ",
+    "zh": "奈亚拉托提普"
+  },
+  "DRAGON_NAME_20050509": {
+    "en": "Shinobi",
+    "ja": "シノビ",
+    "zh": "忍"
+  },
+  "DRAGON_NAME_20050510": {
+    "en": "Chthonius",
+    "ja": "プルートー",
+    "zh": "普鲁托"
+  },
+  "DRAGON_NAME_20050511": {
+    "en": "Parallel Zodiark",
+    "ja": "異天ゾディアーク",
+    "zh": "异天佐迪亚克"
+  },
+  "DRAGON_NAME_20050512": {
+    "en": "Ebisu",
+    "ja": "エビス",
+    "zh": "惠比寿"
+  },
+  "DRAGON_NAME_20050513": {
+    "en": "Fatalis",
+    "ja": "ミラボレアス",
+    "zh": "黑龙"
+  },
+  "DRAGON_NAME_29900001": {
+    "en": "Brunhilda",
+    "ja": "ブリュンヒルデ",
+    "zh": "布伦希尔德"
+  },
+  "DRAGON_NAME_29900002": {
+    "en": "Brunhilda",
+    "ja": "ブリュンヒルデ",
+    "zh": "布伦希尔德"
+  },
+  "DRAGON_NAME_29900003": {
+    "en": "Rush",
+    "ja": "ラッシュ",
+    "zh": "莱西"
+  },
+  "DRAGON_NAME_29900004": {
+    "en": "Nyarlathotep",
+    "ja": "ニャルラトホテプ",
+    "zh": "奈亚拉托提普"
+  },
+  "FORT_PLANT_NAME_100101": {
+    "en": "The Halidom",
+    "ja": "聖城",
+    "zh": "圣城"
+  },
+  "FORT_PLANT_NAME_100201": {
+    "en": "Rupie Mine",
+    "ja": "ルピ鉱山",
+    "zh": "金币矿山"
+  },
+  "FORT_PLANT_NAME_100301": {
+    "en": "Dragontree",
+    "ja": "ドラゴンツリー",
+    "zh": "龙果树"
+  },
+  "FORT_PLANT_NAME_100401": {
+    "en": "Flame Altar",
+    "ja": "火の祭壇",
+    "zh": "火之祭坛"
+  },
+  "FORT_PLANT_NAME_100402": {
+    "en": "Water Altar",
+    "ja": "水の祭壇",
+    "zh": "水之祭坛"
+  },
+  "FORT_PLANT_NAME_100403": {
+    "en": "Wind Altar",
+    "ja": "風の祭壇",
+    "zh": "风之祭坛"
+  },
+  "FORT_PLANT_NAME_100404": {
+    "en": "Light Altar",
+    "ja": "光の祭壇",
+    "zh": "光之祭坛"
+  },
+  "FORT_PLANT_NAME_100405": {
+    "en": "Shadow Altar",
+    "ja": "闇の祭壇",
+    "zh": "暗之祭坛"
+  },
+  "FORT_PLANT_NAME_100501": {
+    "en": "Sword Dojo",
+    "ja": "剣の訓練場",
+    "zh": "剑之训练场"
+  },
+  "FORT_PLANT_NAME_100502": {
+    "en": "Blade Dojo",
+    "ja": "刀の訓練場",
+    "zh": "刀之训练场"
+  },
+  "FORT_PLANT_NAME_100503": {
+    "en": "Dagger Dojo",
+    "ja": "短剣の訓練場",
+    "zh": "短剑之训练场"
+  },
+  "FORT_PLANT_NAME_100504": {
+    "en": "Axe Dojo",
+    "ja": "斧の訓練場",
+    "zh": "斧之训练场"
+  },
+  "FORT_PLANT_NAME_100505": {
+    "en": "Lance Dojo",
+    "ja": "槍の訓練場",
+    "zh": "枪之训练场"
+  },
+  "FORT_PLANT_NAME_100506": {
+    "en": "Bow Dojo",
+    "ja": "弓の訓練場",
+    "zh": "弓之训练场"
+  },
+  "FORT_PLANT_NAME_100507": {
+    "en": "Wand Dojo",
+    "ja": "ロッドの訓練場",
+    "zh": "魔杖之训练场"
+  },
+  "FORT_PLANT_NAME_100508": {
+    "en": "Staff Dojo",
+    "ja": "杖の訓練場",
+    "zh": "法杖之训练场"
+  },
+  "FORT_PLANT_NAME_100601": {
+    "en": "Flame Dracolith",
+    "ja": "火の竜哭碑",
+    "zh": "火之龙哭碑"
+  },
+  "FORT_PLANT_NAME_100602": {
+    "en": "Water Dracolith",
+    "ja": "水の竜哭碑",
+    "zh": "水之龙哭碑"
+  },
+  "FORT_PLANT_NAME_100603": {
+    "en": "Wind Dracolith",
+    "ja": "風の竜哭碑",
+    "zh": "风之龙哭碑"
+  },
+  "FORT_PLANT_NAME_100604": {
+    "en": "Light Dracolith",
+    "ja": "光の竜哭碑",
+    "zh": "光之龙哭碑"
+  },
+  "FORT_PLANT_NAME_100605": {
+    "en": "Shadow Dracolith",
+    "ja": "闇の竜哭碑",
+    "zh": "暗之龙哭碑"
+  },
+  "FORT_PLANT_NAME_100701": {
+    "en": "Red Flowers",
+    "ja": "赤い花",
+    "zh": "红色之花"
+  },
+  "FORT_PLANT_NAME_100702": {
+    "en": "Blue Flowers",
+    "ja": "青い花",
+    "zh": "蓝色之花"
+  },
+  "FORT_PLANT_NAME_100703": {
+    "en": "Conifer Tree",
+    "ja": "針葉樹",
+    "zh": "针叶树"
+  },
+  "FORT_PLANT_NAME_100704": {
+    "en": "Broadleaf Tree",
+    "ja": "広葉樹",
+    "zh": "阔叶树"
+  },
+  "FORT_PLANT_NAME_100705": {
+    "en": "Battle Standard",
+    "ja": "フラッグ",
+    "zh": "旗帜"
+  },
+  "FORT_PLANT_NAME_100901": {
+    "en": "Circus Tent",
+    "ja": "サーカステント",
+    "zh": "马戏团帐篷"
+  },
+  "FORT_PLANT_NAME_100902": {
+    "en": "Balloon Wagon",
+    "ja": "バルーンワゴン",
+    "zh": "气球贩卖车"
+  },
+  "FORT_PLANT_NAME_101001": {
+    "en": "Fafnir Statue (Flame)",
+    "ja": "火のファフニール像",
+    "zh": "火之法夫纳像"
+  },
+  "FORT_PLANT_NAME_101002": {
+    "en": "Fafnir Statue (Water)",
+    "ja": "水のファフニール像",
+    "zh": "水之法夫纳像"
+  },
+  "FORT_PLANT_NAME_101003": {
+    "en": "Fafnir Statue (Wind)",
+    "ja": "風のファフニール像",
+    "zh": "风之法夫纳像"
+  },
+  "FORT_PLANT_NAME_101004": {
+    "en": "Fafnir Statue (Light)",
+    "ja": "光のファフニール像",
+    "zh": "光之法夫纳像"
+  },
+  "FORT_PLANT_NAME_101005": {
+    "en": "Fafnir Statue (Shadow)",
+    "ja": "闇のファフニール像",
+    "zh": "暗之法夫纳像"
+  },
+  "FORT_PLANT_NAME_101101": {
+    "en": "Wind Shrine",
+    "ja": "風の祠",
+    "zh": "风之神龛"
+  },
+  "FORT_PLANT_NAME_101102": {
+    "en": "Wishmill",
+    "ja": "願いの風車",
+    "zh": "祈愿风车"
+  },
+  "FORT_PLANT_NAME_101301": {
+    "en": "Seabed Stage",
+    "ja": "サマーステージ",
+    "zh": "夏日舞台"
+  },
+  "FORT_PLANT_NAME_101302": {
+    "en": "Palm Tree",
+    "ja": "ヤシの木",
+    "zh": "椰子树"
+  },
+  "FORT_PLANT_NAME_101401": {
+    "en": "Smithy",
+    "ja": "鍛冶屋",
+    "zh": "铁匠铺"
+  },
+  "FORT_PLANT_NAME_101501": {
+    "en": "Sweet Retreat",
+    "ja": "お菓子の家",
+    "zh": "点心之家"
+  },
+  "FORT_PLANT_NAME_101502": {
+    "en": "Jack-o'-Lantern",
+    "ja": "ジャック・オ・ランタン",
+    "zh": "南瓜灯"
+  },
+  "FORT_PLANT_NAME_101601": {
+    "en": "Yuletree",
+    "ja": "星竜樹",
+    "zh": "星龙树"
+  },
+  "FORT_PLANT_NAME_101602": {
+    "en": "Snowdrake",
+    "ja": "ドラコ雪だるま",
+    "zh": "小龙雪人"
+  },
+  "FORT_PLANT_NAME_101701": {
+    "en": "Library Obscura",
+    "ja": "禁書図書館",
+    "zh": "禁书图书馆"
+  },
+  "FORT_PLANT_NAME_101702": {
+    "en": "Lectern",
+    "ja": "書見台",
+    "zh": "阅读台"
+  },
+  "FORT_PLANT_NAME_101801": {
+    "en": "Dragoñata",
+    "ja": "ドラゴンパピエ",
+    "zh": "彩偶龙"
+  },
+  "FORT_PLANT_NAME_101802": {
+    "en": "Eggy Luca",
+    "ja": "ファニーエッグ・リュカ",
+    "zh": "快乐彩蛋·卢卡"
+  },
+  "FORT_PLANT_NAME_101803": {
+    "en": "Eggy Sarisse",
+    "ja": "ファニーエッグ・シーリス",
+    "zh": "快乐彩蛋·希里丝"
+  },
+  "FORT_PLANT_NAME_101901": {
+    "en": "Magma Slime Statue",
+    "ja": "マグマスライム像",
+    "zh": "岩浆史莱姆像"
+  },
+  "FORT_PLANT_NAME_101902": {
+    "en": "Aqua Slime Statue",
+    "ja": "アクアスライム像",
+    "zh": "水史莱姆像"
+  },
+  "FORT_PLANT_NAME_101903": {
+    "en": "Aero Slime Statue",
+    "ja": "スライム像",
+    "zh": "史莱姆像"
+  },
+  "FORT_PLANT_NAME_101904": {
+    "en": "Twinkling Slime Statue",
+    "ja": "ティンクルスライム像",
+    "zh": "闪光史莱姆像"
+  },
+  "FORT_PLANT_NAME_101905": {
+    "en": "Poison Slime Statue",
+    "ja": "ポイズンスライム像",
+    "zh": "毒史莱姆像"
+  },
+  "FORT_PLANT_NAME_102001": {
+    "en": "Arctos Monument",
+    "ja": "アルクトスの像",
+    "zh": "阿尔库特斯之像"
+  },
+  "FORT_PLANT_NAME_102002": {
+    "en": "Iron Weather Vane",
+    "ja": "鉄の風見鶏",
+    "zh": "铁风向标"
+  },
+  "FORT_PLANT_NAME_102101": {
+    "en": "Pumpkin Mariti",
+    "ja": "ぱんぷきんマリティ",
+    "zh": "南瓜玛利蒂"
+  },
+  "FORT_PLANT_NAME_102201": {
+    "en": "Metall",
+    "ja": "メットール",
+    "zh": "小矮兵"
+  },
+  "FORT_PLANT_NAME_102301": {
+    "en": "Flame Tree",
+    "ja": "覚醒の炎樹",
+    "zh": "觉醒之炎树"
+  },
+  "WEAPON_NAME_30119901": {
+    "en": "Battleworn Sword",
+    "ja": "使い古された剣",
+    "zh": "老旧的剑"
+  },
+  "WEAPON_NAME_30129901": {
+    "en": "Soldier's Brand",
+    "ja": "ソルジャーソード",
+    "zh": "士兵剑"
+  },
+  "WEAPON_NAME_30130102": {
+    "en": "Blazing Edge",
+    "ja": "ハードヒートソード",
+    "zh": "灼热之剑"
+  },
+  "WEAPON_NAME_30130103": {
+    "en": "Blazing Ingot",
+    "ja": "ブレイズインゴット",
+    "zh": "烈焰铸铁"
+  },
+  "WEAPON_NAME_30130105": {
+    "en": "Wildfire",
+    "ja": "猛火の魔剣",
+    "zh": "烈火魔剑"
+  },
+  "WEAPON_NAME_30130201": {
+    "en": "Rainbreaker",
+    "ja": "レインブレイカー",
+    "zh": "裂雨剑"
+  },
+  "WEAPON_NAME_30130202": {
+    "en": "Furious Frost",
+    "ja": "氷雪の魔剣",
+    "zh": "冰雪魔剑"
+  },
+  "WEAPON_NAME_30130203": {
+    "en": "Icy Ingot",
+    "ja": "アイスインゴット",
+    "zh": "冰霜铸铁"
+  },
+  "WEAPON_NAME_30130302": {
+    "en": "Grassrunner",
+    "ja": "グラスランナー",
+    "zh": "草上飞"
+  },
+  "WEAPON_NAME_30130303": {
+    "en": "Whirlfang",
+    "ja": "旋風の魔剣",
+    "zh": "旋风魔剑"
+  },
+  "WEAPON_NAME_30130304": {
+    "en": "Wind Ingot",
+    "ja": "ウィンドインゴット",
+    "zh": "疾风铸铁"
+  },
+  "WEAPON_NAME_30130401": {
+    "en": "Featherblade",
+    "ja": "フェザーソード",
+    "zh": "轻羽剑"
+  },
+  "WEAPON_NAME_30130402": {
+    "en": "Thunder Ingot",
+    "ja": "サンダーインゴット",
+    "zh": "雷霆铸铁"
+  },
+  "WEAPON_NAME_30130403": {
+    "en": "Empty Flash",
+    "ja": "稲妻の魔剣",
+    "zh": "电闪魔剑"
+  },
+  "WEAPON_NAME_30130501": {
+    "en": "Blood Price",
+    "ja": "ブラッドデュエル",
+    "zh": "鲜血决斗"
+  },
+  "WEAPON_NAME_30130502": {
+    "en": "Cursefang",
+    "ja": "呪詛の魔剣",
+    "zh": "诅咒魔剑"
+  },
+  "WEAPON_NAME_30130503": {
+    "en": "Shadow Ingot",
+    "ja": "シャドウインゴット",
+    "zh": "暗影铸铁"
+  },
+  "WEAPON_NAME_30139901": {
+    "en": "Knight's Sword",
+    "ja": "ナイツソード",
+    "zh": "骑士剑"
+  },
+  "WEAPON_NAME_30139902": {
+    "en": "Ensorcelled Sword",
+    "ja": "エンチャントソード",
+    "zh": "附魔剑"
+  },
+  "WEAPON_NAME_30139903": {
+    "en": "Broadedge",
+    "ja": "ワイドソード",
+    "zh": "狂野之剑"
+  },
+  "WEAPON_NAME_30139904": {
+    "en": "Lonely Ward",
+    "ja": "退魔の剣",
+    "zh": "退魔之剑"
+  },
+  "WEAPON_NAME_30139905": {
+    "en": "Hefty Ingot",
+    "ja": "ヘヴィインゴット",
+    "zh": "沉重铸铁"
+  },
+  "WEAPON_NAME_30140104": {
+    "en": "Crimson Cry",
+    "ja": "クリムゾンソード",
+    "zh": "绯红剑"
+  },
+  "WEAPON_NAME_30140105": {
+    "en": "Molten Ingot",
+    "ja": "ヴォルカノインゴット",
+    "zh": "火山铸铁"
+  },
+  "WEAPON_NAME_30140106": {
+    "en": "Flame Apogee",
+    "ja": "グレイテストフレイム",
+    "zh": "无上烈焰"
+  },
+  "WEAPON_NAME_30140108": {
+    "en": "Burning Judgment",
+    "ja": "ジャッジオブファイア",
+    "zh": "火之审判"
+  },
+  "WEAPON_NAME_30140109": {
+    "en": "Crimson Pyre",
+    "ja": "紅蓮の魔剣",
+    "zh": "红莲魔剑"
+  },
+  "WEAPON_NAME_30140110": {
+    "en": "Searing Savagetail",
+    "ja": "ヒートサベージテイル",
+    "zh": "灼热残暴之尾"
+  },
+  "WEAPON_NAME_30140111": {
+    "en": "Sword of Dancing Sparks",
+    "ja": "炎舞の邪剣",
+    "zh": "炎舞邪剑"
+  },
+  "WEAPON_NAME_30140201": {
+    "en": "Mercurius",
+    "ja": "メルクリウスソード",
+    "zh": "墨丘利之剑"
+  },
+  "WEAPON_NAME_30140202": {
+    "en": "Fervent Frost",
+    "ja": "猛雪の魔剣",
+    "zh": "暴雪魔剑"
+  },
+  "WEAPON_NAME_30140203": {
+    "en": "Blizzard Ingot",
+    "ja": "ブリザードインゴット",
+    "zh": "雪崩铸铁"
+  },
+  "WEAPON_NAME_30140205": {
+    "en": "Judge of Seas",
+    "ja": "ジャッジオブウェーブ",
+    "zh": "波涛裁决"
+  },
+  "WEAPON_NAME_30140206": {
+    "en": "Cold Absolution",
+    "ja": "氷剣アブソリュート",
+    "zh": "绝对冰剑"
+  },
+  "WEAPON_NAME_30140207": {
+    "en": "Angry Aquatail",
+    "ja": "マッドアクアテイル",
+    "zh": "愤怒大洋之尾"
+  },
+  "WEAPON_NAME_30140301": {
+    "en": "Wingblade",
+    "ja": "ウイングソード",
+    "zh": "灵翼剑"
+  },
+  "WEAPON_NAME_30140302": {
+    "en": "Tempest Ravager",
+    "ja": "狂嵐の魔剣",
+    "zh": "狂岚魔剑"
+  },
+  "WEAPON_NAME_30140303": {
+    "en": "Gale Apogee",
+    "ja": "グレイテストゲイル",
+    "zh": "无上烈风"
+  },
+  "WEAPON_NAME_30140304": {
+    "en": "Tornado Ingot",
+    "ja": "トルネードインゴット",
+    "zh": "龙卷铸铁"
+  },
+  "WEAPON_NAME_30140305": {
+    "en": "Barren Weald",
+    "ja": "疾剣ウィールド",
+    "zh": "疾剑威尔德"
+  },
+  "WEAPON_NAME_30140306": {
+    "en": "Slicing Stormtail",
+    "ja": "グリムブロウテイル",
+    "zh": "无情狂风之尾"
+  },
+  "WEAPON_NAME_30140401": {
+    "en": "Astral Edge",
+    "ja": "七星剣",
+    "zh": "七星剑"
+  },
+  "WEAPON_NAME_30140402": {
+    "en": "Luster Apogee",
+    "ja": "グレイテストブライト",
+    "zh": "无上光辉"
+  },
+  "WEAPON_NAME_30140403": {
+    "en": "Plasma Ingot",
+    "ja": "プラズマインゴット",
+    "zh": "电浆铸铁"
+  },
+  "WEAPON_NAME_30140404": {
+    "en": "Abandoned Roar",
+    "ja": "轟雷の魔剣",
+    "zh": "轰雷魔剑"
+  },
+  "WEAPON_NAME_30140405": {
+    "en": "Lightbringer",
+    "ja": "ライトブリンガー",
+    "zh": "光明使者"
+  },
+  "WEAPON_NAME_30140406": {
+    "en": "Radiant Subjugation",
+    "ja": "光輝の邪剣",
+    "zh": "光辉邪剑"
+  },
+  "WEAPON_NAME_30140407": {
+    "en": "Death Flash",
+    "ja": "刹那に屠るもの",
+    "zh": "绝命之刹"
+  },
+  "WEAPON_NAME_30140408": {
+    "en": "Shimmering Lighttail",
+    "ja": "シャイニーグリムテイル",
+    "zh": "闪光冷尾剑"
+  },
+  "WEAPON_NAME_30140501": {
+    "en": "Dark Dementia",
+    "ja": "狂乱の黒剣",
+    "zh": "狂乱黑剑"
+  },
+  "WEAPON_NAME_30140502": {
+    "en": "Doomfang",
+    "ja": "呪滅の魔剣",
+    "zh": "咒灭魔剑"
+  },
+  "WEAPON_NAME_30140503": {
+    "en": "Darkness Ingot",
+    "ja": "ダークネスインゴット",
+    "zh": "黑暗铸铁"
+  },
+  "WEAPON_NAME_30140504": {
+    "en": "Darkbringer",
+    "ja": "ダークブリンガー",
+    "zh": "黑暗使者"
+  },
+  "WEAPON_NAME_30140505": {
+    "en": "Prevailing Malice",
+    "ja": "悪意に満ちるもの",
+    "zh": "恶贯满盈"
+  },
+  "WEAPON_NAME_30140506": {
+    "en": "Filthy Shadowtail",
+    "ja": "ダーティバッドテイル",
+    "zh": "污秽邪尾剑"
+  },
+  "WEAPON_NAME_30149901": {
+    "en": "Knights' Grace",
+    "ja": "騎士長の麗剣",
+    "zh": "骑士长丽剑"
+  },
+  "WEAPON_NAME_30149902": {
+    "en": "Blade of Glory",
+    "ja": "グロリアスソード",
+    "zh": "荣耀之剑"
+  },
+  "WEAPON_NAME_30149903": {
+    "en": "Gilda Sword",
+    "ja": "ギルダソード",
+    "zh": "吉尔达之剑"
+  },
+  "WEAPON_NAME_30149904": {
+    "en": "Wind Apogee",
+    "ja": "グレイテストウイング",
+    "zh": "无上锐翼"
+  },
+  "WEAPON_NAME_30149905": {
+    "en": "Judge of Souls",
+    "ja": "ジャッジオブソウル",
+    "zh": "夺魂裁决"
+  },
+  "WEAPON_NAME_30149906": {
+    "en": "Seascale",
+    "ja": "統剣スケイル",
+    "zh": "统剑斯凯尔"
+  },
+  "WEAPON_NAME_30149907": {
+    "en": "Gracebringer",
+    "ja": "クロムブリンガー",
+    "zh": "银灰使者"
+  },
+  "WEAPON_NAME_30149908": {
+    "en": "Cryptid Sword",
+    "ja": "幻獣の剣",
+    "zh": "幻兽之剑"
+  },
+  "WEAPON_NAME_30149909": {
+    "en": "Scorn Bringer",
+    "ja": "嘲り刈るもの",
+    "zh": "收割之嘲"
+  },
+  "WEAPON_NAME_30149910": {
+    "en": "Fiercetail",
+    "ja": "フィアステイル",
+    "zh": "凶残之尾"
+  },
+  "WEAPON_NAME_30150101": {
+    "en": "Levatein",
+    "ja": "レーヴァテイン",
+    "zh": "雷瓦汀"
+  },
+  "WEAPON_NAME_30150102": {
+    "en": "Inferno Apogee",
+    "ja": "グレイテストインフェルノ",
+    "zh": "无上业火"
+  },
+  "WEAPON_NAME_30150103": {
+    "en": "Blazing Judgment",
+    "ja": "ジャッジオブヘルフレア",
+    "zh": "地狱火之审判"
+  },
+  "WEAPON_NAME_30150107": {
+    "en": "Crimson",
+    "ja": "緋竜剣クリムゾン",
+    "zh": "绯龙剑绯红"
+  },
+  "WEAPON_NAME_30150108": {
+    "en": "Absolute Crimson",
+    "ja": "緋竜剣クリムゾン・ゼロ",
+    "zh": "绯龙剑绯红·零"
+  },
+  "WEAPON_NAME_30150109": {
+    "en": "Flaming Savagetail",
+    "ja": "フレイムサベージテイル",
+    "zh": "烈焰残暴之尾"
+  },
+  "WEAPON_NAME_30150110": {
+    "en": "Sword of Surging Flame",
+    "ja": "狂翔炎舞の邪剣",
+    "zh": "狂翔炎舞邪剑"
+  },
+  "WEAPON_NAME_30150111": {
+    "en": "Chimeratech Officer",
+    "ja": "キメラテックオフィサー",
+    "zh": "奇美拉将校之剑"
+  },
+  "WEAPON_NAME_30150112": {
+    "en": "Chimeratech Commander",
+    "ja": "キメラテックジェネラル",
+    "zh": "奇美拉统帅之剑"
+  },
+  "WEAPON_NAME_30150113": {
+    "en": "Rathalos Firesword",
+    "ja": "炎剣リオレウス",
+    "zh": "火龙大剑"
+  },
+  "WEAPON_NAME_30150202": {
+    "en": "Eoantide",
+    "ja": "原初の白波",
+    "zh": "原初白浪"
+  },
+  "WEAPON_NAME_30150203": {
+    "en": "Judge of Oceans",
+    "ja": "ジャッジオブオーシャン",
+    "zh": "大洋裁决"
+  },
+  "WEAPON_NAME_30150204": {
+    "en": "Icy Absolution",
+    "ja": "絶氷結剣アブソリュート",
+    "zh": "绝对寒冰剑"
+  },
+  "WEAPON_NAME_30150208": {
+    "en": "Aqua",
+    "ja": "青竜剣アクア",
+    "zh": "青龙剑沧海"
+  },
+  "WEAPON_NAME_30150209": {
+    "en": "Absolute Aqua",
+    "ja": "青竜剣アクア・ゼロ",
+    "zh": "青龙剑沧海·零"
+  },
+  "WEAPON_NAME_30150210": {
+    "en": "Raging Aquatail",
+    "ja": "レイジングアクアテイル",
+    "zh": "暴怒大洋之尾"
+  },
+  "WEAPON_NAME_30150301": {
+    "en": "Durandal",
+    "ja": "デュランダル",
+    "zh": "杜朗达尔"
+  },
+  "WEAPON_NAME_30150302": {
+    "en": "Hurricane Apogee",
+    "ja": "グレイテストハリケーン",
+    "zh": "无上飓风"
+  },
+  "WEAPON_NAME_30150303": {
+    "en": "Roaring Weald",
+    "ja": "轟疾迅剣ウィールド",
+    "zh": "轰疾迅剑威尔德"
+  },
+  "WEAPON_NAME_30150307": {
+    "en": "Tempest",
+    "ja": "碧竜剣テンペスト",
+    "zh": "碧龙剑风暴"
+  },
+  "WEAPON_NAME_30150308": {
+    "en": "Absolute Tempest",
+    "ja": "碧竜剣テンペスト・ゼロ",
+    "zh": "碧龙剑风暴·零"
+  },
+  "WEAPON_NAME_30150309": {
+    "en": "Slaughtering Stormtail",
+    "ja": "クルーエルブロウテイル",
+    "zh": "残暴狂风之尾"
+  },
+  "WEAPON_NAME_30150401": {
+    "en": "Zex's End",
+    "ja": "エンド・オブ・ゼクス",
+    "zh": "赛克斯的终焉"
+  },
+  "WEAPON_NAME_30150402": {
+    "en": "Aureole Apogee",
+    "ja": "グレイテストオリオール",
+    "zh": "无上圣耀"
+  },
+  "WEAPON_NAME_30150403": {
+    "en": "Fólkvangr",
+    "ja": "フォルクヴァング",
+    "zh": "弗尔克范格"
+  },
+  "WEAPON_NAME_30150404": {
+    "en": "Glintbringer",
+    "ja": "グリントブリンガー",
+    "zh": "光耀使者"
+  },
+  "WEAPON_NAME_30150407": {
+    "en": "Radiant Dominion",
+    "ja": "覇極光輝の邪剣",
+    "zh": "霸极光辉邪剑"
+  },
+  "WEAPON_NAME_30150408": {
+    "en": "Death Aeon",
+    "ja": "永劫に果てるもの",
+    "zh": "永劫之极"
+  },
+  "WEAPON_NAME_30150410": {
+    "en": "Lightning",
+    "ja": "輝竜剣ライトニング",
+    "zh": "辉龙剑雷霆"
+  },
+  "WEAPON_NAME_30150411": {
+    "en": "Absolute Lightning",
+    "ja": "輝竜剣ライトニング・ゼロ",
+    "zh": "辉龙剑雷霆·零"
+  },
+  "WEAPON_NAME_30150412": {
+    "en": "Radiant Lighttail",
+    "ja": "ブライトグリムテイル",
+    "zh": "光辉冷尾剑"
+  },
+  "WEAPON_NAME_30150501": {
+    "en": "Dáinsleif",
+    "ja": "ダインスレイブ",
+    "zh": "戴因斯莱夫"
+  },
+  "WEAPON_NAME_30150502": {
+    "en": "Abyssbringer",
+    "ja": "アビスブリンガー",
+    "zh": "深渊使者"
+  },
+  "WEAPON_NAME_30150503": {
+    "en": "Hex",
+    "ja": "闇竜剣カース",
+    "zh": "暗龙剑诅咒"
+  },
+  "WEAPON_NAME_30150504": {
+    "en": "Absolute Hex",
+    "ja": "闇竜剣カース・ゼロ",
+    "zh": "暗龙剑诅咒·零"
+  },
+  "WEAPON_NAME_30150508": {
+    "en": "Prevailing Evil",
+    "ja": "邪悪に堕とすもの",
+    "zh": "堕入邪恶"
+  },
+  "WEAPON_NAME_30150509": {
+    "en": "Virulent Shadowtail",
+    "ja": "マリシャスバッドテイル",
+    "zh": "恶毒邪尾剑"
+  },
+  "WEAPON_NAME_30159901": {
+    "en": "Hero's Sword",
+    "ja": "英雄の剣",
+    "zh": "英雄之剑"
+  },
+  "WEAPON_NAME_30159902": {
+    "en": "Hauteclaire",
+    "ja": "オートクレール",
+    "zh": "奥托克莱尔"
+  },
+  "WEAPON_NAME_30159903": {
+    "en": "Gram",
+    "ja": "グラム",
+    "zh": "格拉墨"
+  },
+  "WEAPON_NAME_30159904": {
+    "en": "Lucky Hanetsuki Paddle",
+    "ja": "福招きの羽子板",
+    "zh": "招福羽子板"
+  },
+  "WEAPON_NAME_30159905": {
+    "en": "Mega Sword",
+    "ja": "ロックソード",
+    "zh": "洛克剑"
+  },
+  "WEAPON_NAME_30159906": {
+    "en": "Triumphal Breamblade",
+    "ja": "必勝祈願の目出鯛剣",
+    "zh": "必胜祈愿喜庆鲷剑"
+  },
+  "WEAPON_NAME_30159907": {
+    "en": "Fatalis Sword",
+    "ja": "ミラブレイド",
+    "zh": "黑龙大剑"
+  },
+  "WEAPON_NAME_30160101": {
+    "en": "Nothung",
+    "ja": "ノートゥング",
+    "zh": "诺顿克"
+  },
+  "WEAPON_NAME_30219901": {
+    "en": "Battleworn Blade",
+    "ja": "使い古された刀",
+    "zh": "老旧的刀"
+  },
+  "WEAPON_NAME_30229901": {
+    "en": "Striker",
+    "ja": "打刀",
+    "zh": "打刀"
+  },
+  "WEAPON_NAME_30230101": {
+    "en": "Valkaheim Blade",
+    "ja": "バルカブレード",
+    "zh": "巴尔加之刃"
+  },
+  "WEAPON_NAME_30230102": {
+    "en": "Crimson Steel",
+    "ja": "朱鋼丸",
+    "zh": "朱钢丸"
+  },
+  "WEAPON_NAME_30230104": {
+    "en": "Balefire Blade",
+    "ja": "妖焔刀・燎火",
+    "zh": "妖焰刀·燎火"
+  },
+  "WEAPON_NAME_30230105": {
+    "en": "Suncutter",
+    "ja": "ヒノキリ",
+    "zh": "火烈刀"
+  },
+  "WEAPON_NAME_30230201": {
+    "en": "Alighting Butterfly",
+    "ja": "花蝶村雨",
+    "zh": "花蝶村雨"
+  },
+  "WEAPON_NAME_30230202": {
+    "en": "Azure Obsidian",
+    "ja": "蒼曜丸",
+    "zh": "苍曜丸"
+  },
+  "WEAPON_NAME_30230204": {
+    "en": "Wavecutter",
+    "ja": "ナミキリ",
+    "zh": "斩浪刀"
+  },
+  "WEAPON_NAME_30230205": {
+    "en": "Quietude",
+    "ja": "妖氷刀・白雪",
+    "zh": "妖冰刀·白雪"
+  },
+  "WEAPON_NAME_30230302": {
+    "en": "Dragon Commander",
+    "ja": "竜将刀",
+    "zh": "龙将刀"
+  },
+  "WEAPON_NAME_30230303": {
+    "en": "Verdantbreeze Cutter",
+    "ja": "翠琥丸",
+    "zh": "翠琥丸"
+  },
+  "WEAPON_NAME_30230304": {
+    "en": "Windcutter",
+    "ja": "カザキリ",
+    "zh": "踏风刀"
+  },
+  "WEAPON_NAME_30230305": {
+    "en": "Ignorant Sting",
+    "ja": "妖旋刀・風雲",
+    "zh": "妖旋刀·风云"
+  },
+  "WEAPON_NAME_30230401": {
+    "en": "Chanzelian Blade",
+    "ja": "シャンゼリアブレード",
+    "zh": "香榭利亚之刃"
+  },
+  "WEAPON_NAME_30230402": {
+    "en": "Obsidian Alabaster",
+    "ja": "白曜丸",
+    "zh": "白曜丸"
+  },
+  "WEAPON_NAME_30230403": {
+    "en": "Glowcutter",
+    "ja": "ミツキリ",
+    "zh": "驰光刀"
+  },
+  "WEAPON_NAME_30230501": {
+    "en": "Sanguine Rain",
+    "ja": "妖刀血雨",
+    "zh": "妖刀血雨"
+  },
+  "WEAPON_NAME_30230502": {
+    "en": "Resentment",
+    "ja": "妖魔刀・怨嗟",
+    "zh": "妖魔刀·怨嗟"
+  },
+  "WEAPON_NAME_30230503": {
+    "en": "Shadowcutter",
+    "ja": "カゲキリ",
+    "zh": "斩影刀"
+  },
+  "WEAPON_NAME_30230504": {
+    "en": "Darkthirst",
+    "ja": "涅曜丸",
+    "zh": "涅曜丸"
+  },
+  "WEAPON_NAME_30239901": {
+    "en": "Subjugator",
+    "ja": "討伐刀",
+    "zh": "讨伐刀"
+  },
+  "WEAPON_NAME_30239902": {
+    "en": "High Shamshir",
+    "ja": "ロードシャムシール",
+    "zh": "舍施尔弯刀"
+  },
+  "WEAPON_NAME_30239903": {
+    "en": "Fusion Blade",
+    "ja": "ネクストブレード",
+    "zh": "次世代之刃"
+  },
+  "WEAPON_NAME_30239904": {
+    "en": "Goliath Splitter",
+    "ja": "鋼丸",
+    "zh": "钢丸"
+  },
+  "WEAPON_NAME_30239905": {
+    "en": "Rest Eternal",
+    "ja": "妖刀・幽",
+    "zh": "妖刀·幽"
+  },
+  "WEAPON_NAME_30239907": {
+    "en": "Fiendcutter",
+    "ja": "マガリキリ",
+    "zh": "反曲刀"
+  },
+  "WEAPON_NAME_30240101": {
+    "en": "Flametongue",
+    "ja": "緋炎刀",
+    "zh": "绯炎刀"
+  },
+  "WEAPON_NAME_30240102": {
+    "en": "Blazing Steel",
+    "ja": "真打・紅焔鋼丸",
+    "zh": "终极·红焰钢丸"
+  },
+  "WEAPON_NAME_30240103": {
+    "en": "Scorching Edge",
+    "ja": "烈斬刀・劫火",
+    "zh": "烈斩刀·劫火"
+  },
+  "WEAPON_NAME_30240105": {
+    "en": "Hellfire Judgment",
+    "ja": "火刃・獄炎丸",
+    "zh": "火刃·狱炎丸"
+  },
+  "WEAPON_NAME_30240106": {
+    "en": "Balefire Votive",
+    "ja": "妖焔刀・燎火燈明",
+    "zh": "妖焰刀·燎火灯明"
+  },
+  "WEAPON_NAME_30240107": {
+    "en": "Starcutter",
+    "ja": "エンノヒノキリ",
+    "zh": "炎烈刀"
+  },
+  "WEAPON_NAME_30240108": {
+    "en": "Direblade Kagachi",
+    "ja": "マガツカガチ",
+    "zh": "灾祸之蛇"
+  },
+  "WEAPON_NAME_30240109": {
+    "en": "Burning Blade",
+    "ja": "バーニングブレード",
+    "zh": "灼烧之刃"
+  },
+  "WEAPON_NAME_30240202": {
+    "en": "Sousui",
+    "ja": "蒼水刀",
+    "zh": "苍水刀"
+  },
+  "WEAPON_NAME_30240203": {
+    "en": "Obsidian Waterfall",
+    "ja": "真打・瀑流曜丸",
+    "zh": "终极·瀑流曜丸"
+  },
+  "WEAPON_NAME_30240204": {
+    "en": "Highwater Blade",
+    "ja": "水刃・波濤丸",
+    "zh": "水刃·波涛丸"
+  },
+  "WEAPON_NAME_30240206": {
+    "en": "Spumecutter",
+    "ja": "アワノナミキリ",
+    "zh": "波涛斩浪刀"
+  },
+  "WEAPON_NAME_30240207": {
+    "en": "Seaspray Blade",
+    "ja": "水華一閃",
+    "zh": "水华一闪"
+  },
+  "WEAPON_NAME_30240208": {
+    "en": "Crystalline Quietude",
+    "ja": "妖氷刀・絶晶白雪",
+    "zh": "妖冰刀·绝晶白雪"
+  },
+  "WEAPON_NAME_30240209": {
+    "en": "Direblade Mizuha",
+    "ja": "マガツミズハ",
+    "zh": "灾祸罔象"
+  },
+  "WEAPON_NAME_30240301": {
+    "en": "Tempest Blade",
+    "ja": "テンペストブレード",
+    "zh": "暴风之刃"
+  },
+  "WEAPON_NAME_30240302": {
+    "en": "Tempestrage",
+    "ja": "烈斬刀・颶風",
+    "zh": "烈斩刀·飓风"
+  },
+  "WEAPON_NAME_30240303": {
+    "en": "Verdurewind Cutter",
+    "ja": "真打・翠嵐琥丸",
+    "zh": "终极·翠岚琥丸"
+  },
+  "WEAPON_NAME_30240304": {
+    "en": "Skycutter",
+    "ja": "ソラノカザキリ",
+    "zh": "晴空踏风刀"
+  },
+  "WEAPON_NAME_30240305": {
+    "en": "Ignorant Bite",
+    "ja": "妖旋刀・雲竜風虎",
+    "zh": "妖旋刀·云龙风虎"
+  },
+  "WEAPON_NAME_30240306": {
+    "en": "Galeflash",
+    "ja": "風陣一閃",
+    "zh": "风阵一闪"
+  },
+  "WEAPON_NAME_30240307": {
+    "en": "Direblade Hayate",
+    "ja": "マガツハヤテ",
+    "zh": "灾祸疾风"
+  },
+  "WEAPON_NAME_30240402": {
+    "en": "Thunderfang",
+    "ja": "纏雷斬蛇刀",
+    "zh": "缠雷斩蛇刀"
+  },
+  "WEAPON_NAME_30240403": {
+    "en": "Thunderous Edge",
+    "ja": "烈斬刀・轟雷",
+    "zh": "烈斩刀·轰雷"
+  },
+  "WEAPON_NAME_30240404": {
+    "en": "Obsidian Scintillation",
+    "ja": "真打・天光曜丸",
+    "zh": "终极·天光曜丸"
+  },
+  "WEAPON_NAME_30240405": {
+    "en": "Glorycutter",
+    "ja": "アマノミツキリ",
+    "zh": "御天驰光刀"
+  },
+  "WEAPON_NAME_30240406": {
+    "en": "Glamsheen",
+    "ja": "明刀・光輝",
+    "zh": "明刀·光辉"
+  },
+  "WEAPON_NAME_30240407": {
+    "en": "Luminous Blade",
+    "ja": "シャイニングブレード",
+    "zh": "闪耀之刃"
+  },
+  "WEAPON_NAME_30240408": {
+    "en": "Hollow Creation",
+    "ja": "ホロウ・ザ・シャイニング",
+    "zh": "虚无之光"
+  },
+  "WEAPON_NAME_30240409": {
+    "en": "Direblade Nozuchi",
+    "ja": "マガツノヅチ",
+    "zh": "灾祸野槌"
+  },
+  "WEAPON_NAME_30240501": {
+    "en": "Ghizlam's Darkblade",
+    "ja": "闇刀ジズラム",
+    "zh": "暗刀齐兹拉姆"
+  },
+  "WEAPON_NAME_30240502": {
+    "en": "Unwelcome Meeting",
+    "ja": "妖魔刀・怨憎会苦",
+    "zh": "妖魔刀·怨憎会苦"
+  },
+  "WEAPON_NAME_30240503": {
+    "en": "Gloomcutter",
+    "ja": "ヤミノカゲキリ",
+    "zh": "暗黑斩影刀"
+  },
+  "WEAPON_NAME_30240504": {
+    "en": "Dreadthirst",
+    "ja": "真打・地禍曜丸",
+    "zh": "终极·地祸曜丸"
+  },
+  "WEAPON_NAME_30240505": {
+    "en": "Twilight Ripper",
+    "ja": "暗刀・宵闇",
+    "zh": "暗刀·宵暗"
+  },
+  "WEAPON_NAME_30240506": {
+    "en": "Hollow Twilight",
+    "ja": "ホロウ・ザ・トワイライト",
+    "zh": "虚无暮光"
+  },
+  "WEAPON_NAME_30240507": {
+    "en": "Direblade Yomotsu",
+    "ja": "マガツヨモツ",
+    "zh": "灾祸黄泉"
+  },
+  "WEAPON_NAME_30249901": {
+    "en": "Guardian Seal",
+    "ja": "鎮守刀",
+    "zh": "镇守刀"
+  },
+  "WEAPON_NAME_30249902": {
+    "en": "Iron Blade",
+    "ja": "クロガネブレード",
+    "zh": "黑钢之刃"
+  },
+  "WEAPON_NAME_30249903": {
+    "en": "Masamura's Pride",
+    "ja": "機構刀サマラム",
+    "zh": "机械刀正村"
+  },
+  "WEAPON_NAME_30249904": {
+    "en": "Bladewing",
+    "ja": "斬刀・虚",
+    "zh": "斩刀·虚"
+  },
+  "WEAPON_NAME_30249905": {
+    "en": "Wildhaze",
+    "ja": "荒刃・朧",
+    "zh": "荒刃·胧"
+  },
+  "WEAPON_NAME_30249906": {
+    "en": "Flash of the Hollow",
+    "ja": "虚一閃",
+    "zh": "虚一闪"
+  },
+  "WEAPON_NAME_30249907": {
+    "en": "Mist Blade",
+    "ja": "麗刀・霞",
+    "zh": "丽刀·霞"
+  },
+  "WEAPON_NAME_30249908": {
+    "en": "Dimension Edge",
+    "ja": "ディメンションブレード",
+    "zh": "维度之刃"
+  },
+  "WEAPON_NAME_30249909": {
+    "en": "Hollow Beginning",
+    "ja": "ホロウ・ザ・ビギニング",
+    "zh": "虚无之始"
+  },
+  "WEAPON_NAME_30249910": {
+    "en": "Direblade Mugatachi",
+    "ja": "マガツムガタチ",
+    "zh": "灾祸无形"
+  },
+  "WEAPON_NAME_30250101": {
+    "en": "Heaven's Acuity",
+    "ja": "天之尾羽張",
+    "zh": "天之尾羽张"
+  },
+  "WEAPON_NAME_30250102": {
+    "en": "Skyrender",
+    "ja": "烈斬刀・天変劫火",
+    "zh": "烈斩刀·天变劫火"
+  },
+  "WEAPON_NAME_30250103": {
+    "en": "Ogreslayer Judgment",
+    "ja": "焔刃・鬼切獄炎",
+    "zh": "焰刃·鬼切狱炎"
+  },
+  "WEAPON_NAME_30250104": {
+    "en": "Conflagration",
+    "ja": "緋刀・豪炎",
+    "zh": "绯刀·豪炎"
+  },
+  "WEAPON_NAME_30250105": {
+    "en": "Blinding Conflagration",
+    "ja": "緋刀・豪炎赫火",
+    "zh": "绯刀·豪炎赫火"
+  },
+  "WEAPON_NAME_30250106": {
+    "en": "Great Direblade Kagachi",
+    "ja": "マガツナガカガチ",
+    "zh": "灾祸长蛇"
+  },
+  "WEAPON_NAME_30250107": {
+    "en": "Liquefaction Blade",
+    "ja": "アーデントブレード",
+    "zh": "炽热之刃"
+  },
+  "WEAPON_NAME_30250108": {
+    "en": "Chimeratech Knight",
+    "ja": "キメラテックナイト",
+    "zh": "奇美拉骑士之刀"
+  },
+  "WEAPON_NAME_30250109": {
+    "en": "Chimeratech Lord",
+    "ja": "キメラテックロード",
+    "zh": "奇美拉领主之刀"
+  },
+  "WEAPON_NAME_30250110": {
+    "en": "Wyvern Blade \"Maple\"",
+    "ja": "飛竜刀【楓】",
+    "zh": "飞龙刀【枫】"
+  },
+  "WEAPON_NAME_30250201": {
+    "en": "Maar Oasis",
+    "ja": "マールオアシス",
+    "zh": "火口绿洲"
+  },
+  "WEAPON_NAME_30250202": {
+    "en": "Highwater Slicer",
+    "ja": "浪刃・波濤一文字",
+    "zh": "浪刃·波涛一文字"
+  },
+  "WEAPON_NAME_30250203": {
+    "en": "Seaspout Blade",
+    "ja": "豪流・水華一閃",
+    "zh": "豪流·水华一闪"
+  },
+  "WEAPON_NAME_30250204": {
+    "en": "Torrent",
+    "ja": "青刀・怒涛",
+    "zh": "青刀·怒涛"
+  },
+  "WEAPON_NAME_30250205": {
+    "en": "Ruinous Torrent",
+    "ja": "青刀・怒涛奔流",
+    "zh": "青刀·怒涛奔流"
+  },
+  "WEAPON_NAME_30250206": {
+    "en": "Dark Direblade Mizuha",
+    "ja": "マガツクラミズハ",
+    "zh": "灾祸暗罔象"
+  },
+  "WEAPON_NAME_30250301": {
+    "en": "Anemone",
+    "ja": "淡紫刀アネモネ",
+    "zh": "淡紫刀银莲"
+  },
+  "WEAPON_NAME_30250302": {
+    "en": "Heavenrend",
+    "ja": "烈斬刀・颶風断空",
+    "zh": "烈斩刀·飓风断空"
+  },
+  "WEAPON_NAME_30250303": {
+    "en": "Stormsquall Crash",
+    "ja": "大颯・風陣一閃",
+    "zh": "大飒·风阵一闪"
+  },
+  "WEAPON_NAME_30250304": {
+    "en": "Horizon",
+    "ja": "碧刀・天涯",
+    "zh": "碧刀·天涯"
+  },
+  "WEAPON_NAME_30250305": {
+    "en": "Endless Horizon",
+    "ja": "碧刀・天涯無窮",
+    "zh": "碧刀·天涯无穷"
+  },
+  "WEAPON_NAME_30250306": {
+    "en": "Swift Direblade Hayate",
+    "ja": "マガツハヤツムジ",
+    "zh": "灾祸飓风"
+  },
+  "WEAPON_NAME_30250401": {
+    "en": "Heavenwing",
+    "ja": "天の翼刀",
+    "zh": "天翼之刀"
+  },
+  "WEAPON_NAME_30250402": {
+    "en": "Primal Thunder",
+    "ja": "烈斬刀・轟雷創世",
+    "zh": "烈斩刀·轰雷创世"
+  },
+  "WEAPON_NAME_30250403": {
+    "en": "Brightsheen",
+    "ja": "煌刀・明白天",
+    "zh": "煌刀·明白天"
+  },
+  "WEAPON_NAME_30250404": {
+    "en": "Flash",
+    "ja": "輝刀・閃光",
+    "zh": "辉刀·闪光"
+  },
+  "WEAPON_NAME_30250405": {
+    "en": "Brilliant Flash",
+    "ja": "輝刀・閃光玲瓏",
+    "zh": "辉刀·闪光玲珑"
+  },
+  "WEAPON_NAME_30250406": {
+    "en": "Radiant Blade",
+    "ja": "レディアントブレード",
+    "zh": "光辉之刃"
+  },
+  "WEAPON_NAME_30250407": {
+    "en": "Hollow Lightning",
+    "ja": "ホロウ・ザ・ライトニング",
+    "zh": "虚无之闪"
+  },
+  "WEAPON_NAME_30250408": {
+    "en": "Shining Direblade Nozuchi",
+    "ja": "マガツナリノヅチ",
+    "zh": "灾祸鸣野槌"
+  },
+  "WEAPON_NAME_30250501": {
+    "en": "Blackwing",
+    "ja": "黒翼の呪刀",
+    "zh": "黑翼咒刃"
+  },
+  "WEAPON_NAME_30250502": {
+    "en": "Nightsky Ripper",
+    "ja": "冥刀・夜黒天",
+    "zh": "冥刀·夜黑天"
+  },
+  "WEAPON_NAME_30250503": {
+    "en": "Abyss",
+    "ja": "闇刀・無明",
+    "zh": "暗刀·无明"
+  },
+  "WEAPON_NAME_30250504": {
+    "en": "True Abyss",
+    "ja": "闇刀・無明奈落",
+    "zh": "暗刀·无明地狱"
+  },
+  "WEAPON_NAME_30250505": {
+    "en": "Hollow Nightmare",
+    "ja": "ホロウ・ザ・ナイトメア",
+    "zh": "虚无梦魇"
+  },
+  "WEAPON_NAME_30250506": {
+    "en": "Grim Direblade Yomotsu",
+    "ja": "マガツタマヨモツ",
+    "zh": "灾祸魂黄泉"
+  },
+  "WEAPON_NAME_30259901": {
+    "en": "Dane's Favor",
+    "ja": "覇王号",
+    "zh": "霸王号"
+  },
+  "WEAPON_NAME_30259902": {
+    "en": "Crimson Shade",
+    "ja": "夜叉影光",
+    "zh": "夜叉影光"
+  },
+  "WEAPON_NAME_30259903": {
+    "en": "Souleater",
+    "ja": "魂喰虎鉄",
+    "zh": "魂喰虎铁"
+  },
+  "WEAPON_NAME_30259904": {
+    "en": "Villagelight",
+    "ja": "ヴィレッジライト",
+    "zh": "村正"
+  },
+  "WEAPON_NAME_30259905": {
+    "en": "Mega Blade",
+    "ja": "ロックブレード",
+    "zh": "洛克刀"
+  },
+  "WEAPON_NAME_30259906": {
+    "en": "Evilsbane Kadomatsu",
+    "ja": "厄除消除の門松刀",
+    "zh": "消灾除厄门松之刀"
+  },
+  "WEAPON_NAME_30259907": {
+    "en": "Fatalis Xiphos",
+    "ja": "ミラクスィフォス",
+    "zh": "黑龙刀"
+  },
+  "WEAPON_NAME_30260101": {
+    "en": "Tyrfing",
+    "ja": "ティルヴィング",
+    "zh": "提尔锋"
+  },
+  "WEAPON_NAME_30319901": {
+    "en": "Battleworn Dagger",
+    "ja": "使い古された短剣",
+    "zh": "老旧的短剑"
+  },
+  "WEAPON_NAME_30329902": {
+    "en": "Thief's Dagger",
+    "ja": "シーフズダガー",
+    "zh": "盗贼匕首"
+  },
+  "WEAPON_NAME_30330101": {
+    "en": "Cruel Kukri",
+    "ja": "クルーエルククリ",
+    "zh": "无情反曲刀"
+  },
+  "WEAPON_NAME_30330102": {
+    "en": "Flaming Fungi Dagger",
+    "ja": "アチアチキノコの短剣",
+    "zh": "灼热蘑菇短剑"
+  },
+  "WEAPON_NAME_30330103": {
+    "en": "Flaming Big Boy",
+    "ja": "フレイムへヴィ",
+    "zh": "火焰重刃"
+  },
+  "WEAPON_NAME_30330104": {
+    "en": "Ruby Dagger",
+    "ja": "炎石のナイフ",
+    "zh": "炎石之刃"
+  },
+  "WEAPON_NAME_30330201": {
+    "en": "Water Dagger",
+    "ja": "ウォーターダガー",
+    "zh": "水之短剑"
+  },
+  "WEAPON_NAME_30330202": {
+    "en": "Chilly Crimini Dagger",
+    "ja": "ヒエヒエキノコの短剣",
+    "zh": "冰冷蘑菇短剑"
+  },
+  "WEAPON_NAME_30330203": {
+    "en": "Splashing Big Boy",
+    "ja": "アクアヘヴィ",
+    "zh": "水之重刃"
+  },
+  "WEAPON_NAME_30330204": {
+    "en": "Sapphire Dagger",
+    "ja": "海石のナイフ",
+    "zh": "海石之刃"
+  },
+  "WEAPON_NAME_30330301": {
+    "en": "Stormspawn",
+    "ja": "嵐の落とし子",
+    "zh": "风暴之子"
+  },
+  "WEAPON_NAME_30330302": {
+    "en": "Blustery Button Dagger",
+    "ja": "ビュウビュウキノコの短剣",
+    "zh": "呼啸蘑菇短剑"
+  },
+  "WEAPON_NAME_30330303": {
+    "en": "Breezy Big Boy",
+    "ja": "ブラストヘヴィ",
+    "zh": "烈风重刃"
+  },
+  "WEAPON_NAME_30330304": {
+    "en": "Emerald Dagger",
+    "ja": "風石のナイフ",
+    "zh": "风石之刃"
+  },
+  "WEAPON_NAME_30330401": {
+    "en": "Conscience",
+    "ja": "心ある懐剣",
+    "zh": "含心怀刀"
+  },
+  "WEAPON_NAME_30330402": {
+    "en": "Dazzling Big Boy",
+    "ja": "スターライトヘヴィ",
+    "zh": "星光重刃"
+  },
+  "WEAPON_NAME_30330403": {
+    "en": "Radiant Bolete Dagger",
+    "ja": "キラキラキノコの短剣",
+    "zh": "耀眼蘑菇短剑"
+  },
+  "WEAPON_NAME_30330404": {
+    "en": "Opal Dagger",
+    "ja": "輝石のナイフ",
+    "zh": "辉石之刃"
+  },
+  "WEAPON_NAME_30330501": {
+    "en": "Assassin's Knife",
+    "ja": "アサシンナイフ",
+    "zh": "暗杀之刃"
+  },
+  "WEAPON_NAME_30330502": {
+    "en": "Jet Dagger",
+    "ja": "昏石のナイフ",
+    "zh": "昏玉之刃"
+  },
+  "WEAPON_NAME_30330503": {
+    "en": "Murky Big Boy",
+    "ja": "ノクターンへヴィ",
+    "zh": "夜想曲重刃"
+  },
+  "WEAPON_NAME_30330504": {
+    "en": "Wicked Webcap Dagger",
+    "ja": "イタイタキノコの短剣",
+    "zh": "疼痛蘑菇短剑"
+  },
+  "WEAPON_NAME_30339901": {
+    "en": "Bejeweled Dagger",
+    "ja": "宝飾の短剣",
+    "zh": "宝饰短剑"
+  },
+  "WEAPON_NAME_30339902": {
+    "en": "Gear Knife",
+    "ja": "ギアーズナイフ",
+    "zh": "齿轮短剑"
+  },
+  "WEAPON_NAME_30339903": {
+    "en": "Lover's Ally",
+    "ja": "ラブナイフ",
+    "zh": "爱之匕首"
+  },
+  "WEAPON_NAME_30339904": {
+    "en": "Mushroom Dagger",
+    "ja": "キノコの短剣",
+    "zh": "蘑菇短剑"
+  },
+  "WEAPON_NAME_30339905": {
+    "en": "Big Boy",
+    "ja": "ベリーへヴィ",
+    "zh": "重刃"
+  },
+  "WEAPON_NAME_30339906": {
+    "en": "Gemstone Dagger",
+    "ja": "原石のナイフ",
+    "zh": "原石之刃"
+  },
+  "WEAPON_NAME_30340101": {
+    "en": "Scarlet Talon",
+    "ja": "紅蓮の短剣",
+    "zh": "红莲短剑"
+  },
+  "WEAPON_NAME_30340102": {
+    "en": "Sizzling Enoki Dagger",
+    "ja": "ゲキアツキノコの短剣",
+    "zh": "炽热蘑菇短剑"
+  },
+  "WEAPON_NAME_30340103": {
+    "en": "Big Boy of Justice",
+    "ja": "ジャスティスへヴィ",
+    "zh": "正义重刃"
+  },
+  "WEAPON_NAME_30340104": {
+    "en": "Scarlet Pain",
+    "ja": "スカーレットペイン",
+    "zh": "猩红之痛"
+  },
+  "WEAPON_NAME_30340105": {
+    "en": "Flame Sting",
+    "ja": "バーストスティンガー",
+    "zh": "爆裂之刺"
+  },
+  "WEAPON_NAME_30340106": {
+    "en": "Conflagrant Ruby Dagger",
+    "ja": "緋炎石のナイフ",
+    "zh": "绯炎石之刃"
+  },
+  "WEAPON_NAME_30340107": {
+    "en": "Flamesin",
+    "ja": "原罪抱く狂牙",
+    "zh": "原罪狂牙"
+  },
+  "WEAPON_NAME_30340201": {
+    "en": "Ultramarine Knife",
+    "ja": "蒼海の短剣",
+    "zh": "沧海短剑"
+  },
+  "WEAPON_NAME_30340202": {
+    "en": "Chilly Chanterelle Dagger",
+    "ja": "メチャヒエキノコの短剣",
+    "zh": "冰冻蘑菇短剑"
+  },
+  "WEAPON_NAME_30340203": {
+    "en": "Bloodlust",
+    "ja": "血潮啜る狂牙",
+    "zh": "嗜血狂牙"
+  },
+  "WEAPON_NAME_30340204": {
+    "en": "Big Boy of Prudence",
+    "ja": "スプラッシュヘヴィ",
+    "zh": "水花重刃"
+  },
+  "WEAPON_NAME_30340205": {
+    "en": "Frost Sting",
+    "ja": "フロストスティンガー",
+    "zh": "冰霜之刺"
+  },
+  "WEAPON_NAME_30340206": {
+    "en": "Aqueous Sapphire Dagger",
+    "ja": "蒼海石のナイフ",
+    "zh": "苍海石之刃"
+  },
+  "WEAPON_NAME_30340207": {
+    "en": "The Swell",
+    "ja": "アクア・ザ・スライサー",
+    "zh": "水之利刃"
+  },
+  "WEAPON_NAME_30340208": {
+    "en": "Wishing Knife",
+    "ja": "ウィッシングナイフ",
+    "zh": "圣愿之刃"
+  },
+  "WEAPON_NAME_30340301": {
+    "en": "Queensflight",
+    "ja": "古妃の短剣",
+    "zh": "王妃短剑"
+  },
+  "WEAPON_NAME_30340302": {
+    "en": "Stormy Shiitake Dagger",
+    "ja": "ボウフウキノコの短剣",
+    "zh": "暴风蘑菇短剑"
+  },
+  "WEAPON_NAME_30340303": {
+    "en": "Big Boy of Fortitude",
+    "ja": "エアロブリーズヘヴィ",
+    "zh": "穹风重刃"
+  },
+  "WEAPON_NAME_30340304": {
+    "en": "Aero Agony",
+    "ja": "エアリアルペイン",
+    "zh": "真空之痛"
+  },
+  "WEAPON_NAME_30340305": {
+    "en": "Zephyric Emerald Dagger",
+    "ja": "翠風石のナイフ",
+    "zh": "翠风石之刃"
+  },
+  "WEAPON_NAME_30340306": {
+    "en": "The Gust",
+    "ja": "ブロー・ザ・ハッシャー",
+    "zh": "风斩之刃·屠脍者"
+  },
+  "WEAPON_NAME_30340307": {
+    "en": "Whisperfang",
+    "ja": "呪詛囁く狂牙",
+    "zh": "诅咒狂牙"
+  },
+  "WEAPON_NAME_30340401": {
+    "en": "Nightbreaker",
+    "ja": "ナイトメアブレイカー",
+    "zh": "噩梦短剑"
+  },
+  "WEAPON_NAME_30340402": {
+    "en": "Big Boy of Temperance",
+    "ja": "メテオシャワーヘヴィ",
+    "zh": "流星重刃"
+  },
+  "WEAPON_NAME_30340404": {
+    "en": "Luminous Morel Dagger",
+    "ja": "ギンギラキノコの短剣",
+    "zh": "闪耀蘑菇短剑"
+  },
+  "WEAPON_NAME_30340405": {
+    "en": "Lucent Opal Dagger",
+    "ja": "天輝石のナイフ",
+    "zh": "天辉石之刃"
+  },
+  "WEAPON_NAME_30340406": {
+    "en": "Faith Seeker",
+    "ja": "デルタフェザー",
+    "zh": "三角轻羽刃"
+  },
+  "WEAPON_NAME_30340407": {
+    "en": "Restful Claw",
+    "ja": "レストフルクロウ",
+    "zh": "安详之爪"
+  },
+  "WEAPON_NAME_30340408": {
+    "en": "Lifetaker",
+    "ja": "命脈裂く狂牙",
+    "zh": "裂命狂牙刃"
+  },
+  "WEAPON_NAME_30340502": {
+    "en": "Dark Sacrifice",
+    "ja": "カースサクリファイス",
+    "zh": "诅咒献祭"
+  },
+  "WEAPON_NAME_30340504": {
+    "en": "Tenebrous Jet Dagger",
+    "ja": "黒昏石のナイフ",
+    "zh": "黒昏玉之刃"
+  },
+  "WEAPON_NAME_30340505": {
+    "en": "Big Boy of Requiem",
+    "ja": "レクイエムへヴィ",
+    "zh": "镇魂曲重刃"
+  },
+  "WEAPON_NAME_30340506": {
+    "en": "Gloom Seeker",
+    "ja": "デルタグルーム",
+    "zh": "三角阴郁刃"
+  },
+  "WEAPON_NAME_30340507": {
+    "en": "Sinister Skullcap Dagger",
+    "ja": "ズキズキキノコの短剣",
+    "zh": "剧痛蘑菇短剑"
+  },
+  "WEAPON_NAME_30340508": {
+    "en": "Frightening Claw",
+    "ja": "フィアークロウ",
+    "zh": "恐怖利爪"
+  },
+  "WEAPON_NAME_30340509": {
+    "en": "Spiritstealer",
+    "ja": "心気貪る狂牙",
+    "zh": "贪灵狂牙刃"
+  },
+  "WEAPON_NAME_30349901": {
+    "en": "Hardbreaker",
+    "ja": "ハードブレイカー",
+    "zh": "破坏短剑"
+  },
+  "WEAPON_NAME_30349902": {
+    "en": "Wyrmfang",
+    "ja": "竜牙の短剣",
+    "zh": "龙牙短剑"
+  },
+  "WEAPON_NAME_30349903": {
+    "en": "The Dreamer's Greatsword",
+    "ja": "夢想の大剣",
+    "zh": "梦想大剑"
+  },
+  "WEAPON_NAME_30349904": {
+    "en": "Slaughterlust",
+    "ja": "仇屠る狂牙",
+    "zh": "屠仇狂牙"
+  },
+  "WEAPON_NAME_30349905": {
+    "en": "Hellish Sting",
+    "ja": "ヘルスティンガー",
+    "zh": "地狱之刺"
+  },
+  "WEAPON_NAME_30349906": {
+    "en": "Impact Thrust",
+    "ja": "スラストペイン",
+    "zh": "迅捷之痛"
+  },
+  "WEAPON_NAME_30349907": {
+    "en": "The Breeze",
+    "ja": "ネイル・ザ・リーパー",
+    "zh": "利爪之刃"
+  },
+  "WEAPON_NAME_30349908": {
+    "en": "Rapture Seeker",
+    "ja": "デルタラプチャー",
+    "zh": "三角欢悦刃"
+  },
+  "WEAPON_NAME_30349909": {
+    "en": "Spirit Claw",
+    "ja": "スピリットクロウ",
+    "zh": "灵魂之爪"
+  },
+  "WEAPON_NAME_30350102": {
+    "en": "Aeternal Flame",
+    "ja": "久遠の焔",
+    "zh": "久远之焰"
+  },
+  "WEAPON_NAME_30350103": {
+    "en": "Vermillion Pain",
+    "ja": "ヴァーミリオンペイン",
+    "zh": "朱红之痛"
+  },
+  "WEAPON_NAME_30350104": {
+    "en": "Searing Stinger",
+    "ja": "クリムゾンスティンガー",
+    "zh": "绯红之刺"
+  },
+  "WEAPON_NAME_30350105": {
+    "en": "Crimson Fang",
+    "ja": "紅蓮の牙",
+    "zh": "红莲之爪"
+  },
+  "WEAPON_NAME_30350106": {
+    "en": "Flameruler's Maw",
+    "ja": "紅蓮を統べる爪牙",
+    "zh": "统御红莲之利爪"
+  },
+  "WEAPON_NAME_30350107": {
+    "en": "Blazesin",
+    "ja": "大罪纏う狂牙",
+    "zh": "重罪狂牙"
+  },
+  "WEAPON_NAME_30350108": {
+    "en": "Chimeratech Fighter",
+    "ja": "キメラテックファイター",
+    "zh": "奇美拉战士短剑"
+  },
+  "WEAPON_NAME_30350109": {
+    "en": "Chimeratech Elite",
+    "ja": "キメラテックストライカー",
+    "zh": "奇美拉先锋短剑"
+  },
+  "WEAPON_NAME_30350110": {
+    "en": "Blazing Falchion",
+    "ja": "イフリートマロウ",
+    "zh": "炎灵之葵"
+  },
+  "WEAPON_NAME_30350201": {
+    "en": "Lux Lamina",
+    "ja": "ラクスラーミナ",
+    "zh": "湖光之刃"
+  },
+  "WEAPON_NAME_30350202": {
+    "en": "Gorelust",
+    "ja": "鮮血浴びる狂牙",
+    "zh": "浴血狂牙"
+  },
+  "WEAPON_NAME_30350203": {
+    "en": "Frigid Sting",
+    "ja": "フリジッドスティンガー",
+    "zh": "冰冻之刺"
+  },
+  "WEAPON_NAME_30350204": {
+    "en": "The Surge",
+    "ja": "アクア・ザ・スラッシャー",
+    "zh": "水之击刃"
+  },
+  "WEAPON_NAME_30350205": {
+    "en": "Tidal Fang",
+    "ja": "潮流の牙",
+    "zh": "潮汐之爪"
+  },
+  "WEAPON_NAME_30350206": {
+    "en": "Tideruler's Maw",
+    "ja": "潮流を統べる爪牙",
+    "zh": "统御潮汐之利爪"
+  },
+  "WEAPON_NAME_30350301": {
+    "en": "Karlsnautr",
+    "ja": "カールスナウト",
+    "zh": "清风灵剑"
+  },
+  "WEAPON_NAME_30350302": {
+    "en": "Turbulent Agony",
+    "ja": "タービュラントペイン",
+    "zh": "气流之痛"
+  },
+  "WEAPON_NAME_30350303": {
+    "en": "The Gale",
+    "ja": "ブロー・ザ・ブラスター",
+    "zh": "风斩之刃·粉碎者"
+  },
+  "WEAPON_NAME_30350304": {
+    "en": "Mutterfang",
+    "ja": "怨嗟謳う狂牙",
+    "zh": "咒怨狂牙"
+  },
+  "WEAPON_NAME_30350305": {
+    "en": "Galestorm Fang",
+    "ja": "暴風の牙",
+    "zh": "暴风之爪"
+  },
+  "WEAPON_NAME_30350306": {
+    "en": "Windruler's Maw",
+    "ja": "暴風を統べる爪牙",
+    "zh": "统御暴风之利爪"
+  },
+  "WEAPON_NAME_30350401": {
+    "en": "Thunderblade Sugaar",
+    "ja": "雷刃シュガール",
+    "zh": "雷刃修伽尔"
+  },
+  "WEAPON_NAME_30350403": {
+    "en": "Salvation Seeker",
+    "ja": "デルタソアリング",
+    "zh": "三角翱翔刃"
+  },
+  "WEAPON_NAME_30350404": {
+    "en": "Lightning Fang",
+    "ja": "雷雲の牙",
+    "zh": "雷云之爪"
+  },
+  "WEAPON_NAME_30350405": {
+    "en": "Fulminator's Maw",
+    "ja": "雷雲を統べる爪牙",
+    "zh": "统御雷云之利爪"
+  },
+  "WEAPON_NAME_30350406": {
+    "en": "Merciful Claw",
+    "ja": "マーシフルクロウ",
+    "zh": "仁慈之爪"
+  },
+  "WEAPON_NAME_30350407": {
+    "en": "Fatetaker",
+    "ja": "運命砕く狂牙",
+    "zh": "碎命狂牙刃"
+  },
+  "WEAPON_NAME_30350501": {
+    "en": "Honor Edge",
+    "ja": "名誉の紫短剣",
+    "zh": "名誉紫短剑"
+  },
+  "WEAPON_NAME_30350503": {
+    "en": "Death Seeker",
+    "ja": "デルタサクリファイス",
+    "zh": "三角活祭刃"
+  },
+  "WEAPON_NAME_30350504": {
+    "en": "Darkened Fang",
+    "ja": "暗黒の牙",
+    "zh": "暗黑之爪"
+  },
+  "WEAPON_NAME_30350505": {
+    "en": "Shaderuler's Maw",
+    "ja": "暗黒を統べる爪牙",
+    "zh": "统御暗黑之利爪"
+  },
+  "WEAPON_NAME_30350506": {
+    "en": "Terrifying Claw",
+    "ja": "エターナルテラークロウ",
+    "zh": "永惧利爪"
+  },
+  "WEAPON_NAME_30350507": {
+    "en": "Soulstealer",
+    "ja": "御霊喰らう狂牙",
+    "zh": "噬魂狂牙刃"
+  },
+  "WEAPON_NAME_30359901": {
+    "en": "Kris Naga",
+    "ja": "クリスナーガ",
+    "zh": "马来克力士剑"
+  },
+  "WEAPON_NAME_30359902": {
+    "en": "Treasure of the Iron Rose",
+    "ja": "鉄薔薇摘みの宝剣",
+    "zh": "铁蔷薇采摘宝剑"
+  },
+  "WEAPON_NAME_30359903": {
+    "en": "Hedgehog",
+    "ja": "ヘッジホッグ",
+    "zh": "刺猬之刃"
+  },
+  "WEAPON_NAME_30359904": {
+    "en": "Mega Dagger",
+    "ja": "ロックダガー",
+    "zh": "洛克短剑"
+  },
+  "WEAPON_NAME_30359905": {
+    "en": "The Big Cheese",
+    "ja": "立身出世の鼠小太刀",
+    "zh": "出人头地鼠小太刀"
+  },
+  "WEAPON_NAME_30359906": {
+    "en": "Black Dragon Blade",
+    "ja": "黒龍刃",
+    "zh": "黑龙刃"
+  },
+  "WEAPON_NAME_30360101": {
+    "en": "Hrotti",
+    "ja": "フロッティ",
+    "zh": "赫若提"
+  },
+  "WEAPON_NAME_30419901": {
+    "en": "Battleworn Axe",
+    "ja": "使い古された斧",
+    "zh": "老旧的斧"
+  },
+  "WEAPON_NAME_30429903": {
+    "en": "Soldier's Axe",
+    "ja": "ソルジャーアックス",
+    "zh": "士兵斧"
+  },
+  "WEAPON_NAME_30430101": {
+    "en": "Argent Battle-Axe",
+    "ja": "白銀の騎士斧",
+    "zh": "白银骑士之斧"
+  },
+  "WEAPON_NAME_30430103": {
+    "en": "Thermal Arms",
+    "ja": "レッドホットアームズ",
+    "zh": "赤热钢臂"
+  },
+  "WEAPON_NAME_30430104": {
+    "en": "Fire Relic",
+    "ja": "ファイアレリック",
+    "zh": "火焰遗物之斧"
+  },
+  "WEAPON_NAME_30430201": {
+    "en": "Axe of the Waves",
+    "ja": "カレントアックス",
+    "zh": "水流之斧"
+  },
+  "WEAPON_NAME_30430202": {
+    "en": "Snowy Relic",
+    "ja": "スノーレリック",
+    "zh": "冰雪遗物之斧"
+  },
+  "WEAPON_NAME_30430204": {
+    "en": "Chilled Arms",
+    "ja": "アイスダストアームズ",
+    "zh": "冰尘钢臂"
+  },
+  "WEAPON_NAME_30430301": {
+    "en": "Singing Cyclone",
+    "ja": "サイクロンシンガー",
+    "zh": "飓风歌者"
+  },
+  "WEAPON_NAME_30430302": {
+    "en": "Storm Relic",
+    "ja": "ストームレリック",
+    "zh": "狂风遗物之斧"
+  },
+  "WEAPON_NAME_30430303": {
+    "en": "Aerated Arms",
+    "ja": "エアービートアームズ",
+    "zh": "驭风钢臂"
+  },
+  "WEAPON_NAME_30430401": {
+    "en": "Flash Axe",
+    "ja": "フラッシュアックス",
+    "zh": "闪光战斧"
+  },
+  "WEAPON_NAME_30430402": {
+    "en": "Abandoned Relic",
+    "ja": "シャインレリック",
+    "zh": "闪耀遗物之斧"
+  },
+  "WEAPON_NAME_30430403": {
+    "en": "Electrified Arms",
+    "ja": "ライトニングアームズ",
+    "zh": "雷霆钢臂"
+  },
+  "WEAPON_NAME_30430501": {
+    "en": "Soulreaver",
+    "ja": "ソウルリーパー",
+    "zh": "灵魂收割者"
+  },
+  "WEAPON_NAME_30430502": {
+    "en": "Dark Relic",
+    "ja": "ダークレリック",
+    "zh": "黑暗遗物之斧"
+  },
+  "WEAPON_NAME_30430503": {
+    "en": "Destructive Arms",
+    "ja": "バイオレントアームズ",
+    "zh": "暴力钢臂"
+  },
+  "WEAPON_NAME_30439901": {
+    "en": "Warrior's Axe",
+    "ja": "戦士の斧",
+    "zh": "战士之斧"
+  },
+  "WEAPON_NAME_30439902": {
+    "en": "Ennobled Axe",
+    "ja": "ノーブルアックス",
+    "zh": "高贵之斧"
+  },
+  "WEAPON_NAME_30439903": {
+    "en": "Juggernaut",
+    "ja": "ウォールクラッシャー",
+    "zh": "城墙破坏者"
+  },
+  "WEAPON_NAME_30439904": {
+    "en": "Reclusive Relic",
+    "ja": "レリックアックス",
+    "zh": "遗物之斧"
+  },
+  "WEAPON_NAME_30439906": {
+    "en": "Weighty Arms",
+    "ja": "マッシヴアームズ",
+    "zh": "魁梧钢臂"
+  },
+  "WEAPON_NAME_30440102": {
+    "en": "Crimsonclaw",
+    "ja": "クリムゾンアックス",
+    "zh": "绯红战斧"
+  },
+  "WEAPON_NAME_30440103": {
+    "en": "Heavenfire Gaze",
+    "ja": "天炎グランサイト",
+    "zh": "天火奇观之斧"
+  },
+  "WEAPON_NAME_30440105": {
+    "en": "Inferno Arms",
+    "ja": "クリムゾンバーンアームズ",
+    "zh": "绯焰钢臂"
+  },
+  "WEAPON_NAME_30440106": {
+    "en": "Flame Crash",
+    "ja": "フレイムクラッシュ",
+    "zh": "火焰破坏斧"
+  },
+  "WEAPON_NAME_30440107": {
+    "en": "Immolation Relic",
+    "ja": "プロミネンスレリック",
+    "zh": "日珥遗物之斧"
+  },
+  "WEAPON_NAME_30440108": {
+    "en": "Brutality Crux",
+    "ja": "惨忍の戦斧",
+    "zh": "残忍战斧"
+  },
+  "WEAPON_NAME_30440109": {
+    "en": "Sun Ray Destroyer",
+    "ja": "サンフレアデストロイヤー",
+    "zh": "日炎破坏者"
+  },
+  "WEAPON_NAME_30440201": {
+    "en": "Aqua Labrys",
+    "ja": "ディープラブリュス",
+    "zh": "深海双刃斧"
+  },
+  "WEAPON_NAME_30440202": {
+    "en": "Wave Crux",
+    "ja": "怒涛の戦斧",
+    "zh": "怒涛战斧"
+  },
+  "WEAPON_NAME_30440203": {
+    "en": "Blizzard Relic",
+    "ja": "ブリザードレリック",
+    "zh": "暴雪遗物之斧"
+  },
+  "WEAPON_NAME_30440205": {
+    "en": "Ice Crash",
+    "ja": "フロストクラッシュ",
+    "zh": "冰霜破坏斧"
+  },
+  "WEAPON_NAME_30440206": {
+    "en": "Jagged Cloudburst",
+    "ja": "ヘビーレインジャギィ",
+    "zh": "暴雨锯齿斧"
+  },
+  "WEAPON_NAME_30440207": {
+    "en": "Frozen Arms",
+    "ja": "ダイヤフロストアームズ",
+    "zh": "霜钻钢臂"
+  },
+  "WEAPON_NAME_30440208": {
+    "en": "Crusher of the Shallows",
+    "ja": "スラッジクラッシュ",
+    "zh": "污秽破坏斧"
+  },
+  "WEAPON_NAME_30440301": {
+    "en": "Winged Destruction",
+    "ja": "双色翼の砕斧",
+    "zh": "双色翼碎斧"
+  },
+  "WEAPON_NAME_30440302": {
+    "en": "Tempest's Relic",
+    "ja": "テンペストレリック",
+    "zh": "风暴遗物之斧"
+  },
+  "WEAPON_NAME_30440303": {
+    "en": "Stormwind Gaze",
+    "ja": "翠嵐グランサイト",
+    "zh": "翠岚奇观之斧"
+  },
+  "WEAPON_NAME_30440304": {
+    "en": "Jagged Shear",
+    "ja": "ウィンドシアージャギィ",
+    "zh": "风颤锯齿斧"
+  },
+  "WEAPON_NAME_30440305": {
+    "en": "Gale Crux",
+    "ja": "猜疾の戦斧",
+    "zh": "猜忌战斧"
+  },
+  "WEAPON_NAME_30440306": {
+    "en": "Pulsing Arms",
+    "ja": "ショックウェーブアームズ",
+    "zh": "冲击波钢臂"
+  },
+  "WEAPON_NAME_30440401": {
+    "en": "Shining Axe",
+    "ja": "シャイニングアックス",
+    "zh": "闪耀之斧"
+  },
+  "WEAPON_NAME_30440402": {
+    "en": "Starlight Gaze",
+    "ja": "星煌グランサイト",
+    "zh": "星煌奇观之斧"
+  },
+  "WEAPON_NAME_30440403": {
+    "en": "Banished Relic",
+    "ja": "バニシングレリック",
+    "zh": "绝灭遗物之斧"
+  },
+  "WEAPON_NAME_30440404": {
+    "en": "Crackling Arms",
+    "ja": "クラックボルトアームズ",
+    "zh": "电光钢臂"
+  },
+  "WEAPON_NAME_30440405": {
+    "en": "Cleaver of Desire",
+    "ja": "デザイアクリーヴァ",
+    "zh": "欲望巨斧"
+  },
+  "WEAPON_NAME_30440406": {
+    "en": "Flashreaver",
+    "ja": "フラッシュデストロイヤー",
+    "zh": "闪光破坏者"
+  },
+  "WEAPON_NAME_30440407": {
+    "en": "Glanzfang",
+    "ja": "雷斧グランツファング",
+    "zh": "雷斧光牙"
+  },
+  "WEAPON_NAME_30440408": {
+    "en": "Pride Crux",
+    "ja": "傲然の戦斧",
+    "zh": "傲然战斧"
+  },
+  "WEAPON_NAME_30440501": {
+    "en": "Traitor's Despair",
+    "ja": "ディスペアーアックス",
+    "zh": "绝望之斧"
+  },
+  "WEAPON_NAME_30440502": {
+    "en": "Regretful Relic",
+    "ja": "リグレットレリック",
+    "zh": "悔恨遗物之斧"
+  },
+  "WEAPON_NAME_30440504": {
+    "en": "Vorpal Cleaver",
+    "ja": "ヴォーパルクリーヴァ",
+    "zh": "夺命巨斧"
+  },
+  "WEAPON_NAME_30440505": {
+    "en": "Punishing Arms",
+    "ja": "ギロチンマーダアームズ",
+    "zh": "断头台钢臂"
+  },
+  "WEAPON_NAME_30440506": {
+    "en": "Blackfang",
+    "ja": "影斧ブラックファング",
+    "zh": "影斧黑牙"
+  },
+  "WEAPON_NAME_30440507": {
+    "en": "Anger Crux",
+    "ja": "煽憎の戦斧",
+    "zh": "煽憎战斧"
+  },
+  "WEAPON_NAME_30449901": {
+    "en": "Plain Axe",
+    "ja": "コモンアックス",
+    "zh": "平凡之斧"
+  },
+  "WEAPON_NAME_30449902": {
+    "en": "The Tyrant",
+    "ja": "タイラントアックス",
+    "zh": "暴君之斧"
+  },
+  "WEAPON_NAME_30449903": {
+    "en": "Souvenir Axe",
+    "ja": "スーベニアアックス",
+    "zh": "纪念战斧"
+  },
+  "WEAPON_NAME_30449904": {
+    "en": "Unerring Gaze",
+    "ja": "グランサイト",
+    "zh": "奇观之斧"
+  },
+  "WEAPON_NAME_30449905": {
+    "en": "Fury Crux",
+    "ja": "怒号の戦斧",
+    "zh": "怒号战斧"
+  },
+  "WEAPON_NAME_30449906": {
+    "en": "Unspeakable Crash",
+    "ja": "マイティクラッシュ",
+    "zh": "强力破坏斧"
+  },
+  "WEAPON_NAME_30449907": {
+    "en": "Jagged Rage",
+    "ja": "レイジングジャギィ",
+    "zh": "怒涛锯齿斧"
+  },
+  "WEAPON_NAME_30449908": {
+    "en": "Great Cleaver",
+    "ja": "グランクリーヴァ",
+    "zh": "破坏巨斧"
+  },
+  "WEAPON_NAME_30449909": {
+    "en": "The Great Destroyer",
+    "ja": "グレイトデストロイヤー",
+    "zh": "巨型破坏者"
+  },
+  "WEAPON_NAME_30449910": {
+    "en": "Steelfang",
+    "ja": "魁斧ソリッドファング",
+    "zh": "魁斧坚牙"
+  },
+  "WEAPON_NAME_30449911": {
+    "en": "Soul Crusher",
+    "ja": "ソウルクラッシュ",
+    "zh": "灵魂破坏斧"
+  },
+  "WEAPON_NAME_30450101": {
+    "en": "Axe of the Blazing King",
+    "ja": "ヴォルカニックアックス",
+    "zh": "火山战斧"
+  },
+  "WEAPON_NAME_30450102": {
+    "en": "Heavenwrath Gaze",
+    "ja": "天炎グランサイト・レイジ",
+    "zh": "天火奇观·震怒"
+  },
+  "WEAPON_NAME_30450103": {
+    "en": "Blaze Crash",
+    "ja": "レッドブレイズクラッシュ",
+    "zh": "赤炎破坏斧"
+  },
+  "WEAPON_NAME_30450104": {
+    "en": "Crimson Heat",
+    "ja": "紅灼斧",
+    "zh": "红灼斧"
+  },
+  "WEAPON_NAME_30450105": {
+    "en": "Royal Crimson Heat",
+    "ja": "紅灼斧《クイーン》",
+    "zh": "红灼斧·女王"
+  },
+  "WEAPON_NAME_30450106": {
+    "en": "Atrocity Crux",
+    "ja": "残虐無慚の戦斧",
+    "zh": "残虐无情战斧"
+  },
+  "WEAPON_NAME_30450107": {
+    "en": "Sun Flare Destroyer",
+    "ja": "コンバストデストロイヤー",
+    "zh": "焦灼破坏者"
+  },
+  "WEAPON_NAME_30450108": {
+    "en": "Chimeratech Warrior",
+    "ja": "キメラテックウォリアー",
+    "zh": "奇美拉勇士之斧"
+  },
+  "WEAPON_NAME_30450109": {
+    "en": "Chimeratech Warlord",
+    "ja": "キメラテックバーサーカー",
+    "zh": "奇美拉狂战之斧"
+  },
+  "WEAPON_NAME_30450110": {
+    "en": "Rath Blaze Splitter",
+    "ja": "リオヴェルグレイブ",
+    "zh": "吞噬烈炎斩击斧"
+  },
+  "WEAPON_NAME_30450201": {
+    "en": "Grand Seadragon",
+    "ja": "グランドシードラゴン",
+    "zh": "海龙战斧"
+  },
+  "WEAPON_NAME_30450202": {
+    "en": "Maelstrom Crux",
+    "ja": "狂瀾怒涛の戦斧",
+    "zh": "狂澜怒涛战斧"
+  },
+  "WEAPON_NAME_30450203": {
+    "en": "Permafrost Crash",
+    "ja": "パーマフロストクラッシュ",
+    "zh": "永冻破坏斧"
+  },
+  "WEAPON_NAME_30450204": {
+    "en": "Jagged Rainstorm",
+    "ja": "レインストームジャギィ",
+    "zh": "暴风雨锯齿斧"
+  },
+  "WEAPON_NAME_30450205": {
+    "en": "Mercy's Tide",
+    "ja": "慈海斧",
+    "zh": "慈海斧"
+  },
+  "WEAPON_NAME_30450206": {
+    "en": "Mercy's Azure Tide",
+    "ja": "慈海斧《蒼海》",
+    "zh": "慈海斧·沧海"
+  },
+  "WEAPON_NAME_30450207": {
+    "en": "Crusher of the Depths",
+    "ja": "ディープボトムクラッシュ",
+    "zh": "深渊破坏斧"
+  },
+  "WEAPON_NAME_30450301": {
+    "en": "Axe of the Southern Cross",
+    "ja": "サザンクロスアックス",
+    "zh": "南十字之斧"
+  },
+  "WEAPON_NAME_30450302": {
+    "en": "Stormwrath Gaze",
+    "ja": "翠嵐グランサイト・マリス",
+    "zh": "翠岚奇观之斧·恶意"
+  },
+  "WEAPON_NAME_30450303": {
+    "en": "Jagged Bolt",
+    "ja": "ダウンバーストジャギィ",
+    "zh": "暴流锯齿斧"
+  },
+  "WEAPON_NAME_30450304": {
+    "en": "Squall Crux",
+    "ja": "堕忌暴嵐の戦斧",
+    "zh": "堕忌暴岚战斧"
+  },
+  "WEAPON_NAME_30450305": {
+    "en": "Storm's Guide",
+    "ja": "導嵐斧",
+    "zh": "导岚斧"
+  },
+  "WEAPON_NAME_30450306": {
+    "en": "Glorystorm's Guide",
+    "ja": "導嵐斧《グローリー》",
+    "zh": "导岚斧·荣耀"
+  },
+  "WEAPON_NAME_30450401": {
+    "en": "Radiant Swath",
+    "ja": "オプティカルアックス",
+    "zh": "圣光战斧"
+  },
+  "WEAPON_NAME_30450402": {
+    "en": "Starwrath Gaze",
+    "ja": "星煌グランサイト・ラース",
+    "zh": "星煌奇观·愤怒"
+  },
+  "WEAPON_NAME_30450403": {
+    "en": "Cleaver of Despair",
+    "ja": "ディスペアークリーヴァ",
+    "zh": "绝望巨斧"
+  },
+  "WEAPON_NAME_30450404": {
+    "en": "Thundercrash",
+    "ja": "天雷斧",
+    "zh": "天雷斧"
+  },
+  "WEAPON_NAME_30450405": {
+    "en": "Mighty Thundercrash",
+    "ja": "天雷斧《万雷》",
+    "zh": "天雷斧·万雷"
+  },
+  "WEAPON_NAME_30450406": {
+    "en": "Plasmareaver",
+    "ja": "プラズマデストロイヤー",
+    "zh": "电浆破坏者"
+  },
+  "WEAPON_NAME_30450407": {
+    "en": "Blitzfang",
+    "ja": "轟雷斧ブリッツファング",
+    "zh": "轰雷斧雷牙"
+  },
+  "WEAPON_NAME_30450408": {
+    "en": "Arrogance Crux",
+    "ja": "傲岸衝天の戦斧",
+    "zh": "傲然睥睨战斧"
+  },
+  "WEAPON_NAME_30450501": {
+    "en": "Primordial Titan",
+    "ja": "ギガスセクリス",
+    "zh": "巨灵霹雳"
+  },
+  "WEAPON_NAME_30450503": {
+    "en": "Genocide Cleaver",
+    "ja": "ジェノサイドクリーヴァ",
+    "zh": "杀戮巨斧"
+  },
+  "WEAPON_NAME_30450504": {
+    "en": "Darkbite Axe",
+    "ja": "闇呪斧",
+    "zh": "暗咒斧"
+  },
+  "WEAPON_NAME_30450505": {
+    "en": "Shadowy Darkbite Axe",
+    "ja": "闇呪斧《ルーラー》",
+    "zh": "暗咒斧·支配"
+  },
+  "WEAPON_NAME_30450506": {
+    "en": "Shadowfang",
+    "ja": "閃影斧シャドウファング",
+    "zh": "闪影斧暗牙"
+  },
+  "WEAPON_NAME_30450507": {
+    "en": "Indignation Crux",
+    "ja": "煽憎怒屠の戦斧",
+    "zh": "煽憎怒屠战斧"
+  },
+  "WEAPON_NAME_30459901": {
+    "en": "Victory Axe",
+    "ja": "ヴィクトリーアックス",
+    "zh": "胜利之斧"
+  },
+  "WEAPON_NAME_30459902": {
+    "en": "Executioner Axe Strafe",
+    "ja": "処刑斧シュトラーフェ",
+    "zh": "处刑斧制裁"
+  },
+  "WEAPON_NAME_30459903": {
+    "en": "Halfling's Broadaxe",
+    "ja": "怪童の鉞",
+    "zh": "怪童之钺"
+  },
+  "WEAPON_NAME_30459904": {
+    "en": "Mega Axe",
+    "ja": "ロックアックス",
+    "zh": "洛克斧"
+  },
+  "WEAPON_NAME_30459905": {
+    "en": "Black Dragon Axe",
+    "ja": "黒龍斧",
+    "zh": "黑龙斧"
+  },
+  "WEAPON_NAME_30460101": {
+    "en": "Mjölnir",
+    "ja": "ミョルニル",
+    "zh": "姆乔尔尼尔"
+  },
+  "WEAPON_NAME_30519901": {
+    "en": "Battleworn Lance",
+    "ja": "使い古された槍",
+    "zh": "老旧的枪"
+  },
+  "WEAPON_NAME_30529902": {
+    "en": "Adventurer's Lance",
+    "ja": "アドベンチャースピア",
+    "zh": "冒险者之枪"
+  },
+  "WEAPON_NAME_30530101": {
+    "en": "Unsung Hero's Lance",
+    "ja": "名もなき勇者たちの槍",
+    "zh": "无名勇者之枪"
+  },
+  "WEAPON_NAME_30530102": {
+    "en": "Lumenspore Lance",
+    "ja": "パラソルバーナー",
+    "zh": "喷火阳伞"
+  },
+  "WEAPON_NAME_30530104": {
+    "en": "Soulfire Spear",
+    "ja": "ソウルファイアスピア",
+    "zh": "魂火之枪"
+  },
+  "WEAPON_NAME_30530105": {
+    "en": "Fury Lance",
+    "ja": "激昂の槍",
+    "zh": "激昂之枪"
+  },
+  "WEAPON_NAME_30530201": {
+    "en": "Azure Jewel",
+    "ja": "ブルージュエリー",
+    "zh": "蓝宝石钢枪"
+  },
+  "WEAPON_NAME_30530202": {
+    "en": "Bubblespore Lance",
+    "ja": "パラソルバブル",
+    "zh": "泡沫阳伞"
+  },
+  "WEAPON_NAME_30530203": {
+    "en": "Shiverlance",
+    "ja": "戦慄の槍",
+    "zh": "战栗之枪"
+  },
+  "WEAPON_NAME_30530204": {
+    "en": "Frigid Grace",
+    "ja": "コールドグレイススピア",
+    "zh": "寒雅之枪"
+  },
+  "WEAPON_NAME_30530301": {
+    "en": "Gale Spear",
+    "ja": "ゲイルスピア",
+    "zh": "疾风之枪"
+  },
+  "WEAPON_NAME_30530302": {
+    "en": "Lance of Memory",
+    "ja": "追想の槍",
+    "zh": "追忆之枪"
+  },
+  "WEAPON_NAME_30530303": {
+    "en": "Gustspore Lance",
+    "ja": "パラソルストリーム",
+    "zh": "激流阳伞"
+  },
+  "WEAPON_NAME_30530304": {
+    "en": "Fell Wind",
+    "ja": "イビルウインドスピア",
+    "zh": "恶魔风枪"
+  },
+  "WEAPON_NAME_30530401": {
+    "en": "Moonpiercer",
+    "ja": "ムーンピック",
+    "zh": "月之枪"
+  },
+  "WEAPON_NAME_30530402": {
+    "en": "Jack-o'-Lance",
+    "ja": "ジャック・オ・スピア",
+    "zh": "杰克南瓜枪"
+  },
+  "WEAPON_NAME_30530403": {
+    "en": "Outcast's Wish",
+    "ja": "願望の槍",
+    "zh": "祈愿之枪"
+  },
+  "WEAPON_NAME_30530404": {
+    "en": "Lightspore Lance",
+    "ja": "パラソルライト",
+    "zh": "闪光阳伞"
+  },
+  "WEAPON_NAME_30530501": {
+    "en": "Lance of the Dark",
+    "ja": "ダークスピア",
+    "zh": "暗之枪"
+  },
+  "WEAPON_NAME_30530502": {
+    "en": "Lance of Delusions",
+    "ja": "妄念の槍",
+    "zh": "妄念之枪"
+  },
+  "WEAPON_NAME_30530503": {
+    "en": "Quavering Bloodlust",
+    "ja": "ブラッディスピア",
+    "zh": "鲜血之枪"
+  },
+  "WEAPON_NAME_30530504": {
+    "en": "Shadespore Lance",
+    "ja": "パラソルインフェクション",
+    "zh": "感染阳伞"
+  },
+  "WEAPON_NAME_30539901": {
+    "en": "Trident",
+    "ja": "トライデント",
+    "zh": "三叉戟"
+  },
+  "WEAPON_NAME_30539902": {
+    "en": "Mailbreaker",
+    "ja": "ブレイクスピア",
+    "zh": "破坏之枪"
+  },
+  "WEAPON_NAME_30539903": {
+    "en": "Drill Lance",
+    "ja": "ドリルランス",
+    "zh": "钻头枪"
+  },
+  "WEAPON_NAME_30539904": {
+    "en": "Leechspore Lance",
+    "ja": "パラソルランス",
+    "zh": "尖枪阳伞"
+  },
+  "WEAPON_NAME_30539905": {
+    "en": "Solitary Desire",
+    "ja": "未練の槍",
+    "zh": "怨念之枪"
+  },
+  "WEAPON_NAME_30539906": {
+    "en": "Heartseeker",
+    "ja": "テリブルスピア",
+    "zh": "恐怖之枪"
+  },
+  "WEAPON_NAME_30540101": {
+    "en": "Flameserpent",
+    "ja": "焔大蛇",
+    "zh": "焰蟒"
+  },
+  "WEAPON_NAME_30540102": {
+    "en": "Triggerspore Lance",
+    "ja": "パラソルイグニション",
+    "zh": "焚身阳伞"
+  },
+  "WEAPON_NAME_30540104": {
+    "en": "Ragefire Lance",
+    "ja": "猛炎の槍",
+    "zh": "烈焰之枪"
+  },
+  "WEAPON_NAME_30540105": {
+    "en": "Reisel, the Solar Flare",
+    "ja": "紅炎槍ライゼル",
+    "zh": "红炎枪莱泽尔"
+  },
+  "WEAPON_NAME_30540106": {
+    "en": "Spiritflame Spear",
+    "ja": "スピリットフレイムスピア",
+    "zh": "灵焰之枪"
+  },
+  "WEAPON_NAME_30540107": {
+    "en": "Burning Fury Lance",
+    "ja": "激昂と業火の槍",
+    "zh": "激昂与业火之枪"
+  },
+  "WEAPON_NAME_30540108": {
+    "en": "Cinder Beast",
+    "ja": "アッシュビースト",
+    "zh": "灰烬凶兽之枪"
+  },
+  "WEAPON_NAME_30540109": {
+    "en": "Ignition Flamelance",
+    "ja": "火槍・イグニシオ",
+    "zh": "火枪·伊格尼希欧"
+  },
+  "WEAPON_NAME_30540201": {
+    "en": "Abyssal Prize",
+    "ja": "大海の宝槍",
+    "zh": "大海宝枪"
+  },
+  "WEAPON_NAME_30540202": {
+    "en": "Shatterspore Lance",
+    "ja": "パラソルスプラッシュ",
+    "zh": "喷溅阳伞"
+  },
+  "WEAPON_NAME_30540203": {
+    "en": "Tidal Beast",
+    "ja": "ウェーブビースト",
+    "zh": "波澜凶兽之枪"
+  },
+  "WEAPON_NAME_30540204": {
+    "en": "Callous Lance",
+    "ja": "戦慄と酷薄の槍",
+    "zh": "战栗与冷酷之枪"
+  },
+  "WEAPON_NAME_30540205": {
+    "en": "Strohm",
+    "ja": "海渦槍シュトロム",
+    "zh": "海涡枪斯托罗姆"
+  },
+  "WEAPON_NAME_30540206": {
+    "en": "Iceguide Trident",
+    "ja": "氷を律する三叉槍",
+    "zh": "律冰三叉戟"
+  },
+  "WEAPON_NAME_30540207": {
+    "en": "Gelid Grace",
+    "ja": "ブリザードグレイススピア",
+    "zh": "冰雅之枪"
+  },
+  "WEAPON_NAME_30540208": {
+    "en": "Lance of Dark Depths",
+    "ja": "冥河の幽槍",
+    "zh": "冥河幽枪"
+  },
+  "WEAPON_NAME_30540302": {
+    "en": "Tempest Lance",
+    "ja": "テンペストスピア",
+    "zh": "风暴之枪"
+  },
+  "WEAPON_NAME_30540303": {
+    "en": "Melancholy Lance",
+    "ja": "追想と晴嵐の槍",
+    "zh": "追忆与晴岚之枪"
+  },
+  "WEAPON_NAME_30540304": {
+    "en": "Tornadospore Lance",
+    "ja": "パラソルトルネード",
+    "zh": "龙卷阳伞"
+  },
+  "WEAPON_NAME_30540305": {
+    "en": "Stormsiege Lance",
+    "ja": "震嵐の槍",
+    "zh": "震岚之枪"
+  },
+  "WEAPON_NAME_30540306": {
+    "en": "Immortal Wind",
+    "ja": "イモータルウインドスピア",
+    "zh": "不灭风枪"
+  },
+  "WEAPON_NAME_30540307": {
+    "en": "Windguide Trident",
+    "ja": "風を統べし三叉槍",
+    "zh": "御风三叉戟"
+  },
+  "WEAPON_NAME_30540308": {
+    "en": "Floating Beast",
+    "ja": "フロータービースト",
+    "zh": "悬浮凶兽之枪"
+  },
+  "WEAPON_NAME_30540402": {
+    "en": "Thunderbolt",
+    "ja": "ライトニングランス",
+    "zh": "电击长枪"
+  },
+  "WEAPON_NAME_30540403": {
+    "en": "Lonesome Wish",
+    "ja": "願望と奇跡の槍",
+    "zh": "祈愿与奇迹之枪"
+  },
+  "WEAPON_NAME_30540405": {
+    "en": "Shinespore Lance",
+    "ja": "パラソルシャイン",
+    "zh": "闪耀阳伞"
+  },
+  "WEAPON_NAME_30540406": {
+    "en": "Twilight",
+    "ja": "聖槍トワイライト",
+    "zh": "圣枪暮光"
+  },
+  "WEAPON_NAME_30540407": {
+    "en": "Deadly Brightlance",
+    "ja": "光槍・スラスト",
+    "zh": "光枪·突刺"
+  },
+  "WEAPON_NAME_30540408": {
+    "en": "Lightpiercer",
+    "ja": "裂光鋭鋒",
+    "zh": "裂光锐锋"
+  },
+  "WEAPON_NAME_30540409": {
+    "en": "Lightning Beast",
+    "ja": "ボルテージビースト",
+    "zh": "闪电凶兽之枪"
+  },
+  "WEAPON_NAME_30540501": {
+    "en": "Hellish Lance",
+    "ja": "ランスオブへル",
+    "zh": "地狱之枪"
+  },
+  "WEAPON_NAME_30540502": {
+    "en": "Lance of Nightmares",
+    "ja": "悪夢と妄執の槍",
+    "zh": "噩梦与妄念之枪"
+  },
+  "WEAPON_NAME_30540504": {
+    "en": "Spear of Tragedy",
+    "ja": "バッドエンドスピア",
+    "zh": "末路之枪"
+  },
+  "WEAPON_NAME_30540505": {
+    "en": "Looming Eclipse",
+    "ja": "邪槍エクリプス",
+    "zh": "邪枪日食"
+  },
+  "WEAPON_NAME_30540506": {
+    "en": "Sablespore Lance",
+    "ja": "パラソルパンデミック",
+    "zh": "瘟疫阳伞"
+  },
+  "WEAPON_NAME_30540507": {
+    "en": "Cursepiercer",
+    "ja": "忌呪鋭鋒",
+    "zh": "忌咒锐锋"
+  },
+  "WEAPON_NAME_30540508": {
+    "en": "Fearful Beast",
+    "ja": "ドレッドビースト",
+    "zh": "恐怖凶兽之枪"
+  },
+  "WEAPON_NAME_30549901": {
+    "en": "Strong Halberd",
+    "ja": "ストロングハルバード",
+    "zh": "强者之戟"
+  },
+  "WEAPON_NAME_30549902": {
+    "en": "Lance of the Innocent",
+    "ja": "イノセントスピア",
+    "zh": "圣洁之枪"
+  },
+  "WEAPON_NAME_30549903": {
+    "en": "Ironside Lance",
+    "ja": "鉄騎兵の槍",
+    "zh": "铁骑兵之枪"
+  },
+  "WEAPON_NAME_30549904": {
+    "en": "Piercing Beast",
+    "ja": "ワイルドビースト",
+    "zh": "狂野凶兽之枪"
+  },
+  "WEAPON_NAME_30549905": {
+    "en": "Attacker Lance",
+    "ja": "撃槍アングリフ",
+    "zh": "击枪安格里夫"
+  },
+  "WEAPON_NAME_30549906": {
+    "en": "Great Aquila Lance",
+    "ja": "巨鷲の槍",
+    "zh": "巨鹫之枪"
+  },
+  "WEAPON_NAME_30549907": {
+    "en": "Sovereign Trident",
+    "ja": "統治者の三叉槍",
+    "zh": "统治者三叉戟"
+  },
+  "WEAPON_NAME_30549908": {
+    "en": "Clematis",
+    "ja": "彩槍クレマティス",
+    "zh": "彩枪铁线莲"
+  },
+  "WEAPON_NAME_30549909": {
+    "en": "Phantom Truelance",
+    "ja": "真槍・ファントム",
+    "zh": "真枪·幻影"
+  },
+  "WEAPON_NAME_30549910": {
+    "en": "Omnipiercer",
+    "ja": "無門鋭鋒",
+    "zh": "无门锐锋"
+  },
+  "WEAPON_NAME_30549911": {
+    "en": "Lance of Lamentation",
+    "ja": "悲嘆の幽槍",
+    "zh": "悲叹幽枪"
+  },
+  "WEAPON_NAME_30550101": {
+    "en": "Calamity Trigger",
+    "ja": "カラミティトリガー",
+    "zh": "灾祸之匙"
+  },
+  "WEAPON_NAME_30550102": {
+    "en": "Flamedance Lance",
+    "ja": "炎轟乱舞の槍",
+    "zh": "炎轰乱舞之枪"
+  },
+  "WEAPON_NAME_30550103": {
+    "en": "Reiselfeld, the Solar Spray",
+    "ja": "紅炎槍ライゼルフェルド",
+    "zh": "红炎枪莱泽菲尔德"
+  },
+  "WEAPON_NAME_30550104": {
+    "en": "Crimsonflame Lance",
+    "ja": "紅き炎戟",
+    "zh": "赤红之炎戟"
+  },
+  "WEAPON_NAME_30550105": {
+    "en": "Pureflame Lance",
+    "ja": "真紅の灼熱戟",
+    "zh": "真红之灼热戟"
+  },
+  "WEAPON_NAME_30550106": {
+    "en": "Ashen Beast",
+    "ja": "バーンナウトビースト",
+    "zh": "焦土凶兽之枪"
+  },
+  "WEAPON_NAME_30550107": {
+    "en": "Combustion Flamelance",
+    "ja": "炎槍・フレイムアウト",
+    "zh": "炎枪·弗雷姆奥托"
+  },
+  "WEAPON_NAME_30550108": {
+    "en": "Chimeratech Lancer",
+    "ja": "キメラテックランサー",
+    "zh": "奇美拉骑兵之枪"
+  },
+  "WEAPON_NAME_30550109": {
+    "en": "Chimeratech Lancemaster",
+    "ja": "キメラテックトルーパー",
+    "zh": "奇美拉骑将之枪"
+  },
+  "WEAPON_NAME_30550110": {
+    "en": "Spear of Prominence",
+    "ja": "プロミネンスピラー",
+    "zh": "日珥刺矛"
+  },
+  "WEAPON_NAME_30550201": {
+    "en": "Ocean Lord",
+    "ja": "オーシャンロード",
+    "zh": "破浪之枪"
+  },
+  "WEAPON_NAME_30550202": {
+    "en": "Vortex Beast",
+    "ja": "ヴォルテックスビースト",
+    "zh": "旋涡之枪"
+  },
+  "WEAPON_NAME_30550203": {
+    "en": "Strohm Mare",
+    "ja": "海渦槍シュトロムマーレ",
+    "zh": "海涡枪斯托罗姆玛雷"
+  },
+  "WEAPON_NAME_30550204": {
+    "en": "Icesovereign Trident",
+    "ja": "氷華を隷属する三叉槍",
+    "zh": "御冰三叉戟"
+  },
+  "WEAPON_NAME_30550205": {
+    "en": "Limpid Lance",
+    "ja": "清流の水戟",
+    "zh": "清流之水戟"
+  },
+  "WEAPON_NAME_30550206": {
+    "en": "Limpid Rush",
+    "ja": "清澄なる奔流戟",
+    "zh": "清澄之奔流戟"
+  },
+  "WEAPON_NAME_30550207": {
+    "en": "Lance of Frozen Depths",
+    "ja": "氷獄凍者の幽冥槍",
+    "zh": "冰狱冻者幽冥枪"
+  },
+  "WEAPON_NAME_30550301": {
+    "en": "Spear of the Northern Cross",
+    "ja": "ノーザンクロススピア",
+    "zh": "北十字之枪"
+  },
+  "WEAPON_NAME_30550302": {
+    "en": "Stormpiercer Lance",
+    "ja": "狂風大嵐の槍",
+    "zh": "狂风巨岚之枪"
+  },
+  "WEAPON_NAME_30550303": {
+    "en": "Windsovereign Trident",
+    "ja": "大嵐を従えし三叉槍",
+    "zh": "御岚三叉戟"
+  },
+  "WEAPON_NAME_30550304": {
+    "en": "Flying Beast",
+    "ja": "フライングビースト",
+    "zh": "飞空凶兽之枪"
+  },
+  "WEAPON_NAME_30550305": {
+    "en": "Promising Breeze",
+    "ja": "契約の風戟",
+    "zh": "契约之风戟"
+  },
+  "WEAPON_NAME_30550306": {
+    "en": "Guiding Gale",
+    "ja": "導きの烈風戟",
+    "zh": "指引之烈风戟"
+  },
+  "WEAPON_NAME_30550402": {
+    "en": "Thunder King's Greatspear",
+    "ja": "爆雷の豪槍",
+    "zh": "雷霆豪枪"
+  },
+  "WEAPON_NAME_30550404": {
+    "en": "Twilight Lost",
+    "ja": "聖槍トワイライトロスト",
+    "zh": "圣枪失落暮光"
+  },
+  "WEAPON_NAME_30550405": {
+    "en": "Lightflash",
+    "ja": "輝ける雷戟",
+    "zh": "光辉之雷戟"
+  },
+  "WEAPON_NAME_30550406": {
+    "en": "Brilliant Lightflash",
+    "ja": "燦然たる迅雷戟",
+    "zh": "灿烂之迅雷戟"
+  },
+  "WEAPON_NAME_30550407": {
+    "en": "Biting Brightlance",
+    "ja": "光槍・ペネトレイト",
+    "zh": "光枪·洞穿"
+  },
+  "WEAPON_NAME_30550408": {
+    "en": "Starpiercer",
+    "ja": "極煌鋭鋒",
+    "zh": "极煌锐锋"
+  },
+  "WEAPON_NAME_30550409": {
+    "en": "Fulmination Beast",
+    "ja": "サンダーボルトビースト",
+    "zh": "雷霆凶兽之枪"
+  },
+  "WEAPON_NAME_30550501": {
+    "en": "Mistilteinn",
+    "ja": "ミストルティン",
+    "zh": "米斯特汀"
+  },
+  "WEAPON_NAME_30550503": {
+    "en": "Final Eclipse",
+    "ja": "邪槍イビルエクリプス",
+    "zh": "邪枪恶魔日食"
+  },
+  "WEAPON_NAME_30550504": {
+    "en": "Scourge Lance",
+    "ja": "呪わしき闇戟",
+    "zh": "诅咒之暗戟"
+  },
+  "WEAPON_NAME_30550505": {
+    "en": "Ebon Scourge Lance",
+    "ja": "呪影の漆黒戟",
+    "zh": "咒影之暗黑戟"
+  },
+  "WEAPON_NAME_30550506": {
+    "en": "Plaguepiercer",
+    "ja": "災禍鋭鋒",
+    "zh": "灾祸锐锋"
+  },
+  "WEAPON_NAME_30550507": {
+    "en": "Horrifying Beast",
+    "ja": "カラミティビースト",
+    "zh": "惨剧凶兽之枪"
+  },
+  "WEAPON_NAME_30559901": {
+    "en": "Pactspear",
+    "ja": "ロウフルスピア",
+    "zh": "护法之枪"
+  },
+  "WEAPON_NAME_30559902": {
+    "en": "Compass Needle",
+    "ja": "羅針槍",
+    "zh": "罗盘枪"
+  },
+  "WEAPON_NAME_30559903": {
+    "en": "Gae Bolg",
+    "ja": "ゲイボルグ",
+    "zh": "千棘刺之枪"
+  },
+  "WEAPON_NAME_30559904": {
+    "en": "Mega Lance",
+    "ja": "ロックスピア",
+    "zh": "洛克枪"
+  },
+  "WEAPON_NAME_30559905": {
+    "en": "Black Dragon Spear",
+    "ja": "黒龍槍",
+    "zh": "黑龙枪"
+  },
+  "WEAPON_NAME_30560101": {
+    "en": "Gungnir",
+    "ja": "グングニル",
+    "zh": "冈格尼尔"
+  },
+  "WEAPON_NAME_30619901": {
+    "en": "Battleworn Bow",
+    "ja": "使い古された弓",
+    "zh": "老旧的弓"
+  },
+  "WEAPON_NAME_30629902": {
+    "en": "Soldier's Bow",
+    "ja": "ソルジャーボウ",
+    "zh": "士兵弓"
+  },
+  "WEAPON_NAME_30630101": {
+    "en": "Flightfyre",
+    "ja": "フライトファイア",
+    "zh": "飞火弓"
+  },
+  "WEAPON_NAME_30630102": {
+    "en": "Firefungus",
+    "ja": "ファイアファンガス",
+    "zh": "火蘑弓"
+  },
+  "WEAPON_NAME_30630104": {
+    "en": "Flickertorch Bow",
+    "ja": "ゆらめく燈火の弓",
+    "zh": "摇曳灯火之弓"
+  },
+  "WEAPON_NAME_30630105": {
+    "en": "Shimmerflame Bow",
+    "ja": "陽炎の弓",
+    "zh": "阳炎之弓"
+  },
+  "WEAPON_NAME_30630201": {
+    "en": "Tidal Bow",
+    "ja": "オーシャンボウ",
+    "zh": "深海之弓"
+  },
+  "WEAPON_NAME_30630202": {
+    "en": "Frostfungus",
+    "ja": "アイスファンガス",
+    "zh": "冰蘑弓"
+  },
+  "WEAPON_NAME_30630203": {
+    "en": "Snowsquall Bow",
+    "ja": "霜雪の弓",
+    "zh": "霜雪之弓"
+  },
+  "WEAPON_NAME_30630204": {
+    "en": "Waverouser Bow",
+    "ja": "ざわめく海鳴りの弓",
+    "zh": "喧嚣海鸣之弓"
+  },
+  "WEAPON_NAME_30630302": {
+    "en": "Proof of the Wind",
+    "ja": "エアリアルプルーフ",
+    "zh": "狂风试炼"
+  },
+  "WEAPON_NAME_30630303": {
+    "en": "Windsong Bow",
+    "ja": "風歌の弓",
+    "zh": "风歌之弓"
+  },
+  "WEAPON_NAME_30630304": {
+    "en": "Windfungus",
+    "ja": "ウインドファンガス",
+    "zh": "风蘑弓"
+  },
+  "WEAPON_NAME_30630305": {
+    "en": "Unknown Summon",
+    "ja": "怪音を響かせる弓",
+    "zh": "低吟之弓"
+  },
+  "WEAPON_NAME_30630401": {
+    "en": "Galvanic Bow",
+    "ja": "エレクトロボウ",
+    "zh": "雷电战弓"
+  },
+  "WEAPON_NAME_30630402": {
+    "en": "Cracklescent Bow",
+    "ja": "清香の弓",
+    "zh": "清香之弓"
+  },
+  "WEAPON_NAME_30630403": {
+    "en": "Flashfungus",
+    "ja": "フラッシュファンガス",
+    "zh": "雷光蘑弓"
+  },
+  "WEAPON_NAME_30630501": {
+    "en": "Cimmerian Bow",
+    "ja": "ダークボウ",
+    "zh": "暗之魔弓"
+  },
+  "WEAPON_NAME_30630502": {
+    "en": "Aromatic Bow",
+    "ja": "幽香の弓",
+    "zh": "幽香之弓"
+  },
+  "WEAPON_NAME_30630503": {
+    "en": "Cacklemurk",
+    "ja": "闇に哄笑する弓",
+    "zh": "暗黑疯笑弓"
+  },
+  "WEAPON_NAME_30630504": {
+    "en": "Shadefungus",
+    "ja": "デスファンガス",
+    "zh": "死亡蘑弓"
+  },
+  "WEAPON_NAME_30639901": {
+    "en": "Composite Bow",
+    "ja": "コンポジットボウ",
+    "zh": "复合弓"
+  },
+  "WEAPON_NAME_30639902": {
+    "en": "Machine Bow",
+    "ja": "マシンナリーボウ",
+    "zh": "机械弓"
+  },
+  "WEAPON_NAME_30639903": {
+    "en": "Hunter's Bow",
+    "ja": "ハンターボウ",
+    "zh": "猎手弓"
+  },
+  "WEAPON_NAME_30639904": {
+    "en": "Fungus Bow",
+    "ja": "ファンガスボウ",
+    "zh": "蘑弓"
+  },
+  "WEAPON_NAME_30639905": {
+    "en": "Fragrant Bow",
+    "ja": "香の弓",
+    "zh": "芳香之弓"
+  },
+  "WEAPON_NAME_30639906": {
+    "en": "Mockery",
+    "ja": "嘲弄の弓",
+    "zh": "嘲弄之弓"
+  },
+  "WEAPON_NAME_30640102": {
+    "en": "Armored Inferno",
+    "ja": "アーマードフレアボウ",
+    "zh": "装甲弓"
+  },
+  "WEAPON_NAME_30640103": {
+    "en": "Blazefungus",
+    "ja": "プロミネンスファンガス",
+    "zh": "日珥蘑弓"
+  },
+  "WEAPON_NAME_30640105": {
+    "en": "Vulcan",
+    "ja": "紅蓮弓・ヴァルカン",
+    "zh": "红莲弓·火山"
+  },
+  "WEAPON_NAME_30640106": {
+    "en": "Wispfire Bow",
+    "ja": "燃え上がる鬼火の弓",
+    "zh": "燃灼鬼火之弓"
+  },
+  "WEAPON_NAME_30640107": {
+    "en": "Infernal Bow",
+    "ja": "炎獄の弓",
+    "zh": "炎狱之弓"
+  },
+  "WEAPON_NAME_30640108": {
+    "en": "Scorchflame Bow",
+    "ja": "紅焔の弓",
+    "zh": "红焰之弓"
+  },
+  "WEAPON_NAME_30640109": {
+    "en": "Flameburst Dreadbow",
+    "ja": "猛火を呑む破弓",
+    "zh": "猛火破甲弓"
+  },
+  "WEAPON_NAME_30640201": {
+    "en": "Frostslinger Bow",
+    "ja": "氷結弓",
+    "zh": "冰结弓"
+  },
+  "WEAPON_NAME_30640202": {
+    "en": "Freezefungus",
+    "ja": "グレイシャルファンガス",
+    "zh": "冰川蘑弓"
+  },
+  "WEAPON_NAME_30640203": {
+    "en": "Frostbillow",
+    "ja": "霜涛の弓",
+    "zh": "霜涛之弓"
+  },
+  "WEAPON_NAME_30640204": {
+    "en": "Frost Gaoler",
+    "ja": "氷獄の弓",
+    "zh": "冰狱之弓"
+  },
+  "WEAPON_NAME_30640205": {
+    "en": "Icebreaker Bow",
+    "ja": "氷壁を貫通する弓",
+    "zh": "贯穿冰壁之弓"
+  },
+  "WEAPON_NAME_30640206": {
+    "en": "Wavefury Bow",
+    "ja": "怒り猛る濤声の弓",
+    "zh": "狂怒涛声之弓"
+  },
+  "WEAPON_NAME_30640207": {
+    "en": "Wavedrinker Bow",
+    "ja": "逆浪を食む怒弓",
+    "zh": "逆浪怒火弓"
+  },
+  "WEAPON_NAME_30640208": {
+    "en": "Despair Bringer",
+    "ja": "霊水弓ディスペアシンカー",
+    "zh": "灵水弓湮冀者"
+  },
+  "WEAPON_NAME_30640302": {
+    "en": "Epidemic",
+    "ja": "エピデミックボウ",
+    "zh": "疫病之弓"
+  },
+  "WEAPON_NAME_30640303": {
+    "en": "Windpiercer",
+    "ja": "嵐震の弓",
+    "zh": "岚震之弓"
+  },
+  "WEAPON_NAME_30640304": {
+    "en": "Stormfungus",
+    "ja": "ストームファンガス",
+    "zh": "风暴蘑弓"
+  },
+  "WEAPON_NAME_30640305": {
+    "en": "Wind, the Dustwhirler",
+    "ja": "風塵弓・ヴィント",
+    "zh": "风尘弓·温特"
+  },
+  "WEAPON_NAME_30640306": {
+    "en": "Ill Wind",
+    "ja": "凶音を轟かせる弓",
+    "zh": "尖笑之弓"
+  },
+  "WEAPON_NAME_30640307": {
+    "en": "Windsail Bow",
+    "ja": "逆風を貫く弓",
+    "zh": "破风之弓"
+  },
+  "WEAPON_NAME_30640308": {
+    "en": "Ill-Wind Whipper",
+    "ja": "颯を呼ぶ剛弓",
+    "zh": "唤风刚弓"
+  },
+  "WEAPON_NAME_30640403": {
+    "en": "Holy Bow",
+    "ja": "ホーリーボウ",
+    "zh": "神圣之弓"
+  },
+  "WEAPON_NAME_30640404": {
+    "en": "Heaven's Bouquet",
+    "ja": "天薫の弓",
+    "zh": "天薰之弓"
+  },
+  "WEAPON_NAME_30640406": {
+    "en": "Glowfungus",
+    "ja": "ライトニングファンガス",
+    "zh": "雷霆蘑弓"
+  },
+  "WEAPON_NAME_30640407": {
+    "en": "Morning Glory Bow",
+    "ja": "絢爛弓ヒメユリ",
+    "zh": "绚烂弓姬百合"
+  },
+  "WEAPON_NAME_30640408": {
+    "en": "Astral Twinkle",
+    "ja": "瞬のアストラ",
+    "zh": "闪烁之新星"
+  },
+  "WEAPON_NAME_30640409": {
+    "en": "Skybreaker Bow",
+    "ja": "轟雷を破る閃弓",
+    "zh": "破雷闪弓"
+  },
+  "WEAPON_NAME_30640501": {
+    "en": "Macabre Malediction",
+    "ja": "呪骸の魔弓",
+    "zh": "呪骸魔弓"
+  },
+  "WEAPON_NAME_30640502": {
+    "en": "Seductive Bow",
+    "ja": "冥薫の弓",
+    "zh": "冥薰之弓"
+  },
+  "WEAPON_NAME_30640503": {
+    "en": "Howlshadow",
+    "ja": "暗夜に狂笑する弓",
+    "zh": "暗夜狂笑弓"
+  },
+  "WEAPON_NAME_30640504": {
+    "en": "Dahlia Bow",
+    "ja": "妖華弓ダリア",
+    "zh": "妖华弓大丽花"
+  },
+  "WEAPON_NAME_30640505": {
+    "en": "Duskfungus",
+    "ja": "グレイヴファンガス",
+    "zh": "墓穴蘑弓"
+  },
+  "WEAPON_NAME_30640506": {
+    "en": "Astral Misfortune",
+    "ja": "厄のアストラ",
+    "zh": "灾厄之新星"
+  },
+  "WEAPON_NAME_30640507": {
+    "en": "Darkbinder Bow",
+    "ja": "暗闇を抱く狂弓",
+    "zh": "拥暗狂弓"
+  },
+  "WEAPON_NAME_30649901": {
+    "en": "Executor",
+    "ja": "エグゼキューター",
+    "zh": "执行者之弓"
+  },
+  "WEAPON_NAME_30649902": {
+    "en": "Faerie Bow",
+    "ja": "妖精の弓",
+    "zh": "精灵弓"
+  },
+  "WEAPON_NAME_30649903": {
+    "en": "Duskhawk",
+    "ja": "フローリデル",
+    "zh": "弗洛里德尔"
+  },
+  "WEAPON_NAME_30649904": {
+    "en": "Falkyn",
+    "ja": "剛弓・ファルケン",
+    "zh": "刚弓·飞鹰"
+  },
+  "WEAPON_NAME_30649905": {
+    "en": "The Perforator",
+    "ja": "貫穿の弓",
+    "zh": "贯穿之弓"
+  },
+  "WEAPON_NAME_30649906": {
+    "en": "Edgepiercer Bow",
+    "ja": "果てを射る弓",
+    "zh": "不倚之弓"
+  },
+  "WEAPON_NAME_30649907": {
+    "en": "Freesia Bow",
+    "ja": "硬弓フリージア",
+    "zh": "硬弓小苍兰"
+  },
+  "WEAPON_NAME_30649908": {
+    "en": "Astral Abyss",
+    "ja": "虚のアストラ",
+    "zh": "虚无之新星"
+  },
+  "WEAPON_NAME_30649909": {
+    "en": "Ragebow",
+    "ja": "激昂の弓",
+    "zh": "暴怒之弓"
+  },
+  "WEAPON_NAME_30649910": {
+    "en": "Hollow Scream",
+    "ja": "霊弓ホロウスクリーム",
+    "zh": "灵弓虚嚎者"
+  },
+  "WEAPON_NAME_30650101": {
+    "en": "Lupis Solis",
+    "ja": "イグニートウルフ",
+    "zh": "炎狼弓"
+  },
+  "WEAPON_NAME_30650102": {
+    "en": "Vulcanrage",
+    "ja": "紅蓮弓・ヴァルカンレイジ",
+    "zh": "红莲弓·火山之怒"
+  },
+  "WEAPON_NAME_30650103": {
+    "en": "Hellfire Bow",
+    "ja": "焦熱炎極の弓",
+    "zh": "焦热炎极之弓"
+  },
+  "WEAPON_NAME_30650104": {
+    "en": "Valkyrie's Blaze",
+    "ja": "ワルキューレの火炎",
+    "zh": "女武神之火焰"
+  },
+  "WEAPON_NAME_30650105": {
+    "en": "Valkyrie's Fire",
+    "ja": "ワルキューレの紅蓮",
+    "zh": "女武神之红莲"
+  },
+  "WEAPON_NAME_30650106": {
+    "en": "Detonation Dreadbow",
+    "ja": "爆燃を統べる破弓",
+    "zh": "爆炎破甲弓"
+  },
+  "WEAPON_NAME_30650107": {
+    "en": "Chimeratech Archer",
+    "ja": "キメラテックアーチャー",
+    "zh": "奇美拉射手之弓"
+  },
+  "WEAPON_NAME_30650108": {
+    "en": "Chimeratech Sniper",
+    "ja": "キメラテックスナイパー",
+    "zh": "奇美拉神射之弓"
+  },
+  "WEAPON_NAME_30650109": {
+    "en": "Dark Filament",
+    "ja": "ダークフィラメント",
+    "zh": "黑暗丝"
+  },
+  "WEAPON_NAME_30650201": {
+    "en": "Peacock's Whorl",
+    "ja": "創海弓アオクジャク",
+    "zh": "蓝孔雀创海弓"
+  },
+  "WEAPON_NAME_30650202": {
+    "en": "Everfrost Bow",
+    "ja": "久遠氷絶の弓",
+    "zh": "久远冰绝之弓"
+  },
+  "WEAPON_NAME_30650203": {
+    "en": "Peakbreaker Bow",
+    "ja": "氷嶽を穿孔する弓",
+    "zh": "穿凿冰狱之弓"
+  },
+  "WEAPON_NAME_30650204": {
+    "en": "Blue Mercurius",
+    "ja": "メルクリウスの水流",
+    "zh": "商神之水流"
+  },
+  "WEAPON_NAME_30650205": {
+    "en": "Azure Mercurius",
+    "ja": "メルクリウスの蒼海",
+    "zh": "商神之沧海"
+  },
+  "WEAPON_NAME_30650206": {
+    "en": "Streamgorger Bow",
+    "ja": "激流を貪る怒弓",
+    "zh": "激流怒火弓"
+  },
+  "WEAPON_NAME_30650207": {
+    "en": "Despair Spiral",
+    "ja": "霊流弩ディスペアジャイロ",
+    "zh": "灵流驽覆冀者"
+  },
+  "WEAPON_NAME_30650302": {
+    "en": "Stellar Pegasus",
+    "ja": "天馬弓アステル",
+    "zh": "天马弓阿斯特尔"
+  },
+  "WEAPON_NAME_30650303": {
+    "en": "Windhoze, the Dustblaster",
+    "ja": "風塵弓・ヴィントホーゼ",
+    "zh": "风尘弓·温特霍泽"
+  },
+  "WEAPON_NAME_30650304": {
+    "en": "Firmament Auger",
+    "ja": "天空を穿つ弓",
+    "zh": "破空之弓"
+  },
+  "WEAPON_NAME_30650305": {
+    "en": "Jormungand's Squall",
+    "ja": "ヨルムンガンドの疾風",
+    "zh": "尘世巨蟒之疾风"
+  },
+  "WEAPON_NAME_30650306": {
+    "en": "Jormungand's Fury",
+    "ja": "ヨルムンガンドの裂空",
+    "zh": "尘世巨蟒之裂空"
+  },
+  "WEAPON_NAME_30650307": {
+    "en": "Deathwind Caller",
+    "ja": "魔風をいざなう剛弓",
+    "zh": "唤魔风刚弓"
+  },
+  "WEAPON_NAME_30650402": {
+    "en": "Thunderbow",
+    "ja": "天雷の弓",
+    "zh": "天雷弓"
+  },
+  "WEAPON_NAME_30650404": {
+    "en": "Tiger Lily Bow",
+    "ja": "絢爛弓オニユリ",
+    "zh": "绚烂弓鬼百合"
+  },
+  "WEAPON_NAME_30650405": {
+    "en": "Jupiter's Light",
+    "ja": "ジュピターの閃光",
+    "zh": "天空神之闪光"
+  },
+  "WEAPON_NAME_30650406": {
+    "en": "Jupiter's Sky",
+    "ja": "ジュピターの聖天",
+    "zh": "天空神之圣天"
+  },
+  "WEAPON_NAME_30650407": {
+    "en": "Astral Echo",
+    "ja": "天響のアストラ",
+    "zh": "天响之新星"
+  },
+  "WEAPON_NAME_30650408": {
+    "en": "Heavenbreaker Bow",
+    "ja": "轟天を貫く閃弓",
+    "zh": "贯天闪弓"
+  },
+  "WEAPON_NAME_30650501": {
+    "en": "Necro Arcus",
+    "ja": "ネクロアルクス",
+    "zh": "亡骸之弓"
+  },
+  "WEAPON_NAME_30650502": {
+    "en": "Black Dahlia Bow",
+    "ja": "妖華弓ダリアローズ",
+    "zh": "妖华弓玫瑰大丽花"
+  },
+  "WEAPON_NAME_30650503": {
+    "en": "Dark Prophecy",
+    "ja": "ホロスコープの常闇",
+    "zh": "天象之永暗"
+  },
+  "WEAPON_NAME_30650504": {
+    "en": "Hellish Prophecy",
+    "ja": "ホロスコープの奈落",
+    "zh": "天象之地狱"
+  },
+  "WEAPON_NAME_30650505": {
+    "en": "Astral Cruelty",
+    "ja": "無残のアストラ",
+    "zh": "无情之新星"
+  },
+  "WEAPON_NAME_30650506": {
+    "en": "Deathbinder Bow",
+    "ja": "絶闇を縛る狂弓",
+    "zh": "缚暗狂弓"
+  },
+  "WEAPON_NAME_30659901": {
+    "en": "Nitralica's Koto",
+    "ja": "琴弓ニトラリカ",
+    "zh": "琴弓尼托拉里卡"
+  },
+  "WEAPON_NAME_30659902": {
+    "en": "Accelerator",
+    "ja": "アクセラレートギア",
+    "zh": "加速齿轮弓"
+  },
+  "WEAPON_NAME_30659903": {
+    "en": "Starchaser",
+    "ja": "スターチェイサー",
+    "zh": "坠星弓"
+  },
+  "WEAPON_NAME_30659904": {
+    "en": "Chimera's Guilt",
+    "ja": "鵺穿",
+    "zh": "鵺穿弓"
+  },
+  "WEAPON_NAME_30659905": {
+    "en": "Mega Bow",
+    "ja": "ロックボウ",
+    "zh": "洛克弓"
+  },
+  "WEAPON_NAME_30659906": {
+    "en": "Black Dragon Bow",
+    "ja": "黒龍弓",
+    "zh": "黑龙弓"
+  },
+  "WEAPON_NAME_30660101": {
+    "en": "Ýdalir",
+    "ja": "イチイバル",
+    "zh": "伊奇巴尔"
+  },
+  "WEAPON_NAME_30719901": {
+    "en": "Battleworn Wand",
+    "ja": "使い古されたロッド",
+    "zh": "老旧的魔杖"
+  },
+  "WEAPON_NAME_30729902": {
+    "en": "Enchanted Wand",
+    "ja": "マジックロッド",
+    "zh": "魔法杖"
+  },
+  "WEAPON_NAME_30730101": {
+    "en": "Sunrise Scepter",
+    "ja": "サンライズロッド",
+    "zh": "旭日魔杖"
+  },
+  "WEAPON_NAME_30730102": {
+    "en": "The Wail",
+    "ja": "ヒートヘッド",
+    "zh": "灼热之首"
+  },
+  "WEAPON_NAME_30730103": {
+    "en": "Lava Cane",
+    "ja": "ラーヴァケイン",
+    "zh": "熔岩之杖"
+  },
+  "WEAPON_NAME_30730104": {
+    "en": "Heatshimmer Wand",
+    "ja": "陽炎のロッド",
+    "zh": "阳炎魔杖"
+  },
+  "WEAPON_NAME_30730201": {
+    "en": "Oceandweller",
+    "ja": "激流のロッド",
+    "zh": "激流魔杖"
+  },
+  "WEAPON_NAME_30730202": {
+    "en": "The Scream",
+    "ja": "シャウトヘッド",
+    "zh": "哀嚎之首"
+  },
+  "WEAPON_NAME_30730203": {
+    "en": "Chilling Cane",
+    "ja": "コールドケイン",
+    "zh": "冰冷之杖"
+  },
+  "WEAPON_NAME_30730204": {
+    "en": "Echodrip",
+    "ja": "水鏡のロッド",
+    "zh": "水镜魔杖"
+  },
+  "WEAPON_NAME_30730301": {
+    "en": "Menace of the Storm",
+    "ja": "ストームメナス",
+    "zh": "威胁风暴"
+  },
+  "WEAPON_NAME_30730302": {
+    "en": "The Bellow",
+    "ja": "ノイズヘッド",
+    "zh": "噪声之首"
+  },
+  "WEAPON_NAME_30730303": {
+    "en": "Galewand",
+    "ja": "陣風のロッド",
+    "zh": "阵风魔杖"
+  },
+  "WEAPON_NAME_30730304": {
+    "en": "Breeze Cane",
+    "ja": "ブリーズケイン",
+    "zh": "冻结之杖"
+  },
+  "WEAPON_NAME_30730401": {
+    "en": "Thunder Wand",
+    "ja": "サンダーロッド",
+    "zh": "雷霆魔杖"
+  },
+  "WEAPON_NAME_30730402": {
+    "en": "The Panic",
+    "ja": "パニックヘッド",
+    "zh": "惊恐之首"
+  },
+  "WEAPON_NAME_30730403": {
+    "en": "Prismatic Cane",
+    "ja": "プリズムケイン",
+    "zh": "棱镜之杖"
+  },
+  "WEAPON_NAME_30730501": {
+    "en": "Meggidoth Ruiner",
+    "ja": "メギトスブレイカー",
+    "zh": "梅奇特斯破坏者"
+  },
+  "WEAPON_NAME_30730502": {
+    "en": "Wickedheart",
+    "ja": "邪心のロッド",
+    "zh": "邪念魔杖"
+  },
+  "WEAPON_NAME_30730503": {
+    "en": "Profound Cane",
+    "ja": "ディープケイン",
+    "zh": "深邃之杖"
+  },
+  "WEAPON_NAME_30730504": {
+    "en": "The Dirge",
+    "ja": "クライヘッド",
+    "zh": "呜咽之首"
+  },
+  "WEAPON_NAME_30739901": {
+    "en": "Wizard's Rod",
+    "ja": "ウィザードロッド",
+    "zh": "魔法师之杖"
+  },
+  "WEAPON_NAME_30739902": {
+    "en": "Sorcerer's Cudgel",
+    "ja": "ソーサリーロッド",
+    "zh": "巫术之杖"
+  },
+  "WEAPON_NAME_30739903": {
+    "en": "Conchoidal Rod",
+    "ja": "シェルロッド",
+    "zh": "海螺魔杖"
+  },
+  "WEAPON_NAME_30739904": {
+    "en": "The Scent",
+    "ja": "アロマヘッド",
+    "zh": "芳香之首"
+  },
+  "WEAPON_NAME_30739905": {
+    "en": "Clamor Wand",
+    "ja": "ざわめきのロッド",
+    "zh": "烦扰魔杖"
+  },
+  "WEAPON_NAME_30739906": {
+    "en": "Heavy Cane",
+    "ja": "ヘヴィケイン",
+    "zh": "沉重之杖"
+  },
+  "WEAPON_NAME_30740101": {
+    "en": "Firefiend's Howl",
+    "ja": "フレイムブルートハウル",
+    "zh": "炎兽咆哮杖"
+  },
+  "WEAPON_NAME_30740102": {
+    "en": "The Second Wail",
+    "ja": "メルティングヘッド",
+    "zh": "焚化之首"
+  },
+  "WEAPON_NAME_30740103": {
+    "en": "Volcano Cane",
+    "ja": "ヴォルケーノケイン",
+    "zh": "火山之杖"
+  },
+  "WEAPON_NAME_30740104": {
+    "en": "Bewitching Scepter",
+    "ja": "妖火の宝笏",
+    "zh": "妖火宝笏"
+  },
+  "WEAPON_NAME_30740105": {
+    "en": "Brightshimmer Wand",
+    "ja": "煌々たる陽炎のロッド",
+    "zh": "迷幻阳炎魔杖"
+  },
+  "WEAPON_NAME_30740106": {
+    "en": "Blaze Shepherd",
+    "ja": "バーニングコントロール",
+    "zh": "灼热魔杖"
+  },
+  "WEAPON_NAME_30740107": {
+    "en": "Blazewing",
+    "ja": "焔獣の翼",
+    "zh": "焰兽之翼"
+  },
+  "WEAPON_NAME_30740201": {
+    "en": "Rod of Tears",
+    "ja": "ティアーズロッド",
+    "zh": "泪之杖"
+  },
+  "WEAPON_NAME_30740202": {
+    "en": "The Second Scream",
+    "ja": "スクリームヘッド",
+    "zh": "悲鸣之首"
+  },
+  "WEAPON_NAME_30740203": {
+    "en": "Wavewing",
+    "ja": "波獣の翼",
+    "zh": "波兽之翼"
+  },
+  "WEAPON_NAME_30740204": {
+    "en": "Shade Mirage",
+    "ja": "ミラージュコントロール",
+    "zh": "驭影魔杖"
+  },
+  "WEAPON_NAME_30740205": {
+    "en": "Frost Cane",
+    "ja": "フロストケイン",
+    "zh": "冰霜之杖"
+  },
+  "WEAPON_NAME_30740206": {
+    "en": "Seaguide's Rule",
+    "ja": "マリーンルーラー",
+    "zh": "海流支配者"
+  },
+  "WEAPON_NAME_30740207": {
+    "en": "Lonesome Echodrip",
+    "ja": "幽境に誘う水鏡のロッド",
+    "zh": "幽境魔杖"
+  },
+  "WEAPON_NAME_30740208": {
+    "en": "Ringing Wand",
+    "ja": "リンギングロッド",
+    "zh": "圣铃魔杖"
+  },
+  "WEAPON_NAME_30740301": {
+    "en": "Tempest Wand",
+    "ja": "テンペストロッド",
+    "zh": "暴风魔杖"
+  },
+  "WEAPON_NAME_30740302": {
+    "en": "The Fury",
+    "ja": "レイジングヘッド",
+    "zh": "狂怒之首"
+  },
+  "WEAPON_NAME_30740303": {
+    "en": "Scepter of the Gale",
+    "ja": "烈風の宝笏",
+    "zh": "烈风宝笏"
+  },
+  "WEAPON_NAME_30740304": {
+    "en": "Stormsurge Wand",
+    "ja": "逆巻く陣風のロッド",
+    "zh": "妖风魔杖"
+  },
+  "WEAPON_NAME_30740305": {
+    "en": "Storm's Rule",
+    "ja": "ストームルーラー",
+    "zh": "风暴支配者"
+  },
+  "WEAPON_NAME_30740306": {
+    "en": "Storm Cane",
+    "ja": "ストームケイン",
+    "zh": "暴风之杖"
+  },
+  "WEAPON_NAME_30740307": {
+    "en": "Gustwing",
+    "ja": "風獣の翼",
+    "zh": "风兽之翼"
+  },
+  "WEAPON_NAME_30740402": {
+    "en": "Conductor Rod",
+    "ja": "ライトニングロッド",
+    "zh": "闪光魔杖"
+  },
+  "WEAPON_NAME_30740404": {
+    "en": "The Madness",
+    "ja": "クレイジーヘッド",
+    "zh": "疯狂之首"
+  },
+  "WEAPON_NAME_30740405": {
+    "en": "Rainbow Cane",
+    "ja": "レインボーケイン",
+    "zh": "彩虹之杖"
+  },
+  "WEAPON_NAME_30740406": {
+    "en": "Saint's Requiem",
+    "ja": "セイントレクイエム",
+    "zh": "圣徒安魂曲"
+  },
+  "WEAPON_NAME_30740407": {
+    "en": "Skyshaker",
+    "ja": "スカイシェイカー",
+    "zh": "撼天之杖"
+  },
+  "WEAPON_NAME_30740408": {
+    "en": "Lightwing",
+    "ja": "閃獣の翼",
+    "zh": "闪兽之翼"
+  },
+  "WEAPON_NAME_30740501": {
+    "en": "Accursed Vare",
+    "ja": "カースロッド",
+    "zh": "诅咒魔杖"
+  },
+  "WEAPON_NAME_30740503": {
+    "en": "Darkheart",
+    "ja": "禍々しき邪心のロッド",
+    "zh": "不祥邪念魔杖"
+  },
+  "WEAPON_NAME_30740504": {
+    "en": "Abyssal Cane",
+    "ja": "アビスケイン",
+    "zh": "深渊之杖"
+  },
+  "WEAPON_NAME_30740505": {
+    "en": "Dirge of Grief",
+    "ja": "グリーフレクイエム",
+    "zh": "哀怨安魂曲"
+  },
+  "WEAPON_NAME_30740506": {
+    "en": "The Lamentation",
+    "ja": "ラメントヘッド",
+    "zh": "哀怨之首"
+  },
+  "WEAPON_NAME_30740507": {
+    "en": "Chaoshaker",
+    "ja": "カオスシェイカー",
+    "zh": "撼沌之杖"
+  },
+  "WEAPON_NAME_30740508": {
+    "en": "Doomwing",
+    "ja": "怨獣の翼",
+    "zh": "怨兽之翼"
+  },
+  "WEAPON_NAME_30749901": {
+    "en": "Latchkey",
+    "ja": "キーロッド",
+    "zh": "匙之杖"
+  },
+  "WEAPON_NAME_30749902": {
+    "en": "Rod of Alchemy",
+    "ja": "アルケミーロッド",
+    "zh": "炼金魔杖"
+  },
+  "WEAPON_NAME_30749903": {
+    "en": "Moonlight Rod",
+    "ja": "ムーンライトロッド",
+    "zh": "月光魔杖"
+  },
+  "WEAPON_NAME_30749904": {
+    "en": "Beastwing",
+    "ja": "獣の翼",
+    "zh": "兽之翼"
+  },
+  "WEAPON_NAME_30749905": {
+    "en": "Scepter of Spirit",
+    "ja": "魂の宝笏",
+    "zh": "灵魂宝笏"
+  },
+  "WEAPON_NAME_30749906": {
+    "en": "Couragebane",
+    "ja": "フィアーコントロール",
+    "zh": "驭火魔杖"
+  },
+  "WEAPON_NAME_30749907": {
+    "en": "Elder's Rule",
+    "ja": "エルダールーラー",
+    "zh": "远古支配者"
+  },
+  "WEAPON_NAME_30749908": {
+    "en": "Soul's Requiem",
+    "ja": "アニマレクイエム",
+    "zh": "慰藉安魂曲"
+  },
+  "WEAPON_NAME_30749909": {
+    "en": "Groundshaker",
+    "ja": "グランドシェイカー",
+    "zh": "撼地之杖"
+  },
+  "WEAPON_NAME_30750101": {
+    "en": "Terranigmus",
+    "ja": "ランドメイカー",
+    "zh": "大地之母"
+  },
+  "WEAPON_NAME_30750102": {
+    "en": "Scepter of Infinite Fire",
+    "ja": "無尽焔の宝笏",
+    "zh": "无尽焰宝笏"
+  },
+  "WEAPON_NAME_30750103": {
+    "en": "Infernal Conduit",
+    "ja": "ブレイジングコントロール",
+    "zh": "炽热魔杖"
+  },
+  "WEAPON_NAME_30750104": {
+    "en": "Muspelheim",
+    "ja": "竜笏ムスペルヘイム",
+    "zh": "龙笏炎境"
+  },
+  "WEAPON_NAME_30750105": {
+    "en": "Infernoblaze",
+    "ja": "竜笏インフェルノ",
+    "zh": "龙笏炼狱"
+  },
+  "WEAPON_NAME_30750106": {
+    "en": "Hellwing",
+    "ja": "紅炎獣の翼",
+    "zh": "红炎兽之翼"
+  },
+  "WEAPON_NAME_30750107": {
+    "en": "Chimeratech Sorcerer",
+    "ja": "キメラテックソーサラー",
+    "zh": "奇美拉术士魔杖"
+  },
+  "WEAPON_NAME_30750108": {
+    "en": "Chimeratech Archmage",
+    "ja": "キメラテックウィザード",
+    "zh": "奇美拉巫师魔杖"
+  },
+  "WEAPON_NAME_30750109": {
+    "en": "Plage Rod",
+    "ja": "プラージュロッド",
+    "zh": "明焰魔杖"
+  },
+  "WEAPON_NAME_30750202": {
+    "en": "Ocean Monarch",
+    "ja": "パシフィックモナーク",
+    "zh": "大洋君主"
+  },
+  "WEAPON_NAME_30750203": {
+    "en": "Tsunamiwing",
+    "ja": "海嘯獣の翼",
+    "zh": "海啸兽之翼"
+  },
+  "WEAPON_NAME_30750204": {
+    "en": "Spirit Breaker",
+    "ja": "スピリットコントロール",
+    "zh": "驭魂魔杖"
+  },
+  "WEAPON_NAME_30750205": {
+    "en": "Seasovereign's Rule",
+    "ja": "オーシャンルーラー",
+    "zh": "大洋支配者"
+  },
+  "WEAPON_NAME_30750206": {
+    "en": "Hydroballista",
+    "ja": "竜笏ハイドロバリスタ",
+    "zh": "龙笏清流"
+  },
+  "WEAPON_NAME_30750207": {
+    "en": "Aquatic Spiral",
+    "ja": "竜笏アクアスパイラル",
+    "zh": "龙笏海涡"
+  },
+  "WEAPON_NAME_30750301": {
+    "en": "Phytalmios",
+    "ja": "クラウドカローラ",
+    "zh": "云之花冠"
+  },
+  "WEAPON_NAME_30750302": {
+    "en": "Scepter of the Maelstrom",
+    "ja": "碧嵐迅の宝笏",
+    "zh": "碧岚迅宝笏"
+  },
+  "WEAPON_NAME_30750303": {
+    "en": "Typhoon's Rule",
+    "ja": "タイフーンルーラー",
+    "zh": "台风支配者"
+  },
+  "WEAPON_NAME_30750304": {
+    "en": "Tempestwing",
+    "ja": "豪嵐獣の翼",
+    "zh": "暴风兽之翼"
+  },
+  "WEAPON_NAME_30750305": {
+    "en": "Tornado Tail",
+    "ja": "竜笏トルネードテイル",
+    "zh": "龙笏飓风"
+  },
+  "WEAPON_NAME_30750306": {
+    "en": "Grand Tempest",
+    "ja": "竜笏グランドテンペスト",
+    "zh": "龙笏风暴"
+  },
+  "WEAPON_NAME_30750401": {
+    "en": "Twilight Shimmer",
+    "ja": "スパークルナイト",
+    "zh": "白昼之夜"
+  },
+  "WEAPON_NAME_30750403": {
+    "en": "Sacred Requiem",
+    "ja": "セイクリッドレクイエム",
+    "zh": "神圣安魂曲"
+  },
+  "WEAPON_NAME_30750404": {
+    "en": "Crossed Lightning",
+    "ja": "竜笏ライトニングクロス",
+    "zh": "龙笏织电"
+  },
+  "WEAPON_NAME_30750405": {
+    "en": "Primeval Thunder",
+    "ja": "竜笏プライマルサンダー",
+    "zh": "龙笏初雷"
+  },
+  "WEAPON_NAME_30750406": {
+    "en": "Worldshaker",
+    "ja": "ワールドシェイカー",
+    "zh": "撼世之杖"
+  },
+  "WEAPON_NAME_30750407": {
+    "en": "Shinewing",
+    "ja": "電閃獣の翼",
+    "zh": "电闪兽之翼"
+  },
+  "WEAPON_NAME_30750501": {
+    "en": "Underworld Despair",
+    "ja": "ディスペルハデス",
+    "zh": "驱冥杖"
+  },
+  "WEAPON_NAME_30750503": {
+    "en": "Dirge of Desperation",
+    "ja": "ディスパレイトレクイエム",
+    "zh": "绝望安魂曲"
+  },
+  "WEAPON_NAME_30750504": {
+    "en": "Venomous Curse",
+    "ja": "竜笏カースヴェノム",
+    "zh": "龙笏怨沌"
+  },
+  "WEAPON_NAME_30750505": {
+    "en": "Darkbinder",
+    "ja": "竜笏ダークバインド",
+    "zh": "龙笏暗缚"
+  },
+  "WEAPON_NAME_30750506": {
+    "en": "Fateshaker",
+    "ja": "フェイトシェイカー",
+    "zh": "撼运之杖"
+  },
+  "WEAPON_NAME_30750507": {
+    "en": "Chaoswing",
+    "ja": "混沌獣の翼",
+    "zh": "混沌兽之翼"
+  },
+  "WEAPON_NAME_30759901": {
+    "en": "Wand of the Torrent",
+    "ja": "タービュランスロッド",
+    "zh": "乱流魔杖"
+  },
+  "WEAPON_NAME_30759902": {
+    "en": "Welkin Wand",
+    "ja": "天空のロッド",
+    "zh": "苍穹魔杖"
+  },
+  "WEAPON_NAME_30759903": {
+    "en": "Chaotic Horizon",
+    "ja": "カオスホライゾン",
+    "zh": "混沌之源"
+  },
+  "WEAPON_NAME_30759904": {
+    "en": "Mega Wand",
+    "ja": "ロックロッド",
+    "zh": "洛克魔杖"
+  },
+  "WEAPON_NAME_30759905": {
+    "en": "Catspaw Rod",
+    "ja": "開運招福の猫之手錫",
+    "zh": "开运招福猫爪之杖"
+  },
+  "WEAPON_NAME_30759906": {
+    "en": "Fatalis Rhabdos",
+    "ja": "ミララブドス",
+    "zh": "黑龙魔杖"
+  },
+  "WEAPON_NAME_30760101": {
+    "en": "Brísingr",
+    "ja": "ブリーシング",
+    "zh": "布里希加曼"
+  },
+  "WEAPON_NAME_30819901": {
+    "en": "Battleworn Staff",
+    "ja": "使い古された杖",
+    "zh": "老旧的法杖"
+  },
+  "WEAPON_NAME_30829903": {
+    "en": "Staff of Affection",
+    "ja": "慈愛の杖",
+    "zh": "慈爱之杖"
+  },
+  "WEAPON_NAME_30830101": {
+    "en": "Staff of Punishing Flame",
+    "ja": "猛き炎の杖",
+    "zh": "烈焰之杖"
+  },
+  "WEAPON_NAME_30830102": {
+    "en": "Flamechant",
+    "ja": "フリーファイアオーダー",
+    "zh": "火焰唤魔法杖"
+  },
+  "WEAPON_NAME_30830201": {
+    "en": "Scendecipher",
+    "ja": "ウェーブリポート",
+    "zh": "观浪法杖"
+  },
+  "WEAPON_NAME_30830202": {
+    "en": "Brinechant",
+    "ja": "ウォータリィオーダー",
+    "zh": "融水唤魔法杖"
+  },
+  "WEAPON_NAME_30830301": {
+    "en": "Windreader",
+    "ja": "ウェザーリポート",
+    "zh": "气象法杖"
+  },
+  "WEAPON_NAME_30830302": {
+    "en": "Squallchant",
+    "ja": "ツイストオーダー",
+    "zh": "风卷唤魔法杖"
+  },
+  "WEAPON_NAME_30830401": {
+    "en": "Astrolabe",
+    "ja": "アストロラーベ",
+    "zh": "星盘之杖"
+  },
+  "WEAPON_NAME_30830402": {
+    "en": "Vampire's Lantern",
+    "ja": "ヴァンパイア・ランタン",
+    "zh": "吸血鬼灯笼"
+  },
+  "WEAPON_NAME_30830403": {
+    "en": "Gleamchant",
+    "ja": "ホワイトオーダー",
+    "zh": "白光唤魔法杖"
+  },
+  "WEAPON_NAME_30830501": {
+    "en": "Meggidoth Wisp",
+    "ja": "メギトスウィスプ",
+    "zh": "梅奇特斯的低语"
+  },
+  "WEAPON_NAME_30830502": {
+    "en": "Gloomchant",
+    "ja": "トワイライトオーダー",
+    "zh": "暮光唤魔法杖"
+  },
+  "WEAPON_NAME_30839901": {
+    "en": "Staff of Grace",
+    "ja": "恩恵の杖",
+    "zh": "恩惠之杖"
+  },
+  "WEAPON_NAME_30839902": {
+    "en": "Long Ankh",
+    "ja": "ロングアンク",
+    "zh": "长生符"
+  },
+  "WEAPON_NAME_30839903": {
+    "en": "Staff of the Horned Snake",
+    "ja": "角蛇の杖",
+    "zh": "角蛇之杖"
+  },
+  "WEAPON_NAME_30839904": {
+    "en": "Aurachant",
+    "ja": "シンプルオーダー",
+    "zh": "简易唤魔法杖"
+  },
+  "WEAPON_NAME_30840101": {
+    "en": "Ark Voyager",
+    "ja": "アークフレアスタッフ",
+    "zh": "天火法杖"
+  },
+  "WEAPON_NAME_30840102": {
+    "en": "Ashchant",
+    "ja": "フルフレイムオーダー",
+    "zh": "烈焰唤魔法杖"
+  },
+  "WEAPON_NAME_30840103": {
+    "en": "Twilight Harbinger",
+    "ja": "黄昏を告げるもの",
+    "zh": "黄昏宣告"
+  },
+  "WEAPON_NAME_30840105": {
+    "en": "Ignis Core",
+    "ja": "コア・オブ・イグニス",
+    "zh": "火焰之核"
+  },
+  "WEAPON_NAME_30840106": {
+    "en": "Combustion Staff",
+    "ja": "コンバスションスタッフ",
+    "zh": "御火法杖"
+  },
+  "WEAPON_NAME_30840201": {
+    "en": "Marine Staff",
+    "ja": "マリーンスタッフ",
+    "zh": "海洋之杖"
+  },
+  "WEAPON_NAME_30840203": {
+    "en": "Seachant",
+    "ja": "アクアフィルオーダー",
+    "zh": "驭水唤魔法杖"
+  },
+  "WEAPON_NAME_30840204": {
+    "en": "Ocean Core",
+    "ja": "コア・オブ・オーシャン",
+    "zh": "大洋之核"
+  },
+  "WEAPON_NAME_30840206": {
+    "en": "Dowsing Staff",
+    "ja": "水脈を生む杖",
+    "zh": "塑水之杖"
+  },
+  "WEAPON_NAME_30840207": {
+    "en": "Tideway Staff",
+    "ja": "リップカレントスタッフ",
+    "zh": "裂流法杖"
+  },
+  "WEAPON_NAME_30840208": {
+    "en": "Air Fouler",
+    "ja": "マッドサージグラッジ",
+    "zh": "怨念狂浪"
+  },
+  "WEAPON_NAME_30840301": {
+    "en": "Windeater Staff",
+    "ja": "風喰いの杖",
+    "zh": "食风之杖"
+  },
+  "WEAPON_NAME_30840302": {
+    "en": "Wind and Cloud",
+    "ja": "風雲を呼ぶもの",
+    "zh": "呼风唤雨"
+  },
+  "WEAPON_NAME_30840303": {
+    "en": "Stormchant",
+    "ja": "ゲイルスパイラルオーダー",
+    "zh": "飓涡唤魔法杖"
+  },
+  "WEAPON_NAME_30840304": {
+    "en": "Heavenshaker",
+    "ja": "空を震わす杖",
+    "zh": "慑空之杖"
+  },
+  "WEAPON_NAME_30840305": {
+    "en": "Gust Staff",
+    "ja": "ガストスタッフ",
+    "zh": "狂风法杖"
+  },
+  "WEAPON_NAME_30840401": {
+    "en": "Tonitrus",
+    "ja": "雷電杖トニトルス",
+    "zh": "雷电杖托尼托鲁斯"
+  },
+  "WEAPON_NAME_30840402": {
+    "en": "Daybreak Harbinger",
+    "ja": "暁を報せるもの",
+    "zh": "拂晓将至"
+  },
+  "WEAPON_NAME_30840403": {
+    "en": "Luminchant",
+    "ja": "ブリリアントオーダー",
+    "zh": "闪耀唤魔法杖"
+  },
+  "WEAPON_NAME_30840404": {
+    "en": "Aria of Heroism",
+    "ja": "ヒロイックアリア",
+    "zh": "英雄之咏叹"
+  },
+  "WEAPON_NAME_30840405": {
+    "en": "Dominus of the Void",
+    "ja": "虚空の支配者",
+    "zh": "虚空支配者"
+  },
+  "WEAPON_NAME_30840406": {
+    "en": "Beastbolt Staff",
+    "ja": "フォトボルトスタッフ",
+    "zh": "光电法杖"
+  },
+  "WEAPON_NAME_30840501": {
+    "en": "Sanity's Bane",
+    "ja": "カースドスペリア",
+    "zh": "诅咒之苏必利尔"
+  },
+  "WEAPON_NAME_30840502": {
+    "en": "Ebonchant",
+    "ja": "ミッドナイトオーダー",
+    "zh": "午夜唤魔法杖"
+  },
+  "WEAPON_NAME_30840503": {
+    "en": "Aria of Regret",
+    "ja": "リグレットアリア",
+    "zh": "懊悔之咏叹"
+  },
+  "WEAPON_NAME_30840504": {
+    "en": "Dominus of the Shadows",
+    "ja": "常闇の支配者",
+    "zh": "黑暗支配者"
+  },
+  "WEAPON_NAME_30840505": {
+    "en": "Malice Staff",
+    "ja": "イビルスタッフ",
+    "zh": "邪念法杖"
+  },
+  "WEAPON_NAME_30849901": {
+    "en": "Staff of Life",
+    "ja": "ライフスタッフ",
+    "zh": "养生杖"
+  },
+  "WEAPON_NAME_30849902": {
+    "en": "Staff of Fortune",
+    "ja": "フォーチュンスタッフ",
+    "zh": "幸运权杖"
+  },
+  "WEAPON_NAME_30849903": {
+    "en": "Beauty's Balm",
+    "ja": "ビューティフルメイク",
+    "zh": "美貌之杖"
+  },
+  "WEAPON_NAME_30849904": {
+    "en": "Forever Sky",
+    "ja": "空を望むもの",
+    "zh": "祈愿苍穹"
+  },
+  "WEAPON_NAME_30849905": {
+    "en": "Soul Core",
+    "ja": "コア・オブ・ソウル",
+    "zh": "灵魂之核"
+  },
+  "WEAPON_NAME_30849906": {
+    "en": "World's Fulcrum",
+    "ja": "世界を支える杖",
+    "zh": "擎世之杖"
+  },
+  "WEAPON_NAME_30849907": {
+    "en": "Aria of Truth",
+    "ja": "トゥルーアリア",
+    "zh": "真实之咏叹"
+  },
+  "WEAPON_NAME_30849908": {
+    "en": "Abyssal Dominator",
+    "ja": "奈落の支配者",
+    "zh": "地狱支配者"
+  },
+  "WEAPON_NAME_30849909": {
+    "en": "Iratus Staff",
+    "ja": "アイレイトスタッフ",
+    "zh": "暴怒法杖"
+  },
+  "WEAPON_NAME_30849910": {
+    "en": "Rancor Staff",
+    "ja": "スピリットグラッジ",
+    "zh": "幽魂怨念"
+  },
+  "WEAPON_NAME_30850101": {
+    "en": "Staff of the Red Emperor",
+    "ja": "赤帝の炎杖",
+    "zh": "赤帝炎杖"
+  },
+  "WEAPON_NAME_30850102": {
+    "en": "Endless Demise",
+    "ja": "終焉を導くもの",
+    "zh": "末日终焉"
+  },
+  "WEAPON_NAME_30850103": {
+    "en": "Igniflare Core",
+    "ja": "コア・オブ・イグニフレア",
+    "zh": "烈焰之核"
+  },
+  "WEAPON_NAME_30850104": {
+    "en": "Brightblaze",
+    "ja": "燃え盛るもの",
+    "zh": "烈焰不息"
+  },
+  "WEAPON_NAME_30850105": {
+    "en": "Blazegambol",
+    "ja": "劫火と戯れるもの",
+    "zh": "红莲共舞"
+  },
+  "WEAPON_NAME_30850106": {
+    "en": "Fangflame Staff",
+    "ja": "ブレイズフレアスタッフ",
+    "zh": "爆炎法杖"
+  },
+  "WEAPON_NAME_30850107": {
+    "en": "Chimeratech Bishop",
+    "ja": "キメラテックビショップ",
+    "zh": "奇美拉主教法杖"
+  },
+  "WEAPON_NAME_30850108": {
+    "en": "Chimeratech Cardinal",
+    "ja": "キメラテックカーディナル",
+    "zh": "奇美拉枢机法杖"
+  },
+  "WEAPON_NAME_30850109": {
+    "en": "Wyvern Staff \"Elsewhere\"",
+    "ja": "火竜杖【異境】",
+    "zh": "火龙杖【异境】"
+  },
+  "WEAPON_NAME_30850201": {
+    "en": "Bracing Waters",
+    "ja": "アクアブレス",
+    "zh": "水之祝福"
+  },
+  "WEAPON_NAME_30850202": {
+    "en": "Endless Azure Core",
+    "ja": "コア・オブ・ブルーアビス",
+    "zh": "蓝渊之核"
+  },
+  "WEAPON_NAME_30850203": {
+    "en": "Drenching Staff",
+    "ja": "大海を創る杖",
+    "zh": "创海之杖"
+  },
+  "WEAPON_NAME_30850204": {
+    "en": "Unceasing Tide",
+    "ja": "止め処なきもの",
+    "zh": "波涛不止"
+  },
+  "WEAPON_NAME_30850205": {
+    "en": "Ocean's Embrace",
+    "ja": "蒼海を抱くもの",
+    "zh": "沧海环拥"
+  },
+  "WEAPON_NAME_30850206": {
+    "en": "Riptide Staff",
+    "ja": "リップタイドスタッフ",
+    "zh": "裂潮法杖"
+  },
+  "WEAPON_NAME_30850207": {
+    "en": "Breath Snuffer",
+    "ja": "マッドミアズマグラッジ",
+    "zh": "怨念狂瘴"
+  },
+  "WEAPON_NAME_30850301": {
+    "en": "Ancient Mage's Windcane",
+    "ja": "古代魔術の旋杖",
+    "zh": "古代魔法旋杖"
+  },
+  "WEAPON_NAME_30850302": {
+    "en": "Rise and Fall",
+    "ja": "興亡をもたらすもの",
+    "zh": "亦兴亦亡"
+  },
+  "WEAPON_NAME_30850303": {
+    "en": "Skypainter Staff",
+    "ja": "蒼穹を彩る杖",
+    "zh": "虹穹之杖"
+  },
+  "WEAPON_NAME_30850304": {
+    "en": "Zephyrage",
+    "ja": "吹き荒ぶもの",
+    "zh": "狂风骤起"
+  },
+  "WEAPON_NAME_30850305": {
+    "en": "Stormruler",
+    "ja": "嵐を導くもの",
+    "zh": "号令风暴"
+  },
+  "WEAPON_NAME_30850306": {
+    "en": "Whirlwind Staff",
+    "ja": "ワールウインドスタッフ",
+    "zh": "旋风法杖"
+  },
+  "WEAPON_NAME_30850401": {
+    "en": "Light of Judgment",
+    "ja": "裁きの光杖",
+    "zh": "制裁光杖"
+  },
+  "WEAPON_NAME_30850402": {
+    "en": "Genesis Bringer",
+    "ja": "開闢を運ぶもの",
+    "zh": "天地伊始"
+  },
+  "WEAPON_NAME_30850403": {
+    "en": "Aria of Valor",
+    "ja": "マジェスティックアリア",
+    "zh": "庄严之咏叹"
+  },
+  "WEAPON_NAME_30850404": {
+    "en": "Shadowblot",
+    "ja": "照らし出すもの",
+    "zh": "光芒四射"
+  },
+  "WEAPON_NAME_30850405": {
+    "en": "Heavensneer",
+    "ja": "天に嗤うもの",
+    "zh": "蔑笑晴空"
+  },
+  "WEAPON_NAME_30850406": {
+    "en": "Dominus of Ever",
+    "ja": "無窮の支配者",
+    "zh": "无穷支配者"
+  },
+  "WEAPON_NAME_30850407": {
+    "en": "Beastblast Staff",
+    "ja": "フォトストリークスタッフ",
+    "zh": "光驰法杖"
+  },
+  "WEAPON_NAME_30850501": {
+    "en": "Caduceus",
+    "ja": "ケリュケイオン",
+    "zh": "商神杖"
+  },
+  "WEAPON_NAME_30850502": {
+    "en": "Aria of Lamentation",
+    "ja": "ラメンテイションアリア",
+    "zh": "哀伤之咏叹"
+  },
+  "WEAPON_NAME_30850503": {
+    "en": "Creeping Death",
+    "ja": "覆い尽くすもの",
+    "zh": "遮天蔽日"
+  },
+  "WEAPON_NAME_30850504": {
+    "en": "Dark Hunger",
+    "ja": "漆黒を喰らうもの",
+    "zh": "漆黑为噬"
+  },
+  "WEAPON_NAME_30850505": {
+    "en": "Dominus of the Truedark",
+    "ja": "無明の支配者",
+    "zh": "无明支配者"
+  },
+  "WEAPON_NAME_30850506": {
+    "en": "Malevolence Staff",
+    "ja": "アビスゲートスタッフ",
+    "zh": "渊门法杖"
+  },
+  "WEAPON_NAME_30859901": {
+    "en": "Cane of Soul's Repose",
+    "ja": "鎮魂の杖",
+    "zh": "镇魂之杖"
+  },
+  "WEAPON_NAME_30859902": {
+    "en": "Rainbow Cane",
+    "ja": "虹の杖",
+    "zh": "虹之杖"
+  },
+  "WEAPON_NAME_30859903": {
+    "en": "Otherworldly Bough",
+    "ja": "異形樹の枝",
+    "zh": "异形树枝杖"
+  },
+  "WEAPON_NAME_30859904": {
+    "en": "Mega Staff",
+    "ja": "ロックスタッフ",
+    "zh": "洛克法杖"
+  },
+  "WEAPON_NAME_30859905": {
+    "en": "Black Dragon Staff",
+    "ja": "黒龍杖",
+    "zh": "黑龙杖"
+  },
+  "WEAPON_NAME_30860101": {
+    "en": "Gjallarhorn",
+    "ja": "ギャラルホルン",
+    "zh": "加拉尔号角"
+  },
+  "WEAPON_NAME_39900001": {
+    "en": "Zethia's Staff",
+    "ja": "（ゲスト用）ゼシア杖",
+    "zh": "塞西娅之杖"
+  }
+}
