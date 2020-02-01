@@ -4,7 +4,7 @@ import zipfile
 from pathlib import Path
 from zipfile import ZipFile, is_zipfile
 
-APP_PATH = Path("/home/jl/Documents/dragalia-lost")
+APP_PATH = Path("/home/jl/Documents/dragalia-lost/dragalia-lost")
 DOWNLOAD_PATH = Path("/home/jl/Downloads")
 SCRIPT_PATH = Path("/home/jl/Documents/script")
 DECIPHER_PATH = SCRIPT_PATH / "DecipherFiles"
@@ -82,6 +82,17 @@ def save_json(file_name, data, folder=EXPORTS):
         json.dump(data, f, ensure_ascii=False, indent=2)
         f.write("\n")
     print("Save file: {}".format(path))
+
+
+def save_content(file_name, data):
+    path = APP_PATH / "src" / "data" / "content" / "{}.js".format(file_name)
+
+    with path.open("w", encoding="utf-8") as f:
+        f.write("const {} =\n".format(file_name))
+        json.dump(data, f, ensure_ascii=False, indent=2)
+        f.write(";\n\nexport default {};\n".format(file_name))
+
+    print("save file: {}".format(path))
 
 
 if __name__ == "__main__":

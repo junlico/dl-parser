@@ -1,7 +1,7 @@
 import re
 
 from label import Base
-from utils import read_json
+from utils import read_json, save_content
 
 
 ELEMENT_TYPE = [None, "Flame", "Water", "Wind", "Light", "Shadow"]
@@ -311,6 +311,10 @@ class Adventurer(Common):
             },
         }
 
+    def finalize(self):
+        super().finalize()
+        save_content(self.key, self.data)
+
     def eligible(self):
         return super().eligible() and self.item.pop("IsPlayable") == "1"
 
@@ -371,6 +375,9 @@ class Adventurer(Common):
 
             might.append(v)
 
+        # MC70: + 200
+        might[6] += 200
+
         item["Might"] = might
 
     def set_stat(self):
@@ -422,6 +429,10 @@ class Weapon(Common):
         )
 
         super().__init__("weapon", columns)
+
+    def finalize(self):
+        super().finalize()
+        save_content(self.key, self.data)
 
     def eligible(self):
         item = self.item
@@ -492,6 +503,10 @@ class Dragon(Common):
         )
 
         super().__init__("dragon", columns)
+
+    def finalize(self):
+        super().finalize()
+        save_content(self.key, self.data)
 
     def eligible(self):
         item = self.item
@@ -564,6 +579,10 @@ class Wyrmprint(Common):
 
         super().__init__("wyrmprint", columns)
 
+    def finalize(self):
+        super().finalize()
+        save_content(self.key, self.data)
+
     def eligible(self):
         item = self.item
         return item and item.pop("IsPlayable") == "1" and int(item["Rarity"]) >= 3
@@ -596,7 +615,7 @@ class Wyrmprint(Common):
             if (ability_key := t["Key"]) not in item:
                 item[ability_key] = []
 
-            if ability_key == "incRES":
+            if ability_key == "IncRES":
                 item["ResEle"] = t["ResEle"]
             elif ability_key == "IncDIS":
                 item["Enemy"] = t["Enemy"]
