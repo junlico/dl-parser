@@ -5,13 +5,12 @@ from pathlib import Path
 
 import requests
 
-from utils import read_json, save_json
+from utils import read_json, save_json, APP_PATH
 
 MAX = 500
 WIKI = "https://dragalialost.gamepedia.com"
 API = "{}/api.php?format=json&action".format(WIKI)
 
-APP_PATH = Path("/home/jl/Documents/dragalia-lost/dragalia-lost")
 IMAGE_PATH = APP_PATH / "public" / "images"
 
 

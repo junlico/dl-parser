@@ -4,7 +4,7 @@ import zipfile
 from pathlib import Path
 from zipfile import ZipFile, is_zipfile
 
-APP_PATH = Path("/home/jl/Documents/dragalia-lost/dragalia-lost")
+APP_PATH = Path("/home/jl/Documents/dragalia-lost")
 DOWNLOAD_PATH = Path("/home/jl/Downloads")
 SCRIPT_PATH = Path("/home/jl/Documents/script")
 DECIPHER_PATH = SCRIPT_PATH / "DecipherFiles"
