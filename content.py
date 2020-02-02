@@ -316,7 +316,15 @@ class Adventurer(Common):
         save_content(self.key, self.data)
 
     def eligible(self):
-        return super().eligible() and self.item.pop("IsPlayable") == "1"
+        item = self.item
+
+        if item:
+            if item.pop("IsPlayable") == "1":
+                return True
+            elif item["Id"] == "10130103" or item["Id"] == "10140401":
+                return True
+
+        return False
 
     def modify(self):
         super().modify()
