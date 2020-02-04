@@ -2,3 +2,4 @@
 /__pycache__
 /DecipherFiles/*
 /Exports/*
+!/Exports/ability_val.json
