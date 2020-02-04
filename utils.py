@@ -10,6 +10,9 @@ SCRIPT_PATH = Path("/home/jl/Documents/dl-parser")
 DECIPHER_PATH = SCRIPT_PATH / "DecipherFiles"
 EXPORTS = "Exports"
 
+ELEMENT_TYPE = [None, "Flame", "Water", "Wind", "Light", "Shadow"]
+WEAPON_TYPE = [None, "Sword", "Blade", "Dagger", "Axe", "Lance", "Bow", "Wand", "Staff"]
+
 
 def update_text_file():
     def extract_file(z, f):

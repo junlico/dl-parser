@@ -1,7 +1,8 @@
 import re
 
-from content import Ability, Adventurer, Dragon, Skill, Weapon, Wyrmprint
-from label import Label, Name
+from p1 import Label, Name
+from p2 import Ability, Skill
+from p3 import Adventurer, Dragon, Weapon, Wyrmprint
 from utils import get_text_path, save_json
 
 
@@ -29,16 +30,16 @@ def parse(obj):
 
 if __name__ == "__main__":
 
-    queue = (
-        Label(),
-        Name(),
-        Ability(),
-        Skill(),
-        Adventurer(),
-        Weapon(),
-        Dragon(),
-        Wyrmprint(),
-    )
+    queue = [
+        Label,
+        Name,
+        Ability,
+        Skill,
+        Adventurer,
+        Weapon,
+        Dragon,
+        Wyrmprint,
+    ]
 
-    for obj in queue:
-        parse(obj)
+    for i in queue:
+        parse(i())

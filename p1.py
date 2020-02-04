@@ -4,16 +4,14 @@ from abc import ABC, abstractclassmethod
 from utils import save_json
 
 
-class Base(ABC):
+class P1(ABC):
     def __init__(self, key, files=None):
         self.key = key
         self.files = files if files else [key]
         self.data = {}
 
     def parse(self, line, f):
-        pattern = self.get_pattern()
-
-        if k := re.search(pattern, line):
+        if k := re.search(self.get_pattern(), line):
             # parse next line for value
             if v := re.search(r"\"(.+)\"", f.readline()):
                 self.modify(k[1], v[1])
@@ -25,7 +23,7 @@ class Base(ABC):
         pass
 
     def finalize(self):
-        setattr(Base, self.key, self.data)
+        setattr(P1, self.key, self.data)
         save_json(self.key, self.data)
 
     @abstractclassmethod
@@ -33,7 +31,7 @@ class Base(ABC):
         pass
 
 
-class Label(Base):
+class Label(P1):
     def __init__(self):
         super().__init__("labels", ["en"])
 
@@ -44,7 +42,7 @@ class Label(Base):
         return r"Id = \"((?:ABILITY_NAME|SKILL_NAME|ABILITY_DETAIL)_\d+)\""
 
 
-class Name(Base):
+class Name(P1):
     def __init__(self):
         super().__init__("names", ["en", "ja", "zh"])
         self.lang = "en"

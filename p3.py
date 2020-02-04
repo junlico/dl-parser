@@ -1,42 +1,17 @@
 import re
 
-from label import Base
-from utils import read_json, save_content
+from p2 import P2
+from utils import ELEMENT_TYPE, WEAPON_TYPE, save_json, save_content
 
 
-ELEMENT_TYPE = [None, "Flame", "Water", "Wind", "Light", "Shadow"]
-WEAPON_TYPE = [None, "Sword", "Blade", "Dagger", "Axe", "Lance", "Bow", "Wand", "Staff"]
-
-
-class Common(Base):
+class P3(P2):
     def __init__(self, key, columns):
-        super().__init__(key)
-        self.columns = columns
-        self.item = {}
+        super().__init__(key, columns)
         self.attach_data("names")
         self.attach_data("abilities")
 
-    def parse(self, line, f):
-        pattern = self.get_pattern()
-
-        if r := re.search(pattern, line):
-            if r[1] in self.columns:
-                self.item[r[1]] = r[2]
-
-    def register(self):
-        if self.eligible():
-            self.modify()
-            self.data[self.item["Id"]] = self.item
-
-        self.item = {}
-
-    def eligible(self):
-        return self.item
-
     def modify(self):
-        self.set_prop()
-        self.set_name()
-        self.set_image()
+        super().modify()
         self.set_stat()
         self.set_ability()
         self.set_might()
@@ -44,7 +19,7 @@ class Common(Base):
     def set_name(self):
         name = self.get_value("names", self.item["Name"])
         self.item["Name"] = name
-        self.item["Abbr"] = "".join([c[0] for c in name["en"].split()])
+        self.item["Abbr"] = "".join([c[0] for c in name["en"].split()]).upper()
 
     def set_ability(self):
         item = self.item
@@ -58,6 +33,10 @@ class Common(Base):
                     continue
 
                 uid = item.pop(key)
+
+                if uid == "210001706":
+                    print(item["Id"])
+
                 if ability := self.get_value("abilities", uid):
                     item["Might"][i][j] = ability["Might"]
 
@@ -74,170 +53,21 @@ class Common(Base):
         if icon_list:
             item["Icon"] = icon_list
 
-    def set_image(self):
-        pass
-
-    def set_might(self):
-        pass
-
-    def set_prop(self):
-        pass
-
     def set_stat(self):
         pass
 
     def set_type(self, key, ability):
         pass
 
-    def get_pattern(self):
-        return r"_(\w+) = \"?(-?\w*)\"?"
-
-    def attach_data(self, key):
-        if not getattr(self, key, None):
-            data = read_json(key)
-            setattr(Common, key, data)
-
-    def get_value(self, attr, key):
-        return getattr(Common, attr, {}).get(key, None)
-
-
-class Ability(Common):
-    def __init__(self):
-        columns = (
-            "Id",
-            "Name",
-            "Details",
-            "AbilityIconName",
-            "PartyPowerWeight",
-            "ElementalType",
-            "ConditionType",
-            "ConditionValue",
-            "AbilityType1",
-            "AbilityType2",
-            "AbilityType3",
-            "VariousId1a",
-            "VariousId2a",
-            "VariousId3a",
-            "AbilityType1UpValue",
-            "AbilityType2UpValue",
-            "AbilityType3UpValue",
-        )
-
-        super().__init__("abilities", columns)
-
-        self.__enemy_dict = {
-            "3": "hms",
-            "5": "hmc",
-            "7": "hbh",
-            "9": "hjp",
-            "11": "hzd",
-        }
-
-        self.attach_data("labels")
-        self.attach_data("ability_val")
-
-    def eligible(self):
-        item = self.item
-
-        if item:
-            item["Name"] = self.get_value("labels", item["Name"])
-            item["Details"] = self.get_value("labels", item["Details"])
-
-        return item and item["Name"] and item["Details"]
-
-    def set_prop(self):
-        item = self.item
-        item["Might"] = int(item.pop("PartyPowerWeight"))
-        item["Element"] = ELEMENT_TYPE[int(item.pop("ElementalType"))]
-
-    def set_name(self):
-        item = self.item
-        uid = item["Id"]
-        cond = item.pop("ConditionValue")
-        temp = self.get_value("ability_val", uid)
-
-        for k in ("Name", "Details"):
-            text = item[k]
-
-            if item["AbilityType1UpValue"] == "0" and "{ability_val0}" in text:
-                if temp:
-                    item["AbilityType1UpValue"] = temp
-                else:
-                    print("{}: ability_val0 loss".format(uid))
-
-            element = None
-            if not item["Element"]:
-                if r := re.search(r"\((Flame|Water|Wind|Light|Shadow)\)", text):
-                    element = r[1]
-                elif "{element_owner}" in text and not (element := temp):
-                    print("{}: element_owner loss".format(uid))
-
-                item["Element"] = element
-
-            item[k] = text.format(
-                ability_shift0="",
-                ability_val0=item["AbilityType1UpValue"],
-                element_owner=item["Element"],
-                ability_cond0=cond,
-            )
-
-    def set_image(self):
-        image = self.item.pop("AbilityIconName")
-        self.item["Image"] = image.replace("Icon_Ability_", "")
-
-    def set_ability(self):
-        item = self.item
-        cond = int(item.pop("ConditionType"))
-        type_list = []
-        for i in range(1, 4):
-            key1 = item.pop("AbilityType{}".format(i))
-            key2 = item.pop("VariousId{}a".format(i))
-            value = int(item.pop("AbilityType{}UpValue".format(i)))
-
-            if cond < 2:
-                ability_type = "{}_{}".format(key1, key2)
-                type_item = None
-                if ability_type == "1_1":
-                    type_item = {"Key": "IncHP"}
-                elif ability_type == "1_2":
-                    type_item = {"Key": "IncSTR"}
-                elif ability_type == "1_3":
-                    type_item = {"Key": "IncDEF"}
-                elif key1 == "28":
-                    type_item = {"Key": "IncRES", "ResEle": ELEMENT_TYPE[int(key2)]}
-                elif key1 == "29" and (enemy := self.__enemy_dict.get(key2, None)):
-                    type_item = {"Key": "IncDIS", "Enemy": enemy}
-
-                if type_item:
-                    type_item["Value"] = value
-                    type_list.append(type_item)
-
-        if type_list:
-            item["Type"] = type_list
-
-
-class Skill(Common):
-    def __init__(self):
-        columns = (
-            "Id",
-            "Name",
-            "SkillLv2IconName",
-        )
-
-        super().__init__("skills", columns)
-        self.attach_data("labels")
-
-    def set_name(self):
-        self.item["Name"] = self.get_value("labels", self.item["Name"])
-
-    def set_image(self):
-        self.item["Image"] = self.item.pop("SkillLv2IconName")
-
-    def set_ability(self):
+    def set_might(self):
         pass
 
+    def finalize(self):
+        save_json(self.key, self.data)
+        save_content(self.key, self.data)
 
-class Adventurer(Common):
+
+class Adventurer(P3):
     def __init__(self):
         columns = (
             "Id",
@@ -286,7 +116,6 @@ class Adventurer(Common):
         )
 
         super().__init__("adventurer", columns)
-        self.attach_data("abilities")
         self.__mc_require = {
             "5": {
                 "Abilities11": 10,
@@ -311,17 +140,13 @@ class Adventurer(Common):
             },
         }
 
-    def finalize(self):
-        super().finalize()
-        save_content(self.key, self.data)
-
     def eligible(self):
         item = self.item
 
         if item:
             if item.pop("IsPlayable") == "1":
                 return True
-            elif item["Id"] == "10130103" or item["Id"] == "10140401":
+            elif item["Id"] in ("10130103", "10140401"):
                 return True
 
         return False
@@ -329,10 +154,10 @@ class Adventurer(Common):
     def modify(self):
         super().modify()
         self.set_mc()
-        self.item["DefCoef"] = int(self.item["DefCoef"])
 
     def set_prop(self):
         item = self.item
+        item["DefCoef"] = int(item["DefCoef"])
         item["Element"] = ELEMENT_TYPE[int(item.pop("ElementalType"))]
         item["Weapon"] = WEAPON_TYPE[int(item.pop("WeaponType"))]
         item["LimitBreak"] = item.pop("MaxLimitBreakCount")
@@ -342,51 +167,6 @@ class Adventurer(Common):
         base_id = item.pop("BaseId")
         variation = int(item.pop("VariationId"))
         item["Image"] = "{}_{:02d}".format(base_id, variation)
-
-    def set_mc(self):
-        item = self.item
-
-        # MC50: McFullBonusHp5,  MC70: PlusHp5
-        for k in ("Hp", "Atk"):
-            mc5 = "Plus{}5".format(k)
-            item["Plus{}6".format(k)] = item[mc5]
-            item[mc5] = item.pop("McFullBonus{}5".format(k))
-
-        # sum mc bonus
-        item["McBonus"] = []
-        total = {"Hp": 0, "Atk": 0}
-        for i in range(7):
-            for k in ("Hp", "Atk"):
-                total[k] += int(item.pop("Plus{}{}".format(k, i)))
-
-            item["McBonus"].append([total["Hp"], total["Atk"]])
-
-    def set_might(self):
-        item = self.item
-
-        if item["Rarity"] == "5" or item["Id"] == "10140101":
-            rarity = "5"
-        else:
-            rarity = "rest"
-
-        might = []
-        for mc in (10, 20, 30, 40, 45, 50, 70):
-            v = 0
-            for i in range(1, 4):
-                for j in reversed(range(1, 4)):
-                    if item["Might"][i][j] == 0:
-                        continue
-
-                    if mc >= self.__mc_require[rarity]["Abilities{}{}".format(i, j)]:
-                        v += item["Might"][i][j]
-                        break
-
-            might.append(v)
-
-        # MC70: + 200
-        might[6] += 200
-
-        item["Might"] = might
 
     def set_stat(self):
         item = self.item
@@ -414,8 +194,53 @@ class Adventurer(Common):
 
             item[ability_key].append({"MC": mc, "Value": t["Value"]})
 
+    def set_might(self):
+        item = self.item
 
-class Weapon(Common):
+        if item["Rarity"] == "5" or item["Id"] == "10140101":
+            rarity = "5"
+        else:
+            rarity = "rest"
+
+        might = []
+        for mc in (10, 20, 30, 40, 45, 50, 70):
+            v = 0
+            for i in range(1, 4):
+                for j in reversed(range(1, 4)):
+                    if item["Might"][i][j] == 0:
+                        continue
+
+                    if mc >= self.__mc_require[rarity]["Abilities{}{}".format(i, j)]:
+                        v += item["Might"][i][j]
+                        break
+
+            might.append(v)
+
+        # MC70: +200
+        might[6] += 200
+
+        item["Might"] = might
+
+    def set_mc(self):
+        item = self.item
+
+        # MC50: McFullBonusHp5,  MC70: PlusHp5
+        for k in ("Hp", "Atk"):
+            mc5 = "Plus{}5".format(k)
+            item["Plus{}6".format(k)] = item[mc5]
+            item[mc5] = item.pop("McFullBonus{}5".format(k))
+
+        # sum mc bonus
+        item["McBonus"] = []
+        total = {"Hp": 0, "Atk": 0}
+        for i in range(7):
+            for k in ("Hp", "Atk"):
+                total[k] += int(item.pop("Plus{}{}".format(k, i)))
+
+            item["McBonus"].append([total["Hp"], total["Atk"]])
+
+
+class Weapon(P3):
     def __init__(self):
         columns = (
             "Id",
@@ -437,10 +262,7 @@ class Weapon(Common):
         )
 
         super().__init__("weapon", columns)
-
-    def finalize(self):
-        super().finalize()
-        save_content(self.key, self.data)
+        self.attach_data("skills")
 
     def eligible(self):
         item = self.item
@@ -465,17 +287,21 @@ class Weapon(Common):
         form_id = item.pop("FormId")
         item["Image"] = "{}_{:02d}_{}".format(base_id, variation, form_id)
 
+    def set_stat(self):
+        item = self.item
+        item["Max"] = [int(item.pop("MaxHp")), int(item.pop("MaxAtk"))]
+        item["Min"] = [int(item.pop("MinHp")), int(item.pop("MinAtk"))]
+
+    def set_type(self, key, ability):
+        for t in ability.get("Type", []):
+            self.item[t["Key"]] = t["Value"]
+
     def set_might(self):
         # weapon has only 1 level of ability
         might = self.item.pop("Might")
 
         if m := (might[1][1] + might[2][1]):
             self.item["Might"] = m
-
-    def set_stat(self):
-        item = self.item
-        item["Max"] = [int(item.pop("MaxHp")), int(item.pop("MaxAtk"))]
-        item["Min"] = [int(item.pop("MinHp")), int(item.pop("MinAtk"))]
 
     def set_skill(self):
         item = self.item
@@ -485,12 +311,8 @@ class Weapon(Common):
         else:
             del item["Skill"]
 
-    def set_type(self, key, ability):
-        for t in ability.get("Type", []):
-            self.item[t["Key"]] = t["Value"]
 
-
-class Dragon(Common):
+class Dragon(P3):
     def __init__(self):
         columns = (
             "Id",
@@ -512,10 +334,6 @@ class Dragon(Common):
 
         super().__init__("dragon", columns)
 
-    def finalize(self):
-        super().finalize()
-        save_content(self.key, self.data)
-
     def eligible(self):
         item = self.item
         return item and item.pop("IsPlayable") == "1" and item["Id"] != "20050507"
@@ -529,17 +347,6 @@ class Dragon(Common):
         base_id = item.pop("BaseId")
         variation = int(item.pop("VariationId"))
         item["Image"] = "{}_{:02d}".format(base_id, variation)
-
-    def set_might(self):
-        might = self.item["Might"]
-        v1 = 0
-        v2 = 0
-
-        for i in range(1, 3):
-            v1 += might[i][1]
-            v2 += might[i][2]
-
-        self.item["Might"] = [v1, v2]
 
     def set_stat(self):
         item = self.item
@@ -561,8 +368,19 @@ class Dragon(Common):
 
             item[ability_key].append(temp)
 
+    def set_might(self):
+        might = self.item["Might"]
+        v1 = 0
+        v2 = 0
 
-class Wyrmprint(Common):
+        for i in range(1, 3):
+            v1 += might[i][1]
+            v2 += might[i][2]
+
+        self.item["Might"] = [v1, v2]
+
+
+class Wyrmprint(P3):
     def __init__(self):
         columns = (
             "Id",
@@ -587,10 +405,6 @@ class Wyrmprint(Common):
 
         super().__init__("wyrmprint", columns)
 
-    def finalize(self):
-        super().finalize()
-        save_content(self.key, self.data)
-
     def eligible(self):
         item = self.item
         return item and item.pop("IsPlayable") == "1" and int(item["Rarity"]) >= 3
@@ -602,19 +416,6 @@ class Wyrmprint(Common):
         item = self.item
         item["Max"] = [int(item.pop("MaxHp")), int(item.pop("MaxAtk"))]
         item["Min"] = [int(item.pop("MinHp")), int(item.pop("MinAtk"))]
-
-    def set_might(self):
-        might = self.item["Might"]
-        v1 = 0
-        v2 = 0
-        v3 = 0
-
-        for i in range(1, 4):
-            v1 += might[i][1]
-            v2 += might[i][2]
-            v3 += might[i][3]
-
-        self.item["Might"] = [v1, v2, v3]
 
     def set_type(self, key, ability):
         item = self.item
@@ -630,6 +431,16 @@ class Wyrmprint(Common):
 
             item[ability_key].append(t["Value"])
 
+    def set_might(self):
+        might = self.item["Might"]
+        v1 = 0
+        v2 = 0
+        v3 = 0
 
-if __name__ == "__main__":
-    pass
+        for i in range(1, 4):
+            v1 += might[i][1]
+            v2 += might[i][2]
+            v3 += might[i][3]
+
+        self.item["Might"] = [v1, v2, v3]
+
