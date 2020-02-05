@@ -1,30 +1,78 @@
 import json
 import re
-import zipfile
+import shutil
+import time
 from pathlib import Path
-from zipfile import ZipFile, is_zipfile
+from zipfile import ZipFile, ZipInfo
+from rarfile import RarFile, RarInfo
 
 APP_PATH = Path("/home/jl/Documents/dragalia-lost")
 DOWNLOAD_PATH = Path("/home/jl/Downloads")
+QQ_RECV = DOWNLOAD_PATH / "qq-files" / "2236526965" / "file_recv"
 SCRIPT_PATH = Path("/home/jl/Documents/dl-parser")
 DECIPHER_PATH = SCRIPT_PATH / "DecipherFiles"
+IMAGE_PATH = SCRIPT_PATH / "images"
 EXPORTS = "Exports"
+
 
 ELEMENT_TYPE = [None, "Flame", "Water", "Wind", "Light", "Shadow"]
 WEAPON_TYPE = [None, "Sword", "Blade", "Dagger", "Axe", "Lance", "Bow", "Wand", "Staff"]
 
 
-def update_text_file():
-    def extract_file(z, f):
-        z.extract(f, DECIPHER_PATH)
-        print("Update file: {}/{}".format(DECIPHER_PATH, f.filename))
+ST_CTIME = lambda p: p.stat().st_ctime
 
-    # update EN files
-    en_zip_name = input("EN Zip Name in Downloads: ")
-    en_zip_path = DOWNLOAD_PATH / "{}.zip".format(en_zip_name)
 
-    if not is_zipfile(en_zip_path):
-        raise Exception("EN Zip: Wrong path or not exists.")
+def extract_file(lib, f, path):
+    """ Extract File from compressed folder """
+
+    try:
+        if isinstance(f, ZipInfo):
+            lib.extract(f, path)
+            path = path / f.filename
+        elif isinstance(f, RarInfo):
+            lib.extract(f)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            Path(SCRIPT_PATH / f.filename).rename(path)
+    except:
+        code = "Failed"
+    else:
+        code = "Succeed"
+
+    print("{}: {}".format(code, path))
+
+
+def get_images():
+    """ Extract Image from .rar """
+
+    files = {
+        "chara": "adventurer",
+        "weapon": "weapon",
+        "dragon": "dragon",
+        "amulet": "wyrmprint",
+        "skill": "skills",
+        "ability": "abilities",
+    }
+
+    path = max(QQ_RECV.glob("*.rar"), key=ST_CTIME)
+
+    p = re.compile(r"icon/({})/l/.*/(\w+)_rgba8.png".format("|".join(files.keys())))
+
+    try:
+        shutil.rmtree("./images")
+        Path("./images").mkdir()
+        with RarFile(path) as rf:
+            for f in rf.infolist():
+                if m := p.search(f.filename):
+                    save_path = IMAGE_PATH / files[m[1]] / "{}.png".format(m[2])
+                    extract_file(rf, f, save_path)
+    except FileNotFoundError:
+        print("File Not Found.")
+
+    else:
+        shutil.rmtree("./resources")
+
+
+def get_files():
 
     files = {
         "AbilityData": "abilities",
@@ -38,26 +86,32 @@ def update_text_file():
         "WeaponData": "weapon",
     }
 
-    # Make sure MonoBehaviour folder in zip files
-    pattern = r"MonoBehaviour/({}).txt".format("|".join(files.keys()))
-    with ZipFile(en_zip_path) as z:
-        for f in z.infolist():
-            if r := re.search(pattern, f.filename):
-                f.filename = "{}.txt".format(files[r[1]])
-                extract_file(z, f)
+    # update EN files
+    en_path = max(DOWNLOAD_PATH.glob("*_Dump.zip"), key=ST_CTIME)
+    p = re.compile(r"MonoBehaviour/({}).txt".format("|".join(files.keys())))
+
+    try:
+        # Make sure MonoBehaviour folder in zip files
+        with ZipFile(en_path) as zf:
+            for f in zf.infolist():
+                if r := p.search(f.filename):
+                    f.filename = "{}.txt".format(files[r[1]])
+                    extract_file(zf, f, DECIPHER_PATH)
+    except FileNotFoundError:
+        raise Exception("EN Zip: Wrong path or not exists.")
 
     # update ZH TextLabel
-    zh_zip_path = DOWNLOAD_PATH / "qq-files" / "2236526965" / "file_recv" / "master.zip"
+    zh_path = max(QQ_RECV.glob("*.zip"), key=lambda x: x.stat().st_ctime)
 
-    if not is_zipfile(zh_zip_path):
+    try:
+        with ZipFile(zh_path) as zf:
+            for f in zf.infolist():
+                if "TextLabel.txt" in f.filename:
+                    f.filename = "zh.txt"
+                    extract_file(zf, f, DECIPHER_PATH)
+                    break
+    except FileNotFoundError:
         raise Exception("ZH Zip: Wrong path or not exists.")
-
-    with ZipFile(zh_zip_path) as z:
-        for f in z.infolist():
-            if f.filename == "master/TextLabel.txt":
-                f.filename = "zh.txt"
-                extract_file(z, f)
-                break
 
 
 def get_text_path(file_name):
@@ -99,5 +153,6 @@ def save_content(file_name, data):
 
 
 if __name__ == "__main__":
-    update_text_file()
+    get_files()
+    get_images()
     pass
