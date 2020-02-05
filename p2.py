@@ -6,13 +6,14 @@ from utils import ELEMENT_TYPE, read_json
 
 class P2(P1):
     def __init__(self, key, columns):
-        super().__init__(key)
+        pattern = r"_(\w+) = \"?(-?\w*)\"?"
+        super().__init__(key, pattern)
         self.columns = columns
         self.item = {}
         self.attach_data("labels")
 
     def parse(self, line, f):
-        if r := re.search(self.get_pattern(), line):
+        if r := self.pattern.search(line):
             if r[1] in self.columns:
                 self.item[r[1]] = r[2]
 
@@ -39,9 +40,6 @@ class P2(P1):
 
     def set_image(self):
         pass
-
-    def get_pattern(self):
-        return r"_(\w+) = \"?(-?\w*)\"?"
 
     def attach_data(self, key):
         if not getattr(P1, key, None):

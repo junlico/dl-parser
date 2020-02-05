@@ -5,13 +5,14 @@ from utils import save_json
 
 
 class P1(ABC):
-    def __init__(self, key, files=None):
+    def __init__(self, key, pattern, files=None):
         self.key = key
+        self.pattern = re.compile(pattern)
         self.files = files if files else [key]
         self.data = {}
 
     def parse(self, line, f):
-        if k := re.search(self.get_pattern(), line):
+        if k := self.pattern.search(line):
             # parse next line for value
             if v := re.search(r"\"(.+)\"", f.readline()):
                 self.modify(k[1], v[1])
@@ -26,25 +27,20 @@ class P1(ABC):
         setattr(P1, self.key, self.data)
         save_json(self.key, self.data)
 
-    @abstractclassmethod
-    def get_pattern(self):
-        pass
-
 
 class Label(P1):
     def __init__(self):
-        super().__init__("labels", ["en"])
+        pattern = r"Id = \"((?:ABILITY_NAME|SKILL_NAME|ABILITY_DETAIL)_\d+)\""
+        super().__init__("labels", pattern, ["en"])
 
     def modify(self, key, value):
         self.data[key] = re.sub(r" ?\\n", " ", value)
 
-    def get_pattern(self):
-        return r"Id = \"((?:ABILITY_NAME|SKILL_NAME|ABILITY_DETAIL)_\d+)\""
-
 
 class Name(P1):
     def __init__(self):
-        super().__init__("names", ["en", "ja", "zh"])
+        pattern = r"Id = \"((?:CHARA|WEAPON|DRAGON|AMULET|FORT_PLANT)_NAME_\d+)\""
+        super().__init__("names", pattern, ["en", "ja", "zh"])
         self.lang = "en"
 
     def modify(self, key, value):
@@ -56,5 +52,3 @@ class Name(P1):
         self.data["CHARA_NAME_10150403"] = self.data["CHARA_NAME_10140101"]
         super().finalize()
 
-    def get_pattern(self):
-        return r"Id = \"((?:CHARA|WEAPON|DRAGON|AMULET|FORT_PLANT)_NAME_\d+)\""
