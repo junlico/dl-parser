@@ -4,16 +4,18 @@ import shutil
 import time
 from pathlib import Path
 from zipfile import ZipFile, ZipInfo
+
 from rarfile import RarFile, RarInfo
 
-APP_PATH = Path("/home/jl/Documents/dragalia-lost")
-DOWNLOAD_PATH = Path("/home/jl/Downloads")
-QQ_RECV = DOWNLOAD_PATH / "qq-files" / "2236526965" / "file_recv"
-SCRIPT_PATH = Path("/home/jl/Documents/dl-parser")
-DECIPHER_PATH = SCRIPT_PATH / "DecipherFiles"
-IMAGE_PATH = SCRIPT_PATH / "images"
-EXPORTS = "Exports"
-
+from secret import (
+    APP_PATH,
+    DECIPHER_PATH,
+    DOWNLOAD_PATH,
+    EXPORTS,
+    IMAGE_PATH,
+    QQ_RECV,
+    SCRIPT_PATH,
+)
 
 ELEMENT_TYPE = [None, "Flame", "Water", "Wind", "Light", "Shadow"]
 WEAPON_TYPE = [None, "Sword", "Blade", "Dagger", "Axe", "Lance", "Bow", "Wand", "Staff"]

@@ -5,3 +5,4 @@
 /Exports/*
 !/Exports/ability_val.json
 /package.json
+/secret.py
