@@ -103,7 +103,7 @@ def get_files():
         raise Exception("EN Zip: Wrong path or not exists.")
 
     # update ZH TextLabel
-    zh_path = max(QQ_RECV.glob("*.zip"), key=lambda x: x.stat().st_ctime)
+    zh_path = max(QQ_RECV.glob("*.zip"), key=ST_CTIME)
 
     try:
         with ZipFile(zh_path) as zf:
